@@ -1,0 +1,37 @@
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/build/
+/out/
+/bin/
+/obj/
+/lib/
+/dist/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.opensdf
+*.sdf
+*.ipch
+*.pdb
+*.ilk
+*.exe
+*.lib
+*.dll
+
+# VSCode
+.vscode/
+
+# Dependency caches
+.externalNativeBuild/
