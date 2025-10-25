@@ -1,6 +1,6 @@
 # Structure
 
-This repository mirrors a Wolfenstein: Enemy Territory–style layout.
+This repository mirrors a Wolfenstein: Enemy Territory–style layout, using **TC:Legacy** as the upstream engine base (via submodule).
 
 - `src/` — engine and modules
   - `client/` — client front-end and input
@@ -15,5 +15,16 @@ This repository mirrors a Wolfenstein: Enemy Territory–style layout.
   - `tools/` — exporter/utilities
 - `assets/` — scripts, textures, etc.
 - `external/` — third-party dependencies
+  - `tclegacy/` — submodule pointing to etlegacy/etlegacy (renamed locally as TC:Legacy)
 - `build/scripts/` — build & CI helpers
 - `docs/` — design notes and specs
+
+## Submodule
+
+To fetch/update the engine submodule (TC:Legacy):
+
+```bash
+git submodule update --init --recursive
+```
+
+The submodule is pinned to a specific commit for reproducible builds.
