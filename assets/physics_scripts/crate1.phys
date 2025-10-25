@@ -1,0 +1,10 @@
+# Example physics script for a crate
+model = models/dev/crate1.md3
+mass = 25
+bounce = 0.35
+friction = 0.6
+vel = 0 0 0
+avel = 0 0 0
+mins = -16 -16 -16
+maxs = 16 16 16
+allow_push = 1
