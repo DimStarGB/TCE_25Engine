@@ -1,13 +1,7 @@
-// Game: Wolf:ET test map for TC:Legacy physics overlay
-// Minimal sealed room with a physics-enabled brush entity and a DM start.
-
 Version 2
-// entity 0: worldspawn
 {
 "classname" "worldspawn"
-"_color" "1 1 1"
 "ambient" "10"
-// brush 0: big caulk room (1024x1024x256)
 brushDef3
 {
  ( -512 -512 0 ) (  512 -512 0 ) (  512  512 0 ) textures/common/caulk 0 0 0 1 1
@@ -18,8 +12,6 @@ brushDef3
  ( -512  512 0 ) (  512  512 0 ) (  512  512 256 ) textures/common/caulk 0 0 0 1 1
 }
 }
-
-// entity 1: a small func_static brush to act as a physics object placeholder
 {
 "classname" "func_static"
 "physics" "1"
@@ -34,15 +26,39 @@ brushDef3
  ( -16  16 64 ) (  16  16 64 ) (  16  16 96 ) textures/common/caulk 0 0 0 1 1
 }
 }
-
-// entity 2: player start
+{
+"classname" "func_static"
+"physics" "1"
+"physics_shader" "physics/crate1.phys"
+brushDef3
+{
+ ( -96 -24 64 ) ( -32 -24 64 ) ( -32  24 64 ) textures/common/caulk 0 0 0 1 1
+ ( -96 -24 96 ) ( -32  24 96 ) ( -32 -24 96 ) textures/common/caulk 0 0 0 1 1
+ ( -96 -24 64 ) ( -96  24 64 ) ( -96  24 96 ) textures/common/caulk 0 0 0 1 1
+ ( -32 -24 64 ) ( -32  24 96 ) ( -32 -24 96 ) textures/common/caulk 0 0 0 1 1
+ ( -96 -24 64 ) ( -32 -24 96 ) ( -32 -24 64 ) textures/common/caulk 0 0 0 1 1
+ ( -96  24 64 ) ( -32  24 64 ) ( -32  24 96 ) textures/common/caulk 0 0 0 1 1
+}
+}
+{
+"classname" "func_static"
+"physics" "1"
+"physics_shader" "physics/crate1.phys"
+brushDef3
+{
+ ( 32 -16 64 ) (  64 -16 64 ) (  64  16 64 ) textures/common/caulk 0 0 0 1 1
+ ( 32 -16 128 ) (  64  16 128 ) (  64 -16 128 ) textures/common/caulk 0 0 0 1 1
+ ( 32 -16 64 ) (  32  16 64 ) (  32  16 128 ) textures/common/caulk 0 0 0 1 1
+ ( 64 -16 64 ) (  64  16 128 ) (  64 -16 128 ) textures/common/caulk 0 0 0 1 1
+ ( 32 -16 64 ) (  64 -16 128 ) (  64 -16 64 ) textures/common/caulk 0 0 0 1 1
+ ( 32  16 64 ) (  64  16 64 ) (  64  16 128 ) textures/common/caulk 0 0 0 1 1
+}
+}
 {
 "classname" "info_player_deathmatch"
 "origin" "0 0 64"
 "angle" "0"
 }
-
-// entity 3: a light so it’s not pitch black
 {
 "classname" "light"
 "origin" "0 0 192"
