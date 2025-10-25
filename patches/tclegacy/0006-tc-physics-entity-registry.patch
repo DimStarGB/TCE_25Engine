@@ -1,0 +1,40 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 6/6] tc: plumb physics spawn keys into overlay registry
+
+Register/unregister physics-enabled entities in TC overlay with shader name.
+
+---
+ src/game/g_local.h |  3 +++
+ src/game/g_spawn.c | 14 ++++++++++++++
+ src/game/g_active.c |  6 ++++++
+ 3 files changed, 23 insertions(+ )
+
+--- a/src/game/g_local.h
++++ b/src/game/g_local.h
+@@
++void TC_EntPhysicsRegister(int entNum, const char* shader, const float mins[3], const float maxs[3]);
++void TC_EntPhysicsUnregister(int entNum);
++void TC_EntPhysicsClearAll(void);
+--- a/src/game/g_spawn.c
++++ b/src/game/g_spawn.c
+@@
++    {
++        char *s;
++        if ( G_SpawnString( "physics", "0", &s ) ) {
++            if ( atoi( s ) != 0 ) {
++                char *ps = NULL;
++                if ( G_SpawnString( "physics_shader", "", &ps ) && ps && ps[0] ) {
++                    TC_EntPhysicsRegister( ent->s.number, ps, NULL, NULL );
++                } else {
++                    TC_EntPhysicsRegister( ent->s.number, "", NULL, NULL );
++                }
++            }
++        }
++    }
+--- a/src/game/g_active.c
++++ b/src/game/g_active.c
+@@
++void G_FreeEntity( gentity_t *ed ) {
++    TC_EntPhysicsUnregister( ed->s.number );
++    // existing code continues...
++}
