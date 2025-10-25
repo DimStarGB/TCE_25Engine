@@ -1,0 +1,36 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 9/9] tc: add func_physics alias (auto-physics brush entity)
+
+Treat `func_physics` like `func_static` and auto-register it with the TC
+physics overlay. If `physics_shader` is present, it will be used; otherwise
+we fall back to default AABB from script parser/overlay.
+
+---
+ src/game/g_spawn.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+ )
+
+--- a/src/game/g_spawn.c
++++ b/src/game/g_spawn.c
+@@
++    /* TC: func_physics alias support */
++    {
++        char *cl = NULL;
++        if ( G_SpawnString( "classname", "", &cl ) ) {
++            if ( !Q_stricmp( cl, "func_physics" ) ) {
++                /* Rewrite classname so brush model is created by func_static spawn */
++                ent->classname = "func_static";
++
++                /* Register with overlay (shader optional) */
++                char *ps = NULL;
++                if ( G_SpawnString( "physics_shader", "", &ps ) && ps && ps[0] ) {
++                    TC_EntPhysicsRegister( ent->s.number, ps, NULL, NULL );
++                } else {
++                    TC_EntPhysicsRegister( ent->s.number, "", NULL, NULL );
++                }
++
++                /* For parity with existing path, also print a small note when debug is on */
++                G_Printf( "[TC] func_physics registered for %s (#%d)\n", ent->classname, ent->s.number );
++            }
++        }
++    }
+
