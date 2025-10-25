@@ -1,0 +1,42 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 5/5] tc: add trap_Trace bridge and connect to TC overlay
+
+Expose a float-returning trace bridge that calls trap_Trace and returns
+tr.fraction and normal to the overlay. Wire it up in init.
+
+---
+ src/game/g_local.h |  6 ++++++
+ src/game/g_main.c  | 11 +++++++++++
+ 2 files changed, 17 insertions(+ )
+
+--- a/src/game/g_local.h
++++ b/src/game/g_local.h
+@@
++/* TC: trace bridge signature (matches overlay expectation) */
++typedef float (*TC_TraceFn)(const float* start, const float* mins, const float* maxs, const float* end, int passEntityNum, int contentmask, float outNormal[3]);
++void TC_Physics_SetTrace(TC_TraceFn fn); /* from overlay */
++float TC_GameTraceBridge(const float* start, const float* mins, const float* maxs, const float* end, int passEntityNum, int contentmask, float outNormal[3]);
+
+--- a/src/game/g_main.c
++++ b/src/game/g_main.c
+@@
++#include "g_local.h"
++#include "q_shared.h"
++#include "bg_public.h"
++
++float TC_GameTraceBridge(const float* start, const float* mins, const float* maxs, const float* end, int passEntityNum, int contentmask, float outNormal[3]) {
++    trace_t tr;
++    vec3_t vstart, vmins, vmaxs, vend;
++    VectorCopy(start, vstart);
++    VectorCopy(end, vend);
++    if (mins) VectorCopy(mins, vmins); else VectorClear(vmins);
++    if (maxs) VectorCopy(maxs, vmaxs); else VectorClear(vmaxs);
++    trap_Trace(&tr, vstart, mins?vmins:NULL, maxs?vmaxs:NULL, vend, passEntityNum, contentmask);
++    if (outNormal) { outNormal[0]=tr.plane.normal[0]; outNormal[1]=tr.plane.normal[1]; outNormal[2]=tr.plane.normal[2]; }
++    return tr.fraction;
++}
++
+@@ void G_InitGame( int levelTime, int randomSeed, qboolean restart ) {
++#ifdef TC_PHYSICS
++    TC_Physics_SetTrace(TC_GameTraceBridge);
++#endif
