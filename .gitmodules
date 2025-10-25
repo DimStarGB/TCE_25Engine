@@ -1,0 +1,3 @@
+[submodule "external/etlegacy"]
+	path = external/etlegacy
+	url = https://github.com/etlegacy/etlegacy.git
