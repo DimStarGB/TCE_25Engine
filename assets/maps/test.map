@@ -55,6 +55,20 @@ brushDef3
 }
 }
 {
+"classname" "func_static"
+"physics" "1"
+"physics_shader" "physics/crate1.phys"
+brushDef3
+{
+ ( -24 80 64 ) (  24  80 64 ) (  24  128 64 ) textures/common/caulk 0 0 0 1 1
+ ( -24 80 72 ) (  24 128 72 ) (  24   80 72 ) textures/common/caulk 0 0 0 1 1
+ ( -24 80 64 ) ( -24 128 64 ) ( -24 128 72 ) textures/common/caulk 0 0 0 1 1
+ (  24 80 64 ) (  24 128 72 ) (  24   80 72 ) textures/common/caulk 0 0 0 1 1
+ ( -24 80 64 ) (  24  80 72 ) (  24   80 64 ) textures/common/caulk 0 0 0 1 1
+ ( -24 128 64 ) (  24 128 64 ) (  24 128 72 ) textures/common/caulk 0 0 0 1 1
+}
+}
+{
 "classname" "info_player_deathmatch"
 "origin" "0 0 64"
 "angle" "0"
