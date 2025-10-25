@@ -1,8 +1,7 @@
 #include "g_physics.h"
 #include "g_physics_registry.h"
 #include <stdio.h>
-
-/* Use entity AABB in trace instead of point trace when available. */
+#include <math.h>
 
 static int s_inited = 0;
 static int s_debug = 0;
@@ -15,6 +14,9 @@ static const float GRAVITY = -800.0f;
 static const float BOUNCE  = 0.35f;
 static const float SLEEP_EPS = 5.0f;
 static int   s_sleep = 0;
+
+int TC__is_inited(void){ return s_inited; }
+void TC__wake_and_nudge(float dvz){ s_sleep = 0; s_vel_z += dvz; if (s_debug) fprintf(stderr, "[TC] nudge dvz=%.2f velZ=%.2f\n", dvz, s_vel_z); }
 
 void TC_Physics_SetDebug(int enabled){ s_debug = enabled != 0; }
 void TC_Physics_SetTrace(TC_TraceFn fn){ s_trace = fn; }
@@ -30,8 +32,7 @@ void TC_Physics_RunFrame(int msec){
     if (s_trace && s_debug){
         float start[3] = {0,0,1024}, end[3] = {0,0,-1024};
         float n[3] = {0,0,0};
-        float mins[3], maxs[3];
-        float* pMins = 0; float* pMaxs = 0;
+        float mins[3], maxs[3]; float* pMins = 0; float* pMaxs = 0;
         if (TC_EntPhysicsGetFirstAABB(mins, maxs)){ pMins = mins; pMaxs = maxs; }
         float f = s_trace(start, pMins, pMaxs, end, -1, 1, n);
         static int acc_ms = 0; acc_ms += msec; if (acc_ms > 1000){ fprintf(stderr, "[TC] boxTrace fraction=%.3f normal=(%.2f,%.2f,%.2f)\n", f, n[0], n[1], n[2]); acc_ms = 0; }
