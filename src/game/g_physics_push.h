@@ -1,5 +1,5 @@
 #pragma once
 
-/* TC physics overlay API (player push step) */
+/* TC physics overlay: per-entity impulse */
 
-void TC_Physics_ApplyPlayerPush(const float vel[3]);
+void TC_Physics_ApplyPlayerImpulse(const float origin[3], const float vel[3]);
