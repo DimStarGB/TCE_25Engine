@@ -1,0 +1,19 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 4/4] tc: forward tc_phys_debug into TC overlay
+
+Call TC_Physics_SetDebug(tc_phys_debug.integer) each frame so overlay can adjust verbosity.
+
+---
+ src/game/g_main.c | 5 +++++
+ 1 file changed, 5 insertions(+ )
+
+--- a/src/game/g_main.c
++++ b/src/game/g_main.c
+@@
++#ifdef TC_PHYSICS
++extern void TC_Physics_SetDebug(int enabled);
++#endif
+@@ void G_RunFrame( int levelTime ) {
++#ifdef TC_PHYSICS
++    TC_Physics_SetDebug( tc_phys_debug.integer );
++#endif
