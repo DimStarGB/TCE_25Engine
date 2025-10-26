@@ -17,6 +17,7 @@ static cvar_t *r_sun_dynamic;
 static cvar_t *r_sun_shadows;
 static cvar_t *r_sun_shadowIntensity;
 static cvar_t *r_sun_shadowSoftness;
+static cvar_t *r_sun_shadowMapSize;
 
 static ID_INLINE void DL_RegisterCvars(void) {
     r_dynLight_enable      = ri.Cvar_Get("r_dynLight_enable",      "1",   CVAR_ARCHIVE);
@@ -29,6 +30,7 @@ static ID_INLINE void DL_RegisterCvars(void) {
     r_sun_shadows          = ri.Cvar_Get("r_sun_shadows",          "0",   CVAR_ARCHIVE);
     r_sun_shadowIntensity  = ri.Cvar_Get("r_sun_shadowIntensity",  "1.0", CVAR_ARCHIVE);
     r_sun_shadowSoftness   = ri.Cvar_Get("r_sun_shadowSoftness",   "1.0", CVAR_ARCHIVE);
+    r_sun_shadowMapSize    = ri.Cvar_Get("r_sun_shadowMapSize",    "1024", CVAR_ARCHIVE);
 }
 
 static ID_INLINE float DL_Clamp(float x, float lo, float hi) {
