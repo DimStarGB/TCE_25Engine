@@ -1,0 +1,19 @@
+// Additional TC:Legacy mapper keys for dynamic lights and brush emitters
+
+/* Light entity (adds runtime toggles) */
+entityDef light
+{
+    "editor_usage"      "Place a light source (TC:Legacy extends with runtime keys)"
+    "Dynamic"           "boolean"   // 0/1: real-time dynamic light
+    "Shadows"           "boolean"   // 0/1: allow this dynamic light to cast real-time shadows
+    "radius"            "int"       // optional runtime radius override for the dynamic light
+}
+
+/* Optional: brush that emits a dynamic light at its origin (engine spawns a light) */
+entityDef func_static
+{
+    "editor_usage"      "Static brush model (TC:Legacy can spawn a dyn point light from this brush)"
+    "EmitLight"         "boolean"   // 0/1: spawn a dynamic point light from this brush
+    "EmitLightRadius"   "int"       // radius for that light
+    "EmitLightShadows"  "boolean"   // 0/1: allow the spawned light to cast shadows
+}
