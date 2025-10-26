@@ -58,3 +58,10 @@ int TC_EntPhysicsFindNearest(const float point[3], int *outEntNum, float outCent
     if(outMins){ for(int k=0;k<3;++k){ outMins[k]=g_reg[besti].mins[k]; outMaxs[k]=g_reg[besti].maxs[k]; } }
     return 1;
 }
+
+/* ---- Internal accessors used by the dynamics module ---- */
+int TC__reg_count(void){ int n=0; for(int i=0;i<TC_MAX_PHYS_ENTS;++i){ if(g_reg[i].used) ++n; } return n; }
+
+int TC__reg_get_nth(int idx, int* outEnt, float outOrg[3], float outMins[3], float outMaxs[3]){ int n=-1; for(int i=0;i<TC_MAX_PHYS_ENTS;++i){ if(!g_reg[i].used) continue; ++n; if(n==idx){ if(outEnt) *outEnt=g_reg[i].entNum; if(outOrg){ outOrg[0]=g_reg[i].origin[0]; outOrg[1]=g_reg[i].origin[1]; outOrg[2]=g_reg[i].origin[2]; } if(outMins){ for(int k=0;k<3;++k){ outMins[k]=g_reg[i].mins[k]; outMaxs[k]=g_reg[i].maxs[k]; } } return 1; } } return 0; }
+
+void TC__reg_set_origin_by_index(int idx, const float o[3]){ int n=-1; for(int i=0;i<TC_MAX_PHYS_ENTS;++i){ if(!g_reg[i].used) continue; ++n; if(n==idx){ g_reg[i].origin[0]=o[0]; g_reg[i].origin[1]=o[1]; g_reg[i].origin[2]=o[2]; return; } } }
