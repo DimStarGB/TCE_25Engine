@@ -1,8 +1,5 @@
-// Server: collect dynamic lights from entity keys and broadcast via configstring
-// NOTE: This is a stub for wiring; guard with TC_DYNLIGHT_BRIDGE to avoid build breaks.
-
-#ifdef TC_DYNLIGHT_BRIDGE
 #include "g_local.h"
+#include "tc_dynlight_shared.h"
 
 #define MAX_TC_DYNLIGHTS 64
 static int   sv_tcDyn_count = 0;
@@ -12,7 +9,6 @@ static float  sv_tcDyn_rad[MAX_TC_DYNLIGHTS];
 static qboolean sv_tcDyn_shad[MAX_TC_DYNLIGHTS];
 
 static void SV_TC_DynLights_FlushToCS(void){
-    // Pack into a small string: x y z r g b rad s; ...
     char buf[4096]; buf[0]='\0';
     for(int i=0;i<sv_tcDyn_count;++i){
         char line[128];
@@ -22,7 +18,7 @@ static void SV_TC_DynLights_FlushToCS(void){
             sv_tcDyn_rad[i], sv_tcDyn_shad[i]?1:0);
         Q_strcat(buf, sizeof(buf), line);
     }
-    trap_SetConfigstring(CS_TC_DYNLIGHTS, buf); // define CS_TC_DYNLIGHTS appropriately
+    trap_SetConfigstring(CS_TC_DYNLIGHTS, buf);
 }
 
 void TC_SV_RegisterDynLight(const vec3_t org, const vec3_t rgb, float radius, qboolean shadows){
@@ -37,7 +33,6 @@ void TC_SV_RegisterDynLight(const vec3_t org, const vec3_t rgb, float radius, qb
 void TC_SV_DynLights_BeginMap(void){ sv_tcDyn_count = 0; }
 void TC_SV_DynLights_EndMap(void){ SV_TC_DynLights_FlushToCS(); }
 
-// Call from light spawn if Dynamic=1 or func_static with EmitLight=1
 void TC_Spawn_DynLightFromKeys(gentity_t* ent){
     const char* dyn = G_GetString(ent, "Dynamic", NULL);
     const char* emt = G_GetString(ent, "EmitLight", NULL);
@@ -50,5 +45,3 @@ void TC_Spawn_DynLightFromKeys(gentity_t* ent){
     shad = (G_GetInt(ent, "Shadows", 0) || G_GetInt(ent, "EmitLightShadows", 0)) ? qtrue : qfalse;
     TC_SV_RegisterDynLight(org, rgb, rad, shad);
 }
-
-#endif // TC_DYNLIGHT_BRIDGE
