@@ -1,0 +1,10 @@
+// ET:Legacy/TC:Legacy entity defs (addon)
+// Place this in your Radiant config or merge into entities.def if desired.
+
+/*QUAKED func_physics (0 .5 .8) ?
+Brush-based physics object.
+Keys:
+  physics_shader : path to .phys script (e.g., physics/crate1.phys)
+Notes:
+  If no shader is provided, a default AABB is used.
+*/

@@ -1,0 +1,36 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 8/8] tc: feed entity origins and player origin to overlay; per-entity impulse
+
+- Each frame, update overlay with origins of registered physics entities.
+- Pass player origin as well as velocity to overlay and call per-entity impulse.
+
+---
+ src/game/g_local.h |  6 ++++++
+ src/game/g_main.c  | 21 +++++++++++++++++++++
+ 2 files changed, 27 insertions(+ )
+
+--- a/src/game/g_local.h
++++ b/src/game/g_local.h
+@@
++int  TC_EntPhysicsIsRegistered(int entNum);
++void TC_EntPhysicsUpdate(int entNum, const float origin[3]);
++void TC_Physics_ApplyPlayerImpulse(const float origin[3], const float vel[3]);
+
+--- a/src/game/g_main.c
++++ b/src/game/g_main.c
+@@
++    /* Update physics entity origins */
++    for ( int i = 0; i < level.num_entities; ++i ) {
++        gentity_t *e = &g_entities[i];
++        if ( !e->inuse ) continue;
++        if ( TC_EntPhysicsIsRegistered( e->s.number ) ) {
++            float o[3] = { e->r.currentOrigin[0], e->r.currentOrigin[1], e->r.currentOrigin[2] };
++            TC_EntPhysicsUpdate( e->s.number, o );
++        }
++    }
+@@
+-        float v[3] = { cl->ps.velocity[0], cl->ps.velocity[1], cl->ps.velocity[2] };
+-        TC_Physics_ApplyPlayerPush( v );
++        float v[3] = { cl->ps.velocity[0], cl->ps.velocity[1], cl->ps.velocity[2] };
++        float p[3] = { cl->ps.origin[0],   cl->ps.origin[1],   cl->ps.origin[2]   };
++        TC_Physics_ApplyPlayerImpulse( p, v );

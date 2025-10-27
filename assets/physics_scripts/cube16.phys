@@ -1,0 +1,10 @@
+# TC physics script: 32^3 cube
+# Keys beyond mins/maxs are ignored by current parser (future-proof placeholders)
+
+mins = -16 -16 -16
+maxs = 16 16 16
+
+# optional future keys
+mass = 20
+bounciness = 0.35
+friction = 0.6
