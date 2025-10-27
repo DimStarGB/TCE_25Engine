@@ -1,0 +1,64 @@
+// TC:Legacy demo map showcasing dynamic light + falling physics object
+// Simple box room, lamp on ceiling, dynamic light, physics cube above ground
+
+// Radiant MAP (Quake3 format)
+{
+"classname" "worldspawn"
+// skybox or basic texture set here as needed
+( -512 -512 0 ) ( 512 -512 0 ) ( 512 512 0 ) textures/common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 512 256 ) ( 512 512 256 ) ( 512 -512 256 ) textures/common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 0 ) ( -512 512 0 ) ( -512 512 256 ) textures/common/caulk 0 0 0 0.5 0.5 0 0 0
+( 512 -512 0 ) ( 512 512 0 ) ( 512 512 256 ) textures/common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 0 ) ( 512 -512 0 ) ( 512 -512 256 ) textures/common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 512 0 ) ( -512 -512 0 ) ( -512 -512 256 ) textures/common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+
+// Floor textured so we can see shadow
+{
+"classname" "func_group"
+( -512 -512 0 ) ( 512 -512 0 ) ( 512 512 0 ) textures/stone/stone_floor01 0 0 0 1 1 0 0 0
+( -512 512 8 ) ( 512 512 8 ) ( 512 -512 8 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -512 -512 0 ) ( -512 512 0 ) ( -512 512 8 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( 512 -512 0 ) ( 512 512 0 ) ( 512 512 8 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -512 -512 0 ) ( 512 -512 0 ) ( 512 -512 8 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -512 512 0 ) ( -512 -512 0 ) ( -512 -512 8 ) textures/common/caulk 0 0 0 1 1 0 0 0
+}
+
+// Ceiling lamp brush (func_static) with EmitLight keys
+{
+"classname" "func_static"
+"EmitLight" "1"
+"EmitLightRadius" "256"
+"EmitLightShadows" "1"
+( -16 -16 256 ) ( 16 -16 256 ) ( 16 16 256 ) textures/metal/metal_light01 0 0 0 1 1 0 0 0
+( -16 16 248 ) ( 16 16 248 ) ( 16 -16 248 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -16 -16 248 ) ( -16 16 248 ) ( -16 16 256 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( 16 -16 248 ) ( 16 16 248 ) ( 16 16 256 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -16 -16 248 ) ( 16 -16 248 ) ( 16 -16 256 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -16 16 248 ) ( -16 -16 248 ) ( -16 -16 256 ) textures/common/caulk 0 0 0 1 1 0 0 0
+}
+
+// Reference light entity (also Dynamic) for good measure
+{
+"classname" "light"
+"light" "400"
+"color" "1 0.95 0.8"
+"Dynamic" "1"
+"Shadows" "1"
+"radius" "256"
+"origin" "0 0 240"
+}
+
+// Physics object: a simple cube that will fall
+{
+"classname" "func_physics"
+"Physics" "1"
+"physics_shader" "physics_scripts/cube16.phys"
+"origin" "0 0 160"
+( -8 -8 168 ) ( 8 -8 168 ) ( 8 8 168 ) textures/metal/metal_crate01 0 0 0 1 1 0 0 0
+( -8 8 152 ) ( 8 8 152 ) ( 8 -8 152 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -8 -8 152 ) ( -8 8 152 ) ( -8 8 168 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( 8 -8 152 ) ( 8 8 152 ) ( 8 8 168 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -8 -8 152 ) ( 8 -8 152 ) ( 8 -8 168 ) textures/common/caulk 0 0 0 1 1 0 0 0
+( -8 8 152 ) ( -8 -8 152 ) ( -8 -8 168 ) textures/common/caulk 0 0 0 1 1 0 0 0
+}
