@@ -1,0 +1,78 @@
+weaponDef
+{
+	// This basically fills out weaponInfo_t
+	client {
+		//standModel		""										// weapon pickup 'stand' (do we still use this?)
+		//pickupModel		""
+		//pickupSound		"sound/misc/w_pkup.wav"
+		
+		weaponConfig		"models/weapons2/m67/weapon.cfg"
+		//handsModel			"models/weapons2/grenade/v_pineapple_hand.mdc"
+		
+		//flashDlightColor	1 0.7 0.5
+		//flashSound			"sound/weapons/grenade/gren_throw.wav"	// supports up to 4 flash sounds
+		//flashEchoSound	""										// supports up to 4 flash echo sounds
+		//lastShotSound		""										// supports up to 4 last shot sounds
+		
+		//readySound		""
+		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
+		//overheatSound		""
+		//reloadSound		""
+		//reloadFastSound	""									// some weapons have fast reloads due to the skill system
+		//spinupSound		""									// sound started when fire button goes down, and stepped on when the first fire event happens
+		//spindownSound		""									// sound called if the above is running but player doesn't follow through and fire
+		//switchSound		""									// allow overriding of weaponswitch sound
+		
+		//weaponIcon			"icons/iconw_pineapple_1"
+		weaponSelectedIcon	"icons/iconw_pineapple_1_select"
+		
+		missileModel		"models/weapons2/mk32a/mk32a.md3"
+		//missileSound		""
+		//missileTrailFunc	"GrenadeTrail"						// supports "GrenadeTrail", "RocketTrail", "PyroSmokeTrail" and "DynamiteTrail" (we REALLY want a particle system for this)
+		//missileDlight		0
+		//missileDlightColor	0 0 0							// do we still use this?
+		
+		//ejectBrassFunc	""									// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
+		
+		//modModel 1		""
+		
+		// ELITE
+		gunViewOffset		9.5 2.5 6			
+		gunViewAimOffset	0 0 0			
+		foreShorten		0.5			 
+		//tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
+		
+		deployMenuShortName	"MK3A2"
+		deployMenuDescription	"MK3A2 Concussion Grenade"
+		deployMenuType		"Grenade"
+		
+		firstPerson {
+			model			"models/weapons2/m83/m83_view.md3"
+			//flashModel		""
+			
+			axisskin		"models/weapons2/m83/sleeve_hold2.skin"
+			alliedskin		"models/weapons2/m83/sleeve_hold.skin"
+
+			// weapon building
+			// the parts are numbered because there are some hardcoded references for some weapons to certain parts
+			weaponLink
+			{
+				part 0
+				{
+					tag		"tag_main"
+					model	"models/weapons2/mk32a/mk32a_view_main.mdc"
+				}
+				part 1
+				{
+					tag		"tag_slide"
+					model	"models/weapons2/m83/m83_view_slide.mdc"
+				}
+			}
+		}
+		
+		thirdPerson {
+			model			"models/weapons2/mk32a/mk32a.md3"
+			//flashmodel		""
+		}
+	}
+}

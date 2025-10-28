@@ -1,0 +1,7 @@
+//md3_back,		"models/players/temperate/allied/soldier/acc/backpack.md3"
+md3_hat,		"models/players/acc/beret.md3"
+
+l_legs,			"models/players/temperate/allied/elite/legs_woodland.tga"
+u_body,			"models/players/temperate/allied/elite/body_woodland.tga"
+u_rthand,		"models/players/temperate/allied/elite/body_woodland.tga"
+u_lfthand,		"models/players/temperate/allied/elite/body_woodland.tga"

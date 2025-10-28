@@ -1,0 +1,9 @@
+md3_hat,		"models/players/temperate/allied/elite/redberet.md3"
+md3_rank,		"models/players/temperate/allied/elite/redberet.md3"
+md3_beltr,		"models/players/temperate/allied/elite/beltr_sidepouch1.md3"
+md3_back,		"models/players/temperate/allied/elite/back_radio.md3"
+
+l_legs,			"models/players/temperate/axis/elite/legs_city_p2.tga"
+u_body,			"models/players/temperate/axis/elite/body_black_p1.tga"
+u_rthand,		"models/players/temperate/axis/elite/body_black_p1.tga"
+u_lfthand,		"models/players/temperate/axis/elite/body_black_p1.tga"

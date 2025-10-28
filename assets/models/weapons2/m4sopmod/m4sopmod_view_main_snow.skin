@@ -1,0 +1,7 @@
+yflip_sopmod, "models/weapons2/m4sopmod/yflip_snow.tga"
+top_rail, "models/weapons2/m4sopmod/m4sopmod_rail_snow.tga"
+buttstock_m4, "models/weapons2/m4/m4_buttstock_snow.tga"
+object, "models/weapons2/m4sopmod/m4sopmod_ras_snow.tga"
+main_tube, "models/weapons2/m4/m4_body_snow.tga"
+main_corpus, "models/weapons2/m4/m4_body_snow.tga"
+main_acc, "models/weapons2/m4/m4_body_snow.tga"

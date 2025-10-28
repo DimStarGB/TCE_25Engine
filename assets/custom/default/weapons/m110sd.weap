@@ -1,0 +1,112 @@
+weaponDef
+{
+	// This basically fills out weaponInfo_t
+	client {
+		//standModel			"models/weapons2/luger/luger_stand.mdc"	// weapon pickup 'stand' (do we still use this?)
+		//pickupModel		""
+		//pickupSound		"sound/misc/w_pkup.wav"
+		
+		weaponConfig		"models/weapons2/m110/weapon.cfg"
+		//handsModel			"models/weapons2/luger/v_luger_hand.mdc"
+		
+		flashDlightColor	1.0 0.6 0.23
+		flashSound		"sound/weapons/m110/m110_suppressed.wav"	// supports up to 4 flash sounds
+		flashSound		"sound/weapons/m110/m110_suppressed2.wav"
+		
+//		flashEchoSound		"sound/weapons/m4/m4_far.wav"		// supports up to 4 flash echo sounds
+		//lastShotSound		""										// supports up to 4 last shot sounds
+		
+		//readySound		""
+		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
+		//overheatSound		""
+		reloadSound			"sound/weapons/m4/m4reload.wav"
+		reloadFastSound		"sound/weapons/luger/luger_reload_fast.wav"		// some weapons have fast reloads due to the skill system
+		//spinupSound		""									// sound started when fire button goes down, and stepped on when the first fire event happens
+		//spindownSound		""									// sound called if the above is running but player doesn't follow through and fire
+		switchSound			"sound/weapons/misc/silence_off.wav"	// allow overriding of weaponswitch sound
+		
+		//weaponIcon			"icons/iconw_luger_1"
+		weaponSelectedIcon	"icons/iconw_luger_1_select"
+		
+		//missileModel		""
+		//missileSound		""
+		//missileTrailFunc	""									// supports "GrenadeTrail", "RocketTrail", "PyroSmokeTrail" and "DynamiteTrail" (we REALLY want a particle system for this)
+		//missileDlight		0
+		//missileDlightColor	0 0 0							// do we still use this?
+		
+		
+		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
+		
+		// ELITE
+		gunViewOffset		1 5 0			// x=forward, y=left, z=up
+		
+		// old style big view
+		//gunViewAimOffset	-14.5 -7.265 -3.155	
+		//portalScopeWidth	210
+		
+		// truevision
+		gunViewAimOffset	-12.5 -7.265 -3.155	
+		portalScopeWidth	150
+		
+		portalScopeOverlayWidth	190
+		portalScopeOffset	-11.7 0.54 4.83	 // x=forward, y=left, z=up
+		portalScopeDistance 5.8
+		
+		foreShorten		0.75			 
+		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
+		
+		deployMenuShortName	"SR M110 4x24 SD"
+		deployMenuDescription	"KAC SR M110 7.62x51mm Leupold 4x24 SD"
+		deployMenuType		"Suppressed Designated Marksman Rifle"
+		
+		//modModel 		1
+		
+		firstPerson {
+			model			"models/weapons2/m4/m4_view.mdc"
+//			flashModel		"models/weapons2/m4/m4_view_flash.mdc"
+			axisskin		"models/weapons2/m4/sleeve_hold2.skin"
+			alliedskin		"models/weapons2/m4/sleeve_hold.skin"
+
+			// weapon building
+			// the parts are numbered because there are some hardcoded references for some weapons to certain parts
+			weaponLink
+			{
+				part 0
+				{
+					tag		"tag_main"
+					model	"models/weapons2/m110/m110_view_main.mdc"
+				}
+				part 1
+				{
+					tag		"tag_clip"
+					model	"models/weapons2/m4/m4_view_clip.mdc"
+				}
+				part 2
+				{
+					tag		"tag_slide"
+					model	"models/weapons2/m4/m4_view_slide.mdc"
+				}
+				part 3
+				{
+					tag		"tag_main"
+					model	"models/weapons2/m110/m110_view_sightsdown.mdc"
+				}
+				part 4
+				{
+					tag		"tag_main"
+					model	"models/weapons2/spr/spr_leupold_mk4_scope_view.mdc"
+				}
+				part 5
+				{
+					tag		"tag_main"
+					model	"models/weapons2/m110/m110_view_silencer.mdc"
+				}			
+			}
+		}
+		
+		thirdPerson {
+			model			"models/weapons2/m110/m110_sd.mdc"
+		//	flashmodel		"models/weapons2/m4/m4_flash.mdc"
+		}
+	}
+}

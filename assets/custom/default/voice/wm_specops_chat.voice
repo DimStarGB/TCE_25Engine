@@ -1,0 +1,592 @@
+////////////////////////////////////////
+// quickchat script for allied player //
+// last edited by Traumahawk for TC:E //
+////////////////////////////////////////
+
+male
+
+
+////////////////////////
+// wm_quickstatements //
+////////////////////////
+
+PathCleared
+{
+	sound/chat/specops/11a.wav	"Path cleared."   sprites/pathclear
+	sound/chat/specops/11b.wav	"The path is clear."   sprites/pathclear
+}
+
+EnemyWeak
+{
+	sound/chat/specops/12a.wav	"The enemy is weakened."   
+	sound/chat/specops/12b.wav	"The enemy is weakened."   
+
+}
+
+AllClear
+{
+	sound/chat/specops/13a.wav	"All clear."   sprites/allclear   
+	sound/chat/specops/13b.wav	"It's clear."   sprites/allclear   
+}
+
+Incoming
+{
+	sound/chat/specops/14a.wav	"Incoming."  sprites/incoming
+	sound/chat/specops/14b.wav	"Here they come."  sprites/incoming
+}
+
+FireInTheHole
+{
+	sound/chat/specops/15a.wav	"Frag out."  sprites/grenade  
+	sound/chat/specops/15b.wav	"Frag out."  sprites/grenade   
+}
+
+OnDefense
+{
+	sound/chat/specops/16a.wav	"I'm on defense."   
+	sound/chat/specops/16b.wav	"I'll guard this area."  
+}
+
+OnOffense
+{
+	sound/chat/specops/17a.wav	"I'm on offense."  
+	sound/chat/specops/17b.wav	"I'm attacking."   
+}
+
+TakingFire
+{
+	sound/chat/specops/18a.wav	"I'm taking fire."  sprites/takingfire
+	sound/chat/specops/18b.wav	"They're shooting at me."  sprites/takingfire
+}
+
+//MinesCleared
+//{
+//	sound/chat/specops/19a.wav	"Mines cleared."
+//	sound/chat/specops/19b.wav	"Mines cleared."
+//}
+
+//EnemyDisguised
+//{
+//	sound/chat/specops/10a.wav	"Enemy in disguise."
+//	sound/chat/specops/10b.wav	"Enemy in disguise."
+//}
+
+// ELITE
+EnemyDown
+{
+	sound/chat/specops/enemydown1.wav	"Enemy down."   sprites/enemydown
+	sound/chat/specops/enemydown2.wav	"Scratch one tango."   sprites/enemydown
+}
+
+ManDown
+{
+	sound/chat/specops/mandown1.wav	"Man down!"
+	sound/chat/specops/mandown2.wav	"Unit down!"
+}
+
+Contact
+{
+	sound/chat/specops/contact1.wav   "Enemy contact."  sprites/contact
+	sound/chat/specops/contact2.wav   "I've made contact."   sprites/contact
+}
+
+//////////////////////
+// wm_quickrequests //
+//////////////////////
+
+//Medic
+//{
+//	sound/chat/specops/21a.wav	"Need a Medic!"		sprites/voiceMedic
+//	sound/chat/specops/21b.wav	"I need a Medic!"	 sprites/voiceMedic
+//}
+
+//NeedAmmo
+//{
+//	sound/chat/specops/22a.wav	"I need ammo!"		sprites/voiceAmmo
+//}
+//
+NeedBackup
+{
+	sound/chat/specops/23a.wav	"I need backup."   sprites/needbackup
+	sound/chat/specops/23b.wav	"I need some help overhere."   sprites/needbackup
+}
+
+//NeedEngineer
+//{
+//	sound/chat/specops/24a.wav	"We need an engineer!"
+//	sound/chat/specops/24b.wav	"We need an engineer!"
+//}
+
+CoverMe
+{
+	sound/chat/specops/25a.wav	"Covering fire."   sprites/coverme
+	sound/chat/specops/25b.wav	"Suppresive fire."   sprites/coverme
+	sound/chat/specops/25c.wav	"Cover me."   sprites/coverme
+	sound/chat/specops/25d.wav	"Cover me."   sprites/coverme
+}
+
+HoldFire
+{
+	sound/chat/specops/26a.wav	"Hold your fire!"  sprites/holdfire
+	sound/chat/specops/26b.wav	"Cease Fire! Cease fire!"  sprites/holdfire
+}
+
+WhereTo
+{
+	sound/chat/specops/27a.wav	"Where to?"   sprites/query
+	sound/chat/specops/27b.wav	"Where are we going?"   sprites/query
+}
+
+//NeedOps
+//{
+//	sound/chat/specops/28a.wav	"We need Covert Ops!"
+//	sound/chat/specops/28b.wav	"We need Covert Ops!"
+//}
+
+
+//////////////////////
+// wm_quickcommands //
+//////////////////////
+
+FollowMe
+{
+	sound/chat/specops/31a.wav	"Follow me!"  sprites/followme
+	sound/chat/specops/31b.wav	"Stick with me!"   sprites/followme
+}
+
+LetsGo
+{
+	sound/chat/specops/32a.wav	"Let's go."  sprites/letsgo
+	sound/chat/specops/32b.wav	"Let's move."  sprites/letsgo
+}
+
+Move
+{
+	sound/chat/specops/33a.wav	"Move it!"   sprites/move
+	sound/chat/specops/33b.wav	"Move!"   sprites/move
+}
+
+ClearPath
+{
+	sound/chat/specops/34a.wav	"Clear the area."   sprites/clearpath 
+	sound/chat/specops/34b.wav	"Clear the path."   sprites/clearpath
+}
+
+DefendObjective
+{
+	sound/chat/specops/35a.wav	"Defend the objective."
+	sound/chat/specops/35b.wav	"Defend our objective."
+}
+
+DisarmDynamite
+{
+	sound/chat/specops/36a.wav	"Diffuse the bomb!"  sprites/diffusebomb 
+	sound/chat/specops/36b.wav	"Disarm the bomb!"   sprites/diffusebomb 
+}
+
+//ClearMines
+//{
+//	sound/chat/specops/37a.wav	"Clear the mines!"
+//	sound/chat/specops/37b.wav	"Clear the mines!"
+//}
+
+ReinforceDefense
+{
+	sound/chat/specops/38a.wav	"We need help on defense!"   sprites/needbackup
+	sound/chat/specops/38b.wav	"Reinforce the defense!"   sprites/needbackup
+}
+
+ReinforceOffense
+{
+	sound/chat/specops/39a.wav	"Reinforce the offense!"   sprites/needbackup
+	sound/chat/specops/39b.wav	"We need help on offense!"   sprites/needbackup
+}
+
+
+//////////////////
+// wm_quickmisc //
+//////////////////
+
+Affirmative
+{
+	sound/chat/specops/41a.wav	"Affirmative!"   sprites/ok
+	sound/chat/specops/41b.wav	"10-4!"   sprites/ok
+	sound/chat/specops/41c.wav	"Roger that!"   sprites/ok
+}
+
+Negative
+{
+	sound/chat/specops/42a.wav	"Negative."   sprites/no
+	sound/chat/specops/42b.wav	"No way!"   sprites/no
+	sound/chat/specops/42c.wav	"Negative!"   sprites/no
+	sound/chat/specops/42d.wav	"No."   sprites/no
+}
+
+Thanks
+{
+	sound/chat/specops/43a.wav	"Thanks!"
+	sound/chat/specops/43b.wav	"Thanks."
+	sound/chat/specops/43c.wav	"Thank you."
+	sound/chat/specops/43d.wav	"Thank you!"
+}
+
+Welcome
+{
+	sound/chat/specops/44a.wav	"You're welcome."
+	sound/chat/specops/44b.wav	"You're welcome."
+	sound/chat/specops/44c.wav	"No problem."
+	sound/chat/specops/44d.wav	"Not a problem!"
+}
+
+Sorry
+{
+	sound/chat/specops/45a.wav	"I'm sorry!"
+	sound/chat/specops/45b.wav	"Sorry!"
+	sound/chat/specops/45c.wav	"My bad."
+}
+
+Oops
+{
+	sound/chat/specops/46a.wav	"Oops!"
+	sound/chat/specops/46b.wav	"Oops!"
+	sound/chat/specops/46c.wav	"Damn!"
+}
+
+
+////////////////////
+// wm_quickglobal //
+////////////////////
+
+Hi
+{
+	sound/chat/specops/54a.wav	"Hi!"
+	sound/chat/specops/54b.wav	"Hi!"
+	sound/chat/specops/54c.wav	"Hey!"
+	sound/chat/specops/54d.wav	"Hello!"
+	sound/chat/specops/54e.wav	"Hello!"
+}
+
+Bye
+{
+	sound/chat/specops/55a.wav	"Bye."
+	sound/chat/specops/55b.wav	"Bye."
+	sound/chat/specops/55c.wav	"Later."
+	sound/chat/specops/55d.wav	"Good bye."
+	sound/chat/specops/55e.wav	"Good bye."
+}
+
+GreatShot
+{
+	sound/chat/specops/56a.wav	"Nice shot."   
+	sound/chat/specops/56b.wav	"Good shot."
+}
+
+Cheer
+{
+	sound/chat/specops/57a.wav	"Alright!"
+	sound/chat/specops/57b.wav	"Yeah!"
+	sound/chat/specops/57c.wav	"Awesome!"
+	sound/chat/specops/57d.wav	"Yeehaa!"
+	sound/chat/specops/57e.wav	"Yeah!"
+	sound/chat/specops/57f.wav	"You got it man!"
+	sound/chat/specops/57g.wav	"Yes!"
+	sound/chat/specops/57h.wav	"Oh yeah!"
+	sound/chat/specops/57i.wav	"Woo!"
+	sound/chat/specops/57j.wav	"Atta' way baby!"
+	sound/chat/specops/57k.wav	"Woo!"
+	sound/chat/specops/57l.wav	"You got it man!"
+}
+
+/////////////////////
+// wm_quickglobal2 //
+/////////////////////
+
+GoodGame
+{
+	sound/chat/specops/586a.wav	"Good game!"
+	sound/chat/specops/586b.wav	"Nice game!"
+	sound/chat/specops/586c.wav	"Great game!"
+}
+
+
+///////////////////////
+// wm_sayplayerclass //
+///////////////////////
+
+//IamSoldier
+//{
+//	sound/chat/specops/61a.wav	"I'm a soldier."
+//	sound/chat/specops/61b.wav	"I'm a soldier."
+//}
+
+//IamMedic
+//{
+//	sound/chat/specops/62a.wav	"I'm a medic."
+//	sound/chat/specops/62b.wav	"I'm a medic."
+//}
+
+//IamEngineer
+//{
+//	sound/chat/specops/63a.wav	"I'm an engineer."
+//	sound/chat/specops/63b.wav	"I'm an engineer."
+//}
+
+//IamFieldOps
+//{
+//	sound/chat/specops/64a.wav	"I'm a field ops."
+//}
+//
+//IamCovertOps
+//{
+//	sound/chat/specops/65a.wav	"I'm a covert ops."
+//}
+//
+
+////////////////////
+// wm_quickattack //
+////////////////////
+
+DestroyPrimary
+{
+	sound/chat/specops/71a.wav	"Destroy primary objective."
+	sound/chat/specops/71b.wav	"Destroy primary objective."
+}
+
+DestroySecondary
+{
+	sound/chat/specops/72a.wav	"Destroy secondary objective."
+	sound/chat/specops/72b.wav	"Destroy secondary objective."
+}
+
+//DestroyConstruction
+//{
+//	sound/chat/specops/73a.wav	"Destroy construction!"
+//	sound/chat/specops/73b.wav	"Destroy construction!"
+//}
+
+//RepairVehicle
+//{
+//	sound/chat/specops/75a.wav	"Repair the vehicle!"
+//	sound/chat/specops/75b.wav	"Repair the vehicle!"
+//}
+
+//DestroyVehicle
+//{
+//	sound/chat/specops/76a.wav	"Disable the vehicle!"
+//	sound/chat/specops/76b.wav	"Disable the vehicle!"
+//}
+
+//EscortVehicle
+//{
+//	sound/chat/specops/77a.wav	"Escort the vehicle!"
+//	sound/chat/specops/77b.wav	"Escort the vehicle!"
+//}
+
+
+////////////////////////
+// wm_quickobjectives //
+////////////////////////
+
+CommandAcknowledged
+{
+	sound/chat/specops/81a.wav	"Command acknowledged!"   sprites/ok
+	sound/chat/specops/81b.wav	"Command acknowledged!"   sprites/ok
+	sound/chat/specops/81c.wav	"Right away!"   sprites/ok
+	sound/chat/specops/81d.wav	"Right away!"   sprites/ok
+}
+
+CommandDeclined
+{
+	sound/chat/specops/82a.wav	"Command declined!"   sprites/no
+	sound/chat/specops/82b.wav	"Command declined!"   sprites/no
+	sound/chat/specops/82c.wav	"No can do!"   sprites/no
+	sound/chat/specops/82d.wav	"Can't do that!"   sprites/no
+}
+
+CommandCompleted
+{ 
+	sound/chat/specops/83a.wav	"Command completed!"   sprites/ok
+	sound/chat/specops/83b.wav	"Command completed!"   sprites/ok
+}
+
+//ConstructionCommencing
+//{
+//	sound/chat/specops/84a.wav	"I'm constructing!"
+//	sound/chat/specops/84b.wav	"I'm constructing!"
+//}
+
+
+///////////////////////
+// wm_quickfireteams //
+///////////////////////
+
+FTAttack
+{
+	sound/chat/specops/98a.wav	"Attack!"
+	sound/chat/specops/98b.wav	"Attack!"
+}
+
+FTFallBack
+{
+	sound/chat/specops/99a.wav	"Fall back!"
+	sound/chat/specops/99b.wav	"Fall back!"
+}
+
+
+//////////////////////////////
+// wm_quickfireteamssoldier //
+//////////////////////////////
+
+FTCoverMe
+{
+	sound/chat/specops/25c.wav	"Cover me!"
+	sound/chat/specops/25d.wav	"Cover me!"
+}
+
+FTCoveringFire
+{
+	sound/chat/specops/25a.wav	"Covering fire!"
+	sound/chat/specops/25b.wav	"Covering fire!"
+}
+
+//FTMortar
+//{
+//	sound/chat/specops/911a.wav	"Deploy mortar!"
+//	sound/chat/specops/911b.wav	"Deploy mortar!"
+//}
+
+
+////////////////////////////
+// wm_quickfireteamsmedic //
+////////////////////////////
+
+//FTHealSquad
+//{
+//	sound/chat/specops/921a.wav	"Heal the squad!"
+//	sound/chat/specops/921b.wav	"Heal the squad!"
+//}
+
+//FTHealMe
+//{
+//	sound/chat/specops/922a.wav	"Heal me!"			sprites/voiceMedic
+//}
+//
+//FTReviveTeamMate
+//{
+//	sound/chat/specops/923a.wav	"Revive team mate!"
+//	sound/chat/specops/923b.wav	"Revive team mate!"
+//}
+
+//FTReviveMe
+//{
+//	sound/chat/specops/924a.wav	"Revive me!"			sprites/voiceMedic
+//	sound/chat/specops/924b.wav	"Revive me!"			sprites/voiceMedic
+//}
+
+
+///////////////////////////////
+// wm_quickfireteamsengineer //
+///////////////////////////////
+
+FTDestroyObjective
+{
+	sound/chat/specops/931a.wav	"Destroy the objective!"
+	sound/chat/specops/931b.wav	"Destroy the objective!"
+}
+
+//FTRepairObjective
+//{
+//	sound/chat/specops/932a.wav	"Repair objective!"
+//	sound/chat/specops/932b.wav	"Repair objective!"
+//}
+
+//FTConstructObjective
+//{
+//	sound/chat/specops/933a.wav	"Construct objective!"
+//	sound/chat/specops/933b.wav	"Construct objective!"
+//}
+
+FTDisarmDynamite
+{
+	sound/chat/specops/36a.wav	"Disarm the dynamite!"
+	sound/chat/specops/36b.wav	"Disarm the dynamite!"
+}
+
+//FTDeployLandmines
+//{
+//	sound/chat/specops/934a.wav	"Deploy landmines!"
+//	sound/chat/specops/934b.wav	"Deploy landmines!"
+//}
+
+//FTDisarmLandmines
+//{
+//	sound/chat/specops/935a.wav	"Disarm landmines!"
+//	sound/chat/specops/935b.wav	"Disarm landmines!"
+//}
+
+
+///////////////////////////////
+// wm_quickfireteamsfieldops //
+///////////////////////////////
+
+//FTCallAirStrike
+//{
+//	sound/chat/specops/941a.wav	"Call an airstrike!"
+//	sound/chat/specops/941a.wav	"Call an airstrike!"
+//}
+
+//FTCallArtillery
+//{
+//	sound/chat/specops/942a.wav	"Call in artillery!"
+//	sound/chat/specops/942b.wav	"Call in artillery!"
+//}
+ 
+//FTResupplySquad
+//{
+//	sound/chat/specops/944a.wav	"Resupply the squad!"
+//	sound/chat/specops/944b.wav	"Resupply the squad!"
+//}
+
+//FTResupplyMe
+//{
+//	sound/chat/specops/945a.wav	"Resupply me!"			sprites/voiceAmmo
+//	sound/chat/specops/945b.wav	"Resupply me!"			sprites/voiceAmmo
+//}
+
+
+////////////////////////////////
+// wm_quickfireteamscovertops //
+////////////////////////////////
+
+FTExploreArea
+{
+	sound/chat/specops/951a.wav	"Explore the area!"
+	sound/chat/specops/951b.wav	"Explore the area!"
+}
+
+//FTCheckLandmines
+//{
+//	sound/chat/specops/952a.wav	"Check for landmines!"
+//}
+//
+FTSatchelObjective
+{
+	sound/chat/specops/931a.wav	"Destroy the objective!"
+	sound/chat/specops/931b.wav	"Destroy the objective!"
+}
+
+//FTInfiltrate
+//{
+//	sound/chat/specops/953a.wav	"Infiltrate!"
+//	sound/chat/specops/953b.wav	"Infiltrate!"
+//}
+
+//FTGoUndercover
+//{
+//	sound/chat/specops/954a.wav	"Go undercover!"
+//}
+//
+FTProvideSniperCover
+{
+	sound/chat/specops/955a.wav	"How about some sniper fire?"
+}
