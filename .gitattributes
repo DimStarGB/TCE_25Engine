@@ -1,0 +1,18 @@
+# Models
+*.md3 filter=lfs diff=lfs merge=lfs -text
+*.iqm filter=lfs diff=lfs merge=lfs -text
+
+# Maps
+*.bsp filter=lfs diff=lfs merge=lfs -text
+*.aas filter=lfs diff=lfs merge=lfs -text
+
+# Textures & UI
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+
+# Audio / Video
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
