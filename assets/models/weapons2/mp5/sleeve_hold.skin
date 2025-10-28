@@ -1,0 +1,10 @@
+r_hand,models/weapons2/common/glove.jpg
+l_hand,models/weapons2/common/glove.jpg
+r_sleeve,models/weapons2/common/sleeve_woodland.jpg
+l_sleeve,models/weapons2/common/sleeve_woodland.jpg
+
+// for now
+//mp5_clip,models/weapons2/mp5/mp5_clip.jpg
+//mp5_main,models/weapons2/mp5/mp5_main.jpg
+//mp5_trits,models/weapons2/mp5/mp5_main.jpg
+//mp5_slide,models/weapons2/mp5/mp5_main.jpg

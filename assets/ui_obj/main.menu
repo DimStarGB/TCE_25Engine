@@ -1,0 +1,135 @@
+#include "ui/menudef.h"
+
+// Defines //
+
+#define WINDOW_X		0
+#define WINDOW_Y		0
+#define WINDOW_WIDTH	852
+#define WINDOW_HEIGHT	480
+#define GROUP_NAME		"grpMain"
+
+// Macros //
+
+#include "ui/menumacros.h"
+	
+// Opener //
+
+menuDef {
+	name		"main_opener"
+	visible		0
+	fullscreen	0
+	rect		WINDOW_X WINDOW_Y WINDOW_WIDTH WINDOW_HEIGHT
+	
+	onOpen {
+		open fadebox_black ;
+		open background_1 ;
+		
+		setmenuitemcolor fadebox_black fadebox backcolor 0 0 0 1 ;
+		fadeoutmenu fadebox_black ;
+		open main ;
+		clearcvar ui_profile_create_error ;
+		close main_opener	
+	}
+}
+
+// Main Menu //
+
+menuDef {
+	name		"main"
+	visible		0
+	fullscreen	0
+	rect		WINDOW_X WINDOW_Y WINDOW_WIDTH WINDOW_HEIGHT
+	style		WINDOW_STYLE_FILLED
+  
+	onOpen {
+		
+//		setitemcolor fadebox backcolor 0 0 0 1 ;
+//		uiScript stopRefresh ;
+//		
+		conditionalscript cl_profile 1
+			( "clearFocus" )
+			( "close main ; open profile_create_initial_opener" )	// do we want an abort here?
+
+		// ydnar
+		conditionalscript ROldModeCheck 2
+			( "clearFocus ; open vid_confirm" )
+			( "clearFocus" )
+
+		conditionalscript cl_autoupdate 1
+			( "checkautoupdate" )
+			( "clearFocus" )
+	}
+	
+	onEsc {
+		clearFocus ;
+		open quit
+	}
+
+// Company Logos //
+
+	itemDef {
+		name groovesix				// groovesix studios
+		style WINDOW_STYLE_SHADER
+		rect 26 $evalfloat(70+356) 96 48
+		background "groovesixstudios.tga"
+		visible 1
+		decoration
+		}
+	itemDef {
+		name teamterminator				// groovesix studios
+		style WINDOW_STYLE_SHADER
+		rect 126 $evalfloat(70+356) 164 48
+		background "ui/assets/logo_tt_dark.tga"
+		visible 1
+		decoration
+		}
+	
+	itemDef {
+		name		"atvi_logo"
+		rect		586 $evalfloat(70+356) 108 27		// 16, 16 offset!! (note offset to left a little as well)
+		style		WINDOW_STYLE_SHADER
+		background	"ui/assets/logo_atvi_dark"
+		forecolor	1 1 1 1
+		visible		1
+		decoration
+	}
+	
+	itemDef {
+		name		"id_logo"
+		rect		702 $evalfloat(70+356) 52 52		// 16, 16 offset!!
+		style		WINDOW_STYLE_SHADER
+		background	"ui/assets/logo_id_dark"
+		forecolor	1 1 1 1
+		visible		1
+		decoration
+	}
+	itemDef {
+		name		"sd_logo"
+		rect		763 $evalfloat(64+356+6) 54 54		// 16, 16 offset!!
+		style		WINDOW_STYLE_SHADER
+		background	"ui/assets/logo_sd_dark"
+		forecolor	1 1 1 1
+		visible		1
+		decoration
+	}
+
+// Window //
+
+	//WINDOW( "MAIN", 50 )
+	
+// Buttons //
+
+	BIGLABEL( WINDOW_X+38, 406-18, 140, 10, "OBJECTIVE", .4, 10 )
+
+//	BUTTON( BUTTON_X, BUTTON_Y, BUTTON_W, BUTTON_H, BUTTON_TEXT, BUTTON_TEXT_SCALE, BUTTON_TEXT_ALIGN_Y, BUTTON_ACTION )	//
+
+//	BUTTONTEXTONLY( 44+34+WINDOW_X+160, 400-18, 106-20, 15,	"PUSHING INTO", .2, 12, close main ; /*close backgroundmusic ; open backgroundmusic_server ;*/ uiScript UpdateFilter ; uiScript ServerSortDown 4 ; open playonline )
+	BUTTONTEXTONLY( 44+34+WINDOW_X+160, 400-18, 106-20, 15,	"DEPLOYMENT", .2, 12, close main ; /*close backgroundmusic ; open backgroundmusic_server ;*/ uiScript UpdateFilter ; uiScript ServerSortDown 4 ; open playonline )
+	BUTTONTEXTONLY( 152+34+WINDOW_X+140, 400-18, 100-20, 15,	"HOST A GAME", .2, 12, close main ; /*close backgroundmusic ; open backgroundmusic_server ;*/ uiScript loadArenas ; uiScript initHostGameFeatures ; open hostgame )
+	BUTTONTEXTONLY( 256+34+WINDOW_X+120, 400-18, 82-20, 15,	"TC:E MODS", .2, 12, close main ; open tcemods )
+	BUTTONTEXTONLY( 344+34+WINDOW_X+100, 400-18, 72-20, 15,	"REPLAYS", .2, 12, close main ; open viewreplay )
+	BUTTONTEXTONLY( 422+34+WINDOW_X+80, 400-18, 72-20, 15,	"OPTIONS", .2, 12, close main ; open options )
+	BUTTONTEXTONLY( 500+34+WINDOW_X+60, 400-18, 72-20, 15,	"PROFILE", .2, 12, close main ; open profile )
+	BUTTONTEXTONLY( 578+34+WINDOW_X+40, 400-18, 72-20, 15,	"CREDITS", .2, 12, close main ; open credits_groovesix )
+	BUTTONTEXTONLY( 656+34+WINDOW_X+20, 400-18, 82-20, 15,	"EXIT GAME", .2, 12, clearFocus ; open quit )
+}

@@ -1,0 +1,5 @@
+h_head, "models/players/hud/head_f2_brun"
+h_mouthin, "models/players/hud/head_f2_brun"
+h_teethbot, "models/players/hud/head_f2_brun"
+h_teethup, "models/players/hud/head_f2_brun"
+h_blink, "textures/common/invisible"

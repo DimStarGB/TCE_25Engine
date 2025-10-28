@@ -1,0 +1,51 @@
+// custominfoparms for elite
+// Custom Contentsflags
+{
+stairs_verysteep 0x400
+stairs_steep     0x800
+stairs     0x1000
+// obsolete sfxhallway 0x2000
+env_indoor 0x2000
+env_outdoor 0x200
+}
+// Custom Surfaceflags
+{
+// surfaceparms
+noclimb 0x00040000
+nopierce 0x00080000
+// materials
+mat_brick  0x01000000
+mat_cement 0x02000000
+mat_metal	 0x03000000
+mat_tin	   0x04000000
+mat_wood   0x05000000
+mat_wood_hollow 0x06000000
+mat_gravel 0x07000000
+mat_sand   0x08000000
+mat_mud    0x09000000
+mat_grass	 0x0A000000
+mat_straw	 0x0B000000
+mat_glass	 0x0C000000
+mat_snow   0x0D000000
+mat_ceramic	0x0E000000
+mat_plastic	0x0F000000
+mat_carpet 0x10000000
+mat_wet	   0x11000000
+mat_fabric 0x12000000
+mat_roof	 0x13000000
+mat_fence	 0x14000000
+mat_foliage	0x15000000
+mat_branch  0x16000000
+mat_flesh  	0x17000000
+mat_plastering		0x18000000
+mat_stucco				0x19000000
+mat_clay					0x1A000000
+mat_brick_grey		0x1B000000
+mat_brick_yellow	0x1C000000
+mat_dirt					0x1D000000
+mat_soil					0x1E000000
+mat_steel					0x1F000000
+mat_plastic_soft	0x20000000
+mat_cardboard			0x21000000
+mat_tiles					0x22000000
+}
