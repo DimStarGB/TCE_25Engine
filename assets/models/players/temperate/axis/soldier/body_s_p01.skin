@@ -1,8 +1,0 @@
-md3_hat,		"models/players/temperate/allied/elite/woolhat.md3"
-md3_rank,		"models/players/temperate/allied/elite/woolhat.md3"
-md3_beltr,		"models/players/temperate/allied/elite/beltr_sidepouch1b.md3" //sidepouch_1b.md3 = green, sidepouch_1.md3 = black
-
-l_legs,			"models/players/temperate/axis/elite/legs_woodland.tga"
-u_body,			"models/players/temperate/axis/elite/body_stripes_p1.tga"
-u_rthand,		"models/players/temperate/axis/elite/body_stripes_p1.tga"
-u_lfthand,		"models/players/temperate/axis/elite/body_stripes_p1.tga"

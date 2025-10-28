@@ -1,7 +1,0 @@
-//md3_hat,		"models/players/temperate/allied/elite/woolhat.md3"
-//md3_rank,		"models/players/temperate/allied/elite/woolhat.md3"
-//md3_beltr,		"models/players/temperate/allied/elite/beltr_sidepouch1b.md3" //sidepouch_1b.md3 = green, sidepouch_1.md3 = black
-
-l_bootlft, "models/players/temperate/axis/female/ec_boot_commando.tga"
-l_bootrt, "models/players/temperate/axis/female/ec_boot_commando.tga"
-u_body, "models/players/temperate/axis/female/ec_body_medic_black.tga"

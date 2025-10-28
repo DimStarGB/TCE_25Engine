@@ -1,4 +1,0 @@
-		// <animation name>	<first frame> <length> <looping> <fps> <move speed> <transition> <reversed>
-
-		stand_rifle 1 1 1 20 0 0 0
-		firing_twohanded_aimed 1 2 0 10 0 0 0
