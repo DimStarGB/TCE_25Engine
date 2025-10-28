@@ -1,0 +1,37 @@
+		// <animation name>	<first frame> <length> <looping> <fps> <move speed> <transition> <reversed>
+		//
+		//tce_rifleposture  	0	22	22	5	0	0	0
+		//
+		// ISM, the animations that have to be replaced are the stock ET body.aninc
+		//stand_rifle (this is used for aimed idle and fire)
+		//stand_machinegun ( this is used for hip idle and fire)
+		//
+		// since stand_rifle is looped and has no movement (final aim position), I made this:
+		// for current test I use this anim for aimed posture of eg m16
+//		tce_stand_rifle  	21	1	1	5	0	0	0
+//		raise_rifle		0	22	0	20	0	0	0
+		stand_twohanded 1 1 1 20 0 0 0
+		firing_twohanded 1 2 0 10 0 0 0
+		// CORONER 11/11/2006 11:45 frames
+		// 23 is MBR
+		// 24 is smg
+		// 25 is shot
+		//
+		//
+		// we would need
+		// tce_stand_rifle (lets use "stand" for hip, replaces stand_machinegun
+		// tce_aimed_rifle (lets use "aimed" for tac, replaces stand_rifle
+		//
+		// and different hand positions
+		//
+		// tce_stand_rifle	(rifle is hand foremost, m16, ak47, sniper)
+		// tce_stand_car	( medium, m4, aksu)
+		// tce_stand_car_grip	( vertical foregrip m4 socom, UMP45?)
+		// tce_stand_smg	(close, mp5k?)
+		// tce_stand_smg_grip	(close, vertical foregrip mp5k)
+		// tce_stand_bullpub	(p90)
+		// same for "aimed"
+		// and same for "carry" which would be dropped and hold diagonal in front of the chest for running and so
+		
+		
+		

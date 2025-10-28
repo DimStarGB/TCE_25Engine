@@ -1,0 +1,93 @@
+weaponDef
+{
+	// This basically fills out weaponInfo_t
+	client {
+		//standModel			"models/weapons2/luger/luger_stand.mdc"	// weapon pickup 'stand' (do we still use this?)
+		//pickupModel		""
+		//pickupSound		"sound/misc/w_pkup.wav"
+		
+		weaponConfig		"models/weapons2/mp5/weapon.cfg"
+		//handsModel			"models/weapons2/luger/v_luger_hand.mdc"
+		
+		flashDlightColor	1.0 0.6 0.23
+		flashSound			"sound/weapons/mp5/mp5_fire.wav"	// supports up to 4 flash sounds
+		flashEchoSound		"sound/weapons/mp5/mp5_far.wav"		// supports up to 4 flash echo sounds
+		//lastShotSound		""										// supports up to 4 last shot sounds
+		suppressedSound			"sound/weapons/mp5/mp5_supressed_f2.wav"	// supports up to 4 flash sounds
+		
+		//readySound		""
+		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
+		//overheatSound		""
+		reloadSound			"sound/weapons/mp5/mp5reload.wav"
+		reloadFastSound		"sound/weapons/luger/luger_reload_fast.wav"		// some weapons have fast reloads due to the skill system
+		//spinupSound		""									// sound started when fire button goes down, and stepped on when the first fire event happens
+		//spindownSound		""									// sound called if the above is running but player doesn't follow through and fire
+		switchSound			"sound/weapons/misc/silence_off.wav"	// allow overriding of weaponswitch sound
+		
+		//weaponIcon			"icons/iconw_luger_1"
+		weaponSelectedIcon	"icons/iconw_luger_1_select"
+		
+		//missileModel		""
+		//missileSound		""
+		//missileTrailFunc	""									// supports "GrenadeTrail", "RocketTrail", "PyroSmokeTrail" and "DynamiteTrail" (we REALLY want a particle system for this)
+		//missileDlight		0
+		//missileDlightColor	0 0 0							// do we still use this?
+		
+		
+		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
+		
+		// ELITE
+		gunViewOffset		2 6 0			
+		gunViewAimOffset	-9 -7.97 -2.77			
+		foreShorten		0.75			 
+		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
+		
+		deployMenuShortName	"MP5/40"
+		deployMenuDescription	"H&K MP5/40 .40 S&W"
+		deployMenuType		"Submachine Gun"
+		
+		//modModel 		1
+		
+		firstPerson {
+			model			"models/weapons2/mp5/mp5_view.mdc"
+			flashModel		"models/weapons2/generic/generic_view_flash.mdc"
+			axisskin		"models/weapons2/mp5/sleeve_hold2.skin"
+			alliedskin		"models/weapons2/mp5/sleeve_hold.skin"
+
+			// weapon building
+			// the parts are numbered because there are some hardcoded references for some weapons to certain parts
+			weaponLink
+			{
+				part 0
+				{
+					tag		"tag_main"
+					model	"models/weapons2/mp5/mp5_view_main.mdc"
+					modFlags 2
+				}
+				part 1
+				{
+					tag		"tag_main"
+					model	"models/weapons2/mp5/mp5sd_view_main.mdc"
+					modFlags 1
+				}
+				part 2
+				{
+					tag		"tag_clip"
+					model	"models/weapons2/mp5/mp5_view_clip.mdc"
+				}
+				part 3
+				{
+					tag		"tag_slide"
+					model	"models/weapons2/mp5/mp5_view_slide.mdc"
+				}
+				
+			}
+		}
+		
+		thirdPerson {
+			model			"models/weapons2/mp5/mp5.mdc"
+			flashmodel		"models/weapons2/generic/generic_flash.mdc"
+			suppressedModel			"models/weapons2/mp5/mp5sd.mdc"
+		}
+	}
+}

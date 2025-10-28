@@ -1,0 +1,11 @@
+//md3_back,		"models/players/temperate/allied/elite/helmet_snow_glasseslow.md3"
+md3_hat,		"models/players/temperate/allied/elite/helm_facegoggles.md3"
+md3_rank,		"models/players/temperate/allied/elite/helm_facegoggles.md3"
+md3_legr,		"models/players/temperate/allied/elite/legr_pocket.md3"
+md3_beltr,		"models/players/temperate/allied/elite/belt_pouch1.md3"
+md3_beltl,		"models/players/temperate/allied/elite/belt_pouch2.md3"
+
+l_legs,			"models/players/temperate/allied/elite/legs_commando.tga"
+u_body,			"models/players/temperate/allied/elite/body_commando_p1.tga"
+u_rthand,		"models/players/temperate/allied/elite/body_commando_p1.tga"
+u_lfthand,		"models/players/temperate/allied/elite/body_commando_p1.tga"

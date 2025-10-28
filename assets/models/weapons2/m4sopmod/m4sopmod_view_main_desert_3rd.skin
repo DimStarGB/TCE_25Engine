@@ -1,0 +1,7 @@
+yflip_sopmod, "models/weapons2/m4sopmod/yflip_desert.tga"
+top_rail, "models/weapons2/m4sopmod/m4sopmod_rail_desert.tga"
+buttstock_m4, "models/weapons2/m4/m4_buttstock_desert.tga"
+front_sopmod2, "models/weapons2/m4sopmod/m4sopmod_ras_desert.tga"
+m4_body, "models/weapons2/m4/m4_body_desert.tga"
+suppressor, "models/weapons2/m4sopmod/qd_ss.tga"
+m68, "models/weapons2/m4sopmod/m68_LOD.tga"

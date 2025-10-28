@@ -1,0 +1,123 @@
+weaponDef
+{
+	// This basically fills out weaponInfo_t
+	client {
+		//standModel			"models/weapons2/luger/luger_stand.mdc"	// weapon pickup 'stand' (do we still use this?)
+		//pickupModel		""
+		//pickupSound		"sound/misc/w_pkup.wav"
+		
+		weaponConfig		"models/weapons2/m110/weapon.cfg"
+		//handsModel			"models/weapons2/luger/v_luger_hand.mdc"
+		
+		flashDlightColor	1.0 0.6 0.23
+		flashSound		"sound/weapons/m76/m76_fire.wav"	// supports up to 4 flash sounds
+		flashEchoSound		"sound/weapons/m76/m76_far.wav"		// supports up to 4 flash echo sounds
+		//lastShotSound		""										// supports up to 4 last shot sounds
+		suppressedSound		"sound/weapons/m76/m76_suppressed.wav"	// supports up to 4 flash sounds  
+		
+		//readySound		""
+		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
+		//overheatSound		""
+		reloadSound			"sound/weapons/m76/m76reload.wav"
+		reloadFastSound		"sound/weapons/luger/luger_reload_fast.wav"		// some weapons have fast reloads due to the skill system
+		//spinupSound		""									// sound started when fire button goes down, and stepped on when the first fire event happens
+		//spindownSound		""									// sound called if the above is running but player doesn't follow through and fire
+		switchSound			"sound/weapons/misc/silence_off.wav"	// allow overriding of weaponswitch sound
+		
+		//weaponIcon			"icons/iconw_luger_1"
+		weaponSelectedIcon	"icons/iconw_luger_1_select"
+		
+		//missileModel		""
+		//missileSound		""
+		//missileTrailFunc	""									// supports "GrenadeTrail", "RocketTrail", "PyroSmokeTrail" and "DynamiteTrail" (we REALLY want a particle system for this)
+		//missileDlight		0
+		//missileDlightColor	0 0 0							// do we still use this?
+		
+		
+		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
+		
+		// ELITE
+		gunViewOffset		4.5 6 0			// x=forward, y=left, z=up
+		gunViewAngles		0 0 -1.5
+		
+		// old style
+		//gunViewAimOffset	-12.45 -7.4 -3.05			// x=forward, y=left, z=up
+		//portalScopeWidth	210
+		//portalScopeOverlayWidth	245
+		//portalScopeOffset	-17.2 -0.26 3.86	 // x=forward, y=left, z=up
+
+		// big
+		//gunViewAimOffset	-11.95 -7.4 -3.05			// x=forward, y=left, z=up
+		//portalScopeWidth	210
+		//portalScopeOverlayWidth	250
+		//portalScopeDistance 5.386
+		//portalScopeOffset	-17.05 -0.26 3.86	 // x=forward, y=left, z=up
+		
+		// truevision
+		gunViewAimOffset	-9.45 -7.4 -3.05			// x=forward, y=left, z=up
+		portalScopeWidth	150
+		
+		portalScopeOverlayWidth	245
+		portalScopeOffset	-17.2 -0.26 3.86	 // x=forward, y=left, z=up
+		portalScopeDistance 7.774
+		
+		
+		foreShorten		0.75				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
+		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
+		
+		deployMenuShortName	"M76"
+		deployMenuDescription	"Zastava M76 7.92x57mm"
+		deployMenuType		"Sniper Rifle"
+		
+		//modModel 		1
+		
+		firstPerson {
+			model			"models/weapons2/ak47/ak47_view.mdc"
+			flashModel		"models/weapons2/m76/m76_view_flash.mdc"
+			axisskin		"models/weapons2/mp5/sleeve_hold2.skin"
+			alliedskin		"models/weapons2/mp5/sleeve_hold.skin"
+
+			// weapon building
+			// the parts are numbered because there are some hardcoded references for some weapons to certain parts
+			weaponLink
+			{
+				part 0
+				{
+					tag		"tag_main"
+					model	"models/weapons2/m76/m76_view_main.mdc"
+				}
+				part 1
+				{
+					tag		"tag_clip"
+					model	"models/weapons2/m76/m76_view_clip.mdc"
+					axisskin		"models/weapons2/m76/m76_view_clip.skin"
+					alliedskin		"models/weapons2/m76/m76_view_clip.skin"
+				}
+				part 2
+				{
+					tag		"tag_slide"
+					model	"models/weapons2/m76/m76_view_slide.mdc"
+					//axisskin		"models/weapons2/ak47/ak47_view_slide.skin"
+					//alliedskin		"models/weapons2/ak47/ak47_view_slide.skin"
+				}
+				part 3
+				{
+					tag		"tag_main"
+					model	"models/weapons2/m76/m76_view_scope.mdc"
+				}
+				part 4
+				{
+					tag		"tag_main"
+					model	"models/weapons2/m76/m76_view_silencer.mdc"
+					modFlags 1
+				}
+			}
+		}
+		
+		thirdPerson {
+			model			"models/weapons2/m76/m76.mdc"
+			flashmodel		"models/weapons2/m76/m76_flash.mdc"
+			suppressedModel			"models/weapons2/m76/m76_sd.mdc"
+		}
+	}
+}
