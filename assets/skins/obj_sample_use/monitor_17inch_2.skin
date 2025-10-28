@@ -1,0 +1,4 @@
+monitor,		"models/mapobjects/liq/monitor_17inch.tga"
+front,			"models/mapobjects/liq/monitor_17inch_front.tga"
+screen,			"textures/coroner_models/screen_login.tga"
+
