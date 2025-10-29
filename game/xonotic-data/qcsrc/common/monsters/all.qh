@@ -1,0 +1,17 @@
+#pragma once
+
+string M_Model(string m_mdl);
+
+REGISTRY(Monsters, BITS(5))
+#define get_monsterinfo(i) REGISTRY_GET(Monsters, i)
+REGISTER_REGISTRY(Monsters)
+REGISTRY_CHECK(Monsters)
+#define REGISTER_MONSTER(id, inst) REGISTER(Monsters, MON, id, monsterid, inst)
+
+#include "monster.qh"
+
+CLASS(NullMonster, Monster)
+	ATTRIB(NullMonster, m_hidden, bool, true);
+ENDCLASS(NullMonster)
+REGISTER_MONSTER(Null, NEW(NullMonster));
+REGISTRY_DEFINE_GET(Monsters, MON_Null)
