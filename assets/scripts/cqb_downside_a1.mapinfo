@@ -1,0 +1,14 @@
+{
+	map			"cqb_downside_a1"
+	longname		"Bruces arab map"
+	authors     "bruce, DimStar"
+	type			"bc, obj, robj"
+	timelimit		20
+	axisRespawnTime		0
+	alliedRespawnTime	0
+	lmsbriefing		"n/a"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}
+
