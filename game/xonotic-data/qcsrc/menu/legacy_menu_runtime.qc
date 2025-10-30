@@ -1,4 +1,4 @@
-#pragma target menu
+#pragma target DP
 #include "legacy_menu_data.qh"
 
 float LM_MouseDown;

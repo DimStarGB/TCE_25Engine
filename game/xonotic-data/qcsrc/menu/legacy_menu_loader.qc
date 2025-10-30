@@ -1,3 +1,3 @@
-#pragma target menu
+#pragma target DP
 // placeholder init for legacy menu (data is embedded in legacy_menu_data.qh)
 void LM_Init() { }

@@ -1,3 +1,4 @@
 menu.dat
 legacy_menu_loader.qc
 legacy_menu_runtime.qc
+legacy_menu_entry.qc
