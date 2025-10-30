@@ -1,0 +1,5 @@
+# base QC source for the menu code
+# add any shared includes you need above our legacy loader/runtime
+
+menu/legacy_menu_loader.qc
+menu/legacy_menu_runtime.qc

@@ -1,0 +1,7 @@
+// auto-generated from JSON, do not edit by hand
+#ifndef LEGACY_MENU_DATA_QH
+#define LEGACY_MENU_DATA_QH
+
+#define LM_WINDOW_COUNT 0
+
+#endif // LEGACY_MENU_DATA_QH
