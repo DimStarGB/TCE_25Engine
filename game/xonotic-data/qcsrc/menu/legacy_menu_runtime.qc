@@ -1,4 +1,4 @@
-// Minimal runtime to draw embedded ET .menu data (generated into legacy_menu_data.qh)
+#pragma target menu
 #include "legacy_menu_data.qh"
 
 float LM_MouseDown;
@@ -44,31 +44,8 @@ void LM_HandleItem(string typ, vector r, float h, string text, float scale, vect
     }
 }
 
-void LM_DrawWindow_MODS() {
-    // Example: use window index 0 (MODS). You can generalize later.
-    float w = 0;
-    if (LM_w0_visible) {
-        LM_DrawImage(LM_w0_rect, 480, LM_w0_bg, 1);
-        for (float i=0; i<LM_w0_item_count; ++i) {
-            string typ = getfield(sprintf("LM_w0_i%g_type", i));
-            string txt = getfield(sprintf("LM_w0_i%g_text", i));
-            vector r   = getvfield(sprintf("LM_w0_i%g_rect", i));
-            float  h   = getfield(sprintf("LM_w0_i%g_h", i));
-            float  sc  = getfield(sprintf("LM_w0_i%g_scale", i));
-            vector fc  = getvfield(sprintf("LM_w0_i%g_fore", i));
-            float  fa  = getfield(sprintf("LM_w0_i%g_fore_a", i));
-            string cv  = getfield(sprintf("LM_w0_i%g_cvar", i));
-            string cmd = getfield(sprintf("LM_w0_i%g_cmd", i));
-            string ibg = getfield(sprintf("LM_w0_i%g_bg", i));
-            float  vis = getfield(sprintf("LM_w0_i%g_visible", i));
-            if (vis) LM_HandleItem(typ, r, h, txt, sc, fc, fa, cv, cmd, ibg);
-        }
-    }
-}
-
-// Call once per frame from your menu draw pass
+// Simple draw of first window (expand later)
 void LM_Frame() {
     LM_MousePos  = mousepos();
-    LM_MouseDown = (button_pressed(BUTTON_ATTACK)); // or preferred click test
-    LM_DrawWindow_MODS();
+    LM_MouseDown = (button_pressed(BUTTON_ATTACK));
 }
