@@ -1,0 +1,13 @@
+{
+	map			"spawn_exchange"
+	longname		"^3spawn_exchange"
+	type			"wolfmp wolfsw wolflms"
+	timelimit		10
+	axisRespawnTime		1
+	alliedRespawnTime	1
+	briefing		"This is a tutorial for learning flag-spawns in mapping RTCW:ET using radiant.**-EB **Visit www.splashdamage.com forums to learn more."
+      axiswintext		"over"
+	alliedwintext		"over"
+	mapposition_x	        500
+	mapposition_y		100
+}

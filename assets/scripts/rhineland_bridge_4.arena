@@ -1,0 +1,15 @@
+{
+	map			"rhineland_bridge_4"
+	longname		"Rhineland Bridge 4"
+	type			"wolfmp wolfsw"
+	timelimit		30
+	axisRespawnTime		30
+	alliedRespawnTime	20
+	lmsbriefing		"The axis have a stronghold over the great flood Rhine, the Allies are trying to pull the Axis back into the mainland."
+	briefing		"1945, Southern Germany. Allied forces are trying to cross the Rhine river at the last functional bridge. Axis forces are struggling to keep the Allies from crossing, if the Allied forces succeed it may be the turning point of the war."
+	axiswintext		"The Axis skill in defence shows once again how bravery can win over the masses."
+	alliedwintext		"Once again the Allies pushes the Axis back into the mainland, we now have to secure this outpost and march on to new victorys."
+	mapposition_x	495
+	mapposition_y	495
+}
+

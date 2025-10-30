@@ -1,0 +1,12 @@
+{
+	map			"StarGate_1945"
+	longname		"^dStargate 1945 ^xfixed"
+	type			"wolfmp wolfsw"
+	briefing "The Axis have infiltradet the European Stargatecenter with some high explosive Gold-Naquada which is supposed for an airstrike over Hamburg. Allies have to get it back and take it to a secure place in the north of the base."
+	axiswintext		"Axis Win!"
+	alliedwintext	"Allies Win!"
+	mapposition_x	300
+	mapposition_y	400
+}
+
+

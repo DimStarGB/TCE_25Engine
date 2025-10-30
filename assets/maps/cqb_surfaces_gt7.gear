@@ -1,0 +1,412 @@
+gear_manager
+{
+	gm_playerSkinGroup	"temperate"   //models\players\temperate\...
+	gm_playerVoiceGroup	"default"   //scripts\voice\temperate\...
+	gm_playerIconGroup	"default"   //gfx\limbo\temperate\...
+	
+	gm_custom_weaponGroup	"default"     //custom\default\weapons\...
+	
+	// Single Handed - SHx
+	// pistols
+	gm_weapon
+	{
+		weaponID		"SH1"
+		weaponFile		"1911"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		3
+	}
+	gm_weapon
+	{
+		weaponID		"SH2"
+		weaponFile		"shorty"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		32
+	}
+	gm_weapon
+	{
+		weaponID		"SH3"
+		weaponFile		"glock18"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		3
+	}
+//
+//	SH4
+//
+	gm_weapon
+	{
+		weaponID		"SH13"
+		weaponFile		"usp"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		3
+	}
+	gm_weapon
+	{
+		weaponID		"SH14"
+		weaponFile		"uspsd"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		3
+	}
+	gm_weapon
+	{
+		weaponID		"SH15"
+		weaponFile		"deagle"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		3
+	}
+
+	// machine pistols
+	gm_weapon
+	{
+		weaponID		"SH5"
+		weaponFile		"mp9"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"SH6"
+	}
+	gm_weapon
+	{
+		weaponID		"SH6"
+		weaponFile		"miniuzi"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"SH5"
+	}
+	gm_weapon
+	{
+		weaponID		"SH7"
+		weaponFile		"mp9rs"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"SH8"
+	}
+	gm_weapon
+	{
+		weaponID		"SH8"
+		weaponFile		"miniuzirs"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"SH7"
+	}
+//	
+//		SH9
+//    SH10	
+//		SH11
+//		SH12
+	
+	// Single Handed Akimbo - SHA1 and SHA2
+	// akimbo
+	gm_weapon
+	{
+		weaponID		"SHA1"
+		weaponFile		"akimbo_1911"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		2
+	}
+	gm_weapon
+	{
+		weaponID		"SHA2"
+		weaponFile		"akimbo_shorty"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		48
+	}
+	
+	// Two Handed - THx
+	// submachine guns
+	gm_weapon
+	{
+		weaponID		"TH1"
+		weaponFile		"ump45"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"TH2"
+	}
+	gm_weapon
+	{
+		weaponID		"TH2"
+		weaponFile		"mp5"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"TH1"
+	}
+//
+//	TH3
+//	TH4
+//
+	gm_weapon
+	{
+		weaponID		"TH5"
+		weaponFile		"ump45rs"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"TH6"
+	}
+	gm_weapon
+	{
+		weaponID		"TH6"
+		weaponFile		"mp5rs"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		1 0 0
+		startClips		3
+		equivalentWeaponID	"TH5"
+	}
+//	
+//		TH29
+//		TH30
+	
+	// CAR
+	gm_weapon
+	{
+		weaponID		"TH7"
+		weaponFile		"scar"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH8"
+	}
+	gm_weapon
+	{
+		weaponID		"TH8"
+		weaponFile		"sg552"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH7"
+	}
+	gm_weapon
+	{
+		weaponID		"TH9"
+		weaponFile		"scarrs"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH10"
+	}
+	gm_weapon
+	{
+		weaponID		"TH10"
+		weaponFile		"sg552rs"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH9"
+	}
+//	
+//		TH25
+//		TH26
+//		TH27
+//		TH28
+	
+	// MBR
+	gm_weapon
+	{
+		weaponID		"TH13"
+		weaponFile		"rec7"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH14"
+	}
+	gm_weapon
+	{
+		weaponID		"TH14"
+		weaponFile		"ak47"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH13"
+	}
+	gm_weapon
+	{
+		weaponID		"TH15"
+		weaponFile		"rec7acog"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH16"
+	}
+	gm_weapon
+	{
+		weaponID		"TH16"
+		weaponFile		"ak47acog"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		0 1 0
+		startClips		3
+		equivalentWeaponID	"TH15"
+	}
+	
+	// sniper rifles
+	gm_weapon
+	{
+		weaponID		"TH17"
+		weaponFile		"m110"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		0 0 1
+		startClips		3
+		equivalentWeaponID	"TH18"
+	}
+	gm_weapon
+	{
+		weaponID		"TH18"
+		weaponFile		"m76"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		0 0 1
+		startClips		3
+		equivalentWeaponID	"TH17"
+	}
+	gm_weapon
+	{
+		weaponID		"TH19"
+		weaponFile		"m110is"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		0 0 1
+		startClips		3
+		equivalentWeaponID	"TH20"
+	}
+	gm_weapon
+	{
+		weaponID		"TH20"
+		weaponFile		"m76is"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		0 0 1
+		startClips		3
+		equivalentWeaponID	"TH19"
+	}
+//	
+//		TH21
+//		TH22
+//		TH33
+//		TH34
+	
+	// shotguns
+	gm_weapon
+	{
+		weaponID		"TH35"
+		weaponFile		"m3s90"
+		team			"specops"
+		slot			"primary"
+		requiredSkill		0 0 1
+		startClips		32
+		equivalentWeaponID	"TH36"
+	}
+	gm_weapon
+	{
+		weaponID		"TH36"
+		weaponFile		"spas12"
+		team			"terrorists"
+		slot			"primary"
+		requiredSkill		0 0 1
+		startClips		32
+		equivalentWeaponID	"TH35"
+	}
+//	
+//		TH37
+//		TH38
+//		TH23
+//		TH24
+	
+	// shotguns secondary
+	gm_weapon
+	{
+		weaponID		"TH39"
+		weaponFile		"m590c"
+		team			"both"
+		slot			"secondary"
+		requiredSkill		1 1 1
+		startClips		32
+	}
+	
+	// some so far hardcoded weapons DO NOT REMOVE
+	// knife
+	gm_weapon
+	{
+		weaponID		"K1"
+		weaponFile		"knife"
+		team			"both"
+		slot			"none"
+		requiredSkill		1 1 1
+		startClips		0
+	}
+	// frag grenade
+	gm_weapon
+	{
+		weaponID		"G1"
+		weaponFile		"mk32a"
+		team			"both"
+		slot			"none"
+		requiredSkill		1 1 1
+		startClips		0
+	}
+	// smoke grenade
+	gm_weapon
+	{
+		weaponID		"G2"
+		weaponFile		"m83"
+		team			"both"
+		slot			"none"
+		requiredSkill		1 1 1
+		startClips		0
+	}
+	// flash grenade
+	gm_weapon
+	{
+		weaponID		"G3"
+		weaponFile		"m84"
+		team			"both"
+		slot			"none"
+		requiredSkill		1 1 1
+		startClips		0
+	}
+	// demolition charge
+	gm_weapon
+	{
+		weaponID		"DC1"
+		weaponFile		"dynamite"
+		team			"both"
+		slot			"none"
+		requiredSkill		1 1 1
+		startClips		0
+	}
+}

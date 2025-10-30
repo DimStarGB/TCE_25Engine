@@ -1,0 +1,14 @@
+{
+	map			"obj_Depot-49-Beta9_1_merlin"
+	longname		"obj_Depot-49-Beta9-1_merlin"
+	authors     "Originally By BongWater"
+	type			"obj bc "
+	timelimit		4
+	axisRespawnTime		99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}
+

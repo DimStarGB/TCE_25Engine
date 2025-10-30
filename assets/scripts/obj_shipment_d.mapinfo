@@ -1,0 +1,14 @@
+{
+	map			"obj_shipment_d"
+	longname		"^7Obj_shipment DAY V1"
+	authors 		"DimStar"
+	type			"obj bc"
+	timelimit		4
+	axisRespawnTime	        1
+	alliedRespawnTime	1
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext	"n/a"
+}
+

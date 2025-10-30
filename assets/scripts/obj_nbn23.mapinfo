@@ -1,0 +1,14 @@
+{
+	map			"obj_nbn23"
+	longname		"Northport by Night"
+	authors     	"^2*Mr.G*"
+	type			"obj bc robj"
+	timelimit		4
+	axisRespawnTime	99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext	"n/a"
+}
+

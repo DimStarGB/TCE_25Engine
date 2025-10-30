@@ -1,0 +1,14 @@
+{
+	map "UJE_oil"
+	longname "^1[UJE]^3Oil"
+	type "wolfmp"
+	timelimit 20
+	axisRespawnTime 3
+	alliedRespawnTime 3
+	lmsbriefing "^1[UJE]^3Oil\n\nThe oil prices these days are really crazy and the prices are getting higher and higher for the oil\nSo...\nWe're gonne stop it in this map.\nAttack the oil platform and the oilFactory and show them how we feel about it\n\nMap by\n\n^1[UJE]^3Niek"
+	briefing "^1[UJE]^3Oil\n\nThe oil prices these days are really crazy and the prices are getting higher and higher for the oil\nSo...\nWe're gonne stop it in this map.\nAttack the oil platform and the oilFactory and show them how we feel about it\n\nMap by\n\n^1[UJE]^3Niek"
+	axiswintext "The Axis are victorious."
+	alliedwintext "The Allies are victorious."
+	mapposition_x 360
+	mapposition_y 470
+}

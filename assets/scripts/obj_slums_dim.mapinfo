@@ -1,0 +1,14 @@
+{
+	map			"obj_slums_dim"
+	longname		"^7SLUMS 2012"
+	authors 		"^1DimStar"
+	type			"obj bc robj"
+	timelimit		4
+	axisRespawnTime	99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext	"n/a"
+}
+

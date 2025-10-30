@@ -1,0 +1,13 @@
+{
+	map			"obj_vorort"
+	longname		"Vorort (Dortmund, Germany)"
+	authors     "Linkerhode"
+	type			"obj bc robj"
+	timelimit		4
+	axisRespawnTime		99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist blow up the obelisk [A], or the artefact [B]!"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}

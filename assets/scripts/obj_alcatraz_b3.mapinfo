@@ -1,0 +1,14 @@
+{
+	map			"obj_alcatraz_b3"
+	longname		"^0obj_alcatraz_b3 ^3by {CoD}$tea1th"
+	authors     "{CoD}$tea1th"
+	type			"obj bc robj"
+	timelimit		4
+	axisRespawnTime		99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}
+

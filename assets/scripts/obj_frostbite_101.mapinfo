@@ -1,0 +1,14 @@
+{
+	map			"obj_frostbite_101"
+	longname		"FrostBite (Vladivostok,Russia)"
+	authors     "CubeMaN"
+	type			"obj bc"
+	timelimit		4
+	axisRespawnTime		99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist destroy MainServerPC or Strage"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}
+

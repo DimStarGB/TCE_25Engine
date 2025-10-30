@@ -1,0 +1,14 @@
+{
+	map			"obj_chlite"
+	longname		"obj_chlite (tc_chlite)"
+	authors     "converted by ready"
+	type			"obj bc robj"
+	timelimit		4
+	axisRespawnTime		99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}
+

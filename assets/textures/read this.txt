@@ -1,0 +1,3 @@
+the .xcf file in this folder can be opened with Gimp
+and is the unmodified grass texture i used to create
+the grass variants

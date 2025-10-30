@@ -1,0 +1,14 @@
+{
+    map 								"mohaa_france_tdm"
+    longname 						"^dMoH^n:^dAA ^nFrance ^dTDM"
+    type 								"wolfmp wolfsw wolfcp"
+    timelimit 					15
+    axisRespawnTime 		3
+    alliedRespawnTime 	3
+    lmsbriefing 				"Deathmatch - No Objective"
+    briefing 						"^7Somewhere in France ... ****Gametype: Deathmatch*Objective: Nope****converted.by:*^0mad^n.^0et^n|^0Cambo****^7Contact^0/^7Homepage:*^0www^7.^0enemy^7-^0territory^7.^0org"
+    axiswintext 				"^gHighest Fragger ^2wins^g!"
+    alliedwintext 			"^gHighest Fragger ^2wins^g!"
+    mapposition_x				333
+		mapposition_y				580
+}

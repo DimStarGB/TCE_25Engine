@@ -1,0 +1,15 @@
+{
+	map			"passing_airplanes"
+	longname		"^gPassing Airplanes"
+	type			"wolfmp wolfsw"
+	timelimit		10
+	axisRespawnTime	1
+	alliedRespawnTime	1
+	lmsbriefing		"Last man standing is a winner."
+	briefing		"A passing airplanes-prefab by Loffy, July 2004."
+	axiswintext		"The Axis win again."
+	alliedwintext	"Another victory for the Allies."
+	mapposition_x	200
+	mapposition_y	450
+}
+

@@ -1,0 +1,13 @@
+{
+	map			"obj_dedust_final"
+	longname		"Dedust (El Kelaa, Morocco) Final Version"
+	authors     		"ak47|simons"
+	type			"obj bc"
+	timelimit		25
+	axisRespawnTime		15
+	alliedRespawnTime	15
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}

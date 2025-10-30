@@ -1,0 +1,34 @@
+// allied commander
+
+UJE_allies_fuel_destroyed
+{
+	sound sound/uje_oil/allies_fuel_destroyed.wav
+	voice
+	streaming
+}
+UJE_allies_protect_fuel
+{
+	sound sound/uje_oil/allies_protect_fuel.wav
+	voice
+	streaming
+}
+// axis commander
+
+UJE_axis_fuel_destroyed
+{
+	sound sound/uje_oil/axis_fuel_destroyed.wav
+	voice
+	streaming
+}
+UJE_destroyed_fuel
+{
+	sound sound/chat/axis/71a.wav
+	voice
+	streaming
+}
+uje_well_done_axis
+{
+	sound sound/uje_oil/voice_well_done.wav
+	voice
+	streaming
+}

@@ -1,0 +1,14 @@
+{
+	map			"obj_ctrl_c_v"
+	longname		"Control C"
+	authors     "^3DimStar"
+	type			"bc"
+	timelimit		15
+	axisRespawnTime		5
+	alliedRespawnTime	5
+	lmsbriefing		"n/a"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}
+

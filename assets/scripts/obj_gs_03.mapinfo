@@ -1,0 +1,14 @@
+{
+	map			"obj_gs_03"
+	longname		"GOLDMANN SYSTEMS"
+	authors     "^1//^3///^2///^u////"
+	type			"obj bc"
+	timelimit		4
+	axisRespawnTime		99
+	alliedRespawnTime	99
+	lmsbriefing		"Terrorist destroy the enemy containers"
+	briefing		"n/a"
+	axiswintext		"n/a"
+	alliedwintext		"n/a"
+}
+
