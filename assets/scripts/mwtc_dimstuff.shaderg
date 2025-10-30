@@ -1,0 +1,8281 @@
+/////////////////////////////////////////////////////
+//////////TC/CQB Dimtextures ////////////////////////
+//////////////////////////////These never made it////
+///////////////////////////////////////////to mwtc //
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+///////brick/////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_brick/brick(1)
+{
+	qer_editorimage	textures/dim_brick/brick(1).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(1).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_brick/brick(2)
+{
+	qer_editorimage	textures/dim_brick/brick(2).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(2).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(3)
+{
+	qer_editorimage	textures/dim_brick/brick(3).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(3).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(4)
+{
+	qer_editorimage	textures/dim_brick/brick(4).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(4).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(5)
+{
+	qer_editorimage	textures/dim_brick/brick(5).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(5).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(6)
+{
+	qer_editorimage	textures/dim_brick/brick(6).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(6).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(7)
+{
+	qer_editorimage	textures/dim_brick/brick(7).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(7).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(8)
+{
+	qer_editorimage	textures/dim_brick/brick(8).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(8).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(9)
+{
+	qer_editorimage	textures/dim_brick/brick(9).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(9).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(10)
+{
+	qer_editorimage	textures/dim_brick/brick(10).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(10).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(11)
+{
+	qer_editorimage	textures/dim_brick/brick(11).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(11).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(12)
+{
+	qer_editorimage	textures/dim_brick/brick(12).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(12).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(13)
+{
+	qer_editorimage	textures/dim_brick/brick(13).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(13).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(14)
+{
+	qer_editorimage	textures/dim_brick/brick(14).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(14).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(15)
+{
+	qer_editorimage	textures/dim_brick/brick(15).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(15).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(16)
+{
+	qer_editorimage	textures/dim_brick/brick(16).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(16).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(17)
+{
+	qer_editorimage	textures/dim_brick/brick(17).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(17).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(18)
+{
+	qer_editorimage	textures/dim_brick/brick(18).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(18).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(19)
+{
+	qer_editorimage	textures/dim_brick/brick(19).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(19).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(20)
+{
+	qer_editorimage	textures/dim_brick/brick(20).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(20).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(21)
+{
+	qer_editorimage	textures/dim_brick/brick(21).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(21).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(22)
+{
+	qer_editorimage	textures/dim_brick/brick(22).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(22).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(23)
+{
+	qer_editorimage	textures/dim_brick/brick(23).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(23).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(24)
+{
+	qer_editorimage	textures/dim_brick/brick(24).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(24).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(25)
+{
+	qer_editorimage	textures/dim_brick/brick(25).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(25).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(26)
+{
+	qer_editorimage	textures/dim_brick/brick(26).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(26).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(27)
+{
+	qer_editorimage	textures/dim_brick/brick(27).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(27).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(28)
+{
+	qer_editorimage	textures/dim_brick/brick(28).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(28).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(29)
+{
+	qer_editorimage	textures/dim_brick/brick(29).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(29).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(30)
+{
+	qer_editorimage	textures/dim_brick/brick(30).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(30).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(31)
+{
+	qer_editorimage	textures/dim_brick/brick(31).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(31).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_brick/brick(32)
+{
+	qer_editorimage	textures/dim_brick/brick(32).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(32).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_brick/brick(33)
+{
+	qer_editorimage	textures/dim_brick/brick(33).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(33).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(34)
+{
+	qer_editorimage	textures/dim_brick/brick(34).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(34).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_brick/brick(35)
+{
+	qer_editorimage	textures/dim_brick/brick(35).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(35).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_brick/brick(36)
+{
+	qer_editorimage	textures/dim_brick/brick(36).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(36).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(37)
+{
+	qer_editorimage	textures/dim_brick/brick(37).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(37).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_brick/brick(38)
+{
+	qer_editorimage	textures/dim_brick/brick(38).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_brick/brick(38).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+/////////////////////////////////////////////////////
+///////Concrete//////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_concrete/Concrete(1)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(1).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(1).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_concrete/Concrete(2)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(2).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(2).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(3)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(3).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(3).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(4)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(4).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(4).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(5)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(5).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(5).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(6)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(6).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(6).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(7)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(7).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(7).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(8)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(8).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(8).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(9)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(9).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(9).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(10)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(10).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(10).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(11)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(11).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(11).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(12)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(12).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(12).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(13)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(13).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(13).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(14)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(14).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(14).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(15)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(15).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(15).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(16)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(16).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(16).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(17)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(17).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(17).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(18)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(18).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(18).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(19)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(19).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(19).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(20)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(20).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(20).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(21)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(21).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(21).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(22)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(22).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(22).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(23)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(23).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(23).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(24)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(24).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(24).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(25)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(25).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(25).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(26)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(26).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(26).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(27)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(27).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(27).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(28)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(28).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(28).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(29)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(29).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(29).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(30)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(30).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(30).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(31)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(31).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(31).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_concrete/Concrete(32)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(32).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(32).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_concrete/Concrete(33)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(33).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(33).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(34)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(34).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(34).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_concrete/Concrete(35)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(35).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(35).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}	
+
+textures/dim_concrete/Concrete(36)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(36).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(36).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(37)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(37).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(37).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(38)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(38).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(38).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(39)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(39).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(39).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(40)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(40).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(40).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(41)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(41).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(41).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(42)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(42).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(42).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(43)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(43).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(43).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(44)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(44).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(44).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(45)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(45).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(45).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(46)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(46).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(46).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(47)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(47).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(47).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(48)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(48).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(48).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(49)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(49).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(49).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(50)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(50).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(50).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(51)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(51).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(51).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(52)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(52).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(52).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(53)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(53).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(53).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(54)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(54).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(54).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(55)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(55).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(55).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(56)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(56).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(56).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(57)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(57).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(57).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(58)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(58).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(58).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(59)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(59).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(59).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(60)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(60).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(60).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(61)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(61).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(61).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_concrete/Concrete(63)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(63).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(63).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+		
+textures/dim_concrete/Concrete(64)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(64).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(64).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(65)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(65).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(65).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(66)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(66).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(66).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(67)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(67).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(67).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(67)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(67).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(67).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(68)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(68).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(68).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(69)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(69).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(69).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(70)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(70).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(70).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(71)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(71).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(71).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(72)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(72).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(72).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(73)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(73).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(73).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(74)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(74).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(74).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(75)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(75).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(75).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(76)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(76).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(76).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(76)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(76).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(76).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(77)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(77).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(77).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(78)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(78).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(78).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(79)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(79).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(79).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(80)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(80).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(80).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(81)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(81).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(81).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+	
+textures/dim_concrete/Concrete(82)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(82).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(82).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_concrete/Concrete(83)
+{
+	qer_editorimage	textures/dim_concrete/Concrete(83).jpg
+	surfaceparm mat_cement
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_concrete/Concrete(83).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+/////////////////////////////////////////////////////
+///////Decals////////////////////////////////////////
+/////////////////////////////////////////////////////
+///Decals are wip add later /////////////////////////
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+///////glass/////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_glass/Glass(1)
+{
+	qer_trans 0.5
+	
+	qer_editorimage textures/dim_glass/Glass(1).jpg
+	
+	q3map_bouncescale 0
+	
+	surfaceparm trans
+	surfaceparm nolightmap
+	surfaceparm slick
+	
+	surfaceparm mat_glass
+	
+	{
+    map textures/dim_glass/Glass(1).jpg
+		tcGen environment
+		blendFunc GL_ONE GL_ONE
+    rgbGen const ( 0.50 0.50 0.50 )
+	}   	
+	{
+		map textures/dim_glass/Glass(1).jpg
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		depthwrite
+		rgbGen const ( 0.50 0.50 0.50 )
+	}
+}
+
+textures/dim_glass/Glass(2)
+{
+	qer_trans 0.5
+	
+	qer_editorimage textures/dim_glass/Glass(2).jpg
+	
+	q3map_bouncescale 0
+	
+	surfaceparm trans
+	surfaceparm nolightmap
+	surfaceparm slick
+	
+	surfaceparm mat_glass
+	
+	{
+    map textures/dim_glass/Glass(2).jpg
+		tcGen environment
+		blendFunc GL_ONE GL_ONE
+    rgbGen const ( 0.50 0.50 0.50 )
+	}   	
+	{
+		map textures/dim_glass/Glass(2).jpg
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		depthwrite
+		rgbGen const ( 0.50 0.50 0.50 )
+	}
+}
+
+textures/dim_glass/Glass(3)
+{
+	qer_trans 0.5
+	
+	qer_editorimage textures/dim_glass/Glass(3).jpg
+	
+	q3map_bouncescale 0
+	
+	surfaceparm trans
+	surfaceparm nolightmap
+	surfaceparm slick
+	
+	surfaceparm mat_glass
+	
+	{
+    map textures/dim_glass/Glass(3).jpg
+		tcGen environment
+		blendFunc GL_ONE GL_ONE
+    rgbGen const ( 0.50 0.50 0.50 )
+	}   	
+	{
+		map textures/dim_glass/Glass(3).jpg
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		depthwrite
+		rgbGen const ( 0.50 0.50 0.50 )
+	}
+}
+
+/////////////////////////////////////////////////////
+///////dim_lights////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_lights/Lights(1)
+{
+	qer_editorimage textures/dim_lights/Lights(1).jpg
+	q3map_surfacelight 9250
+	surfaceparm nomarks
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_lights/Lights(1).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/lights/light_m5.blend.tga
+		blendFunc GL_ONE GL_ONE
+	}
+}
+
+textures/dim_lights/Lights(2)
+{
+	qer_editorimage textures/dim_lights/Lights(2).jpg
+	q3map_lightimage textures/lights/light_m6.blend.tga
+	q3map_surfacelight 10000
+	surfaceparm nomarks
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_lights/Lights(2).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/lights/light_m6.blend.tga
+		blendFunc GL_ONE GL_ONE
+	}
+}
+
+/////////////////////////////////////////////////////
+///////Metals////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+/////////////////
+//Metaltrans/////
+/////////////////
+
+textures/dim_metaltrans/Metaltrans(1)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(1).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(1).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(2)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(2).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(2).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(3)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(3).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(3).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+textures/dim_metaltrans/Metaltrans(4)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(4).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(4).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(5)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(5).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(5).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(6)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(6).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(6).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(7)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(7).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(7).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(8)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(8).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(8).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(9)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(9).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(9).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(10)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(10).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(10).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(11)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(11).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(11).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(12)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(12).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(12).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(13)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(13).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(13).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(14)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(14).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(14).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(15)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(15).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(15).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(16)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(16).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(16).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/dim_metaltrans/Metaltrans(17)
+{
+        qer_editorimage textures/dim_metaltrans/Metaltrans(17).jpg
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm playerclip	
+	surfaceparm mat_tin
+	//surfaceparm alphashadow	
+
+	nopicmip
+	nomipmaps
+	
+	cull none
+
+	{
+		map textures/dim_metaltrans/Metaltrans(17).jpg
+		//tcMod scale 2 2
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+////////////----------------
+
+textures/dim_metal/Metal(1)
+{
+	qer_editorimage textures/dim_metal/Metal(1).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(1).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(2)
+{
+	qer_editorimage textures/dim_metal/Metal(2).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(2).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(3)
+{
+	qer_editorimage textures/dim_metal/Metal(3).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(3).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(4)
+{
+	qer_editorimage textures/dim_metal/Metal(4).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(4).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(5)
+{
+	qer_editorimage textures/dim_metal/Metal(5).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(5).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(6)
+{
+	qer_editorimage textures/dim_metal/Metal(6).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(6).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(7)
+{
+	qer_editorimage textures/dim_metal/Metal(7).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(7).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(8)
+{
+	qer_editorimage textures/dim_metal/Metal(8).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(8).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(9)
+{
+	qer_editorimage textures/dim_metal/Metal(9).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(9).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(10)
+{
+	qer_editorimage textures/dim_metal/Metal(10).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(10).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(11)
+{
+	qer_editorimage textures/dim_metal/Metal(11).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(11).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(12)
+{
+	qer_editorimage textures/dim_metal/Metal(12).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(12).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(13)
+{
+	qer_editorimage textures/dim_metal/Metal(13).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(13).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(14)
+{
+	qer_editorimage textures/dim_metal/Metal(14).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(14).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(15)
+{
+	qer_editorimage textures/dim_metal/Metal(15).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(15).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(16)
+{
+	qer_editorimage textures/dim_metal/Metal(16).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(16).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(17)
+{
+	qer_editorimage textures/dim_metal/Metal(17).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(17).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(18)
+{
+	qer_editorimage textures/dim_metal/Metal(18).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(18).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(19)
+{
+	qer_editorimage textures/dim_metal/Metal(19).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(19).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(20)
+{
+	qer_editorimage textures/dim_metal/Metal(20).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(20).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+textures/dim_metal/Metal(21)
+{
+	qer_editorimage textures/dim_metal/Metal(21).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(21).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(22)
+{
+	qer_editorimage textures/dim_metal/Metal(22).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(22).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(23)
+{
+	qer_editorimage textures/dim_metal/Metal(23).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(23).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(24)
+{
+	qer_editorimage textures/dim_metal/Metal(24).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(24).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(25)
+{
+	qer_editorimage textures/dim_metal/Metal(25).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(25).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(26)
+{
+	qer_editorimage textures/dim_metal/Metal(26).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(26).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(27)
+{
+	qer_editorimage textures/dim_metal/Metal(27).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(27).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(28)
+{
+	qer_editorimage textures/dim_metal/Metal(28).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(28).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(29)
+{
+	qer_editorimage textures/dim_metal/Metal(29).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(29).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(30)
+{
+	qer_editorimage textures/dim_metal/Metal(30).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(30).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(31)
+{
+	qer_editorimage textures/dim_metal/Metal(31).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(31).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(32)
+{
+	qer_editorimage textures/dim_metal/Metal(32).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(32).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(33)
+{
+	qer_editorimage textures/dim_metal/Metal(33).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(33).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(34)
+{
+	qer_editorimage textures/dim_metal/Metal(34).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(34).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(35)
+{
+	qer_editorimage textures/dim_metal/Metal(35).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(35).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(36)
+{
+	qer_editorimage textures/dim_metal/Metal(36).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(36).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(37)
+{
+	qer_editorimage textures/dim_metal/Metal(37).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(37).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(38)
+{
+	qer_editorimage textures/dim_metal/Metal(38).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(38).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(39)
+{
+	qer_editorimage textures/dim_metal/Metal(39).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(39).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(40)
+{
+	qer_editorimage textures/dim_metal/Metal(40).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(40).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(41)
+{
+	qer_editorimage textures/dim_metal/Metal(41).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(41).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(42)
+{
+	qer_editorimage textures/dim_metal/Metal(42).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(42).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(43)
+{
+	qer_editorimage textures/dim_metal/Metal(43).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(43).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(44)
+{
+	qer_editorimage textures/dim_metal/Metal(44).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(44).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(45)
+{
+	qer_editorimage textures/dim_metal/Metal(45).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(45).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(46)
+{
+	qer_editorimage textures/dim_metal/Metal(46).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(46).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(47)
+{
+	qer_editorimage textures/dim_metal/Metal(47).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(47).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(48)
+{
+	qer_editorimage textures/dim_metal/Metal(48).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(48).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(49)
+{
+	qer_editorimage textures/dim_metal/Metal(49).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(49).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(50)
+{
+	qer_editorimage textures/dim_metal/Metal(50).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(50).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(51)
+{
+	qer_editorimage textures/dim_metal/Metal(51).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(51).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(52)
+{
+	qer_editorimage textures/dim_metal/Metal(52).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(52).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(53)
+{
+	qer_editorimage textures/dim_metal/Metal(53).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(53).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(54)
+{
+	qer_editorimage textures/dim_metal/Metal(54).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(54).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(55)
+{
+	qer_editorimage textures/dim_metal/Metal(55).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(55).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(56)
+{
+	qer_editorimage textures/dim_metal/Metal(56).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(56).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(57)
+{
+	qer_editorimage textures/dim_metal/Metal(57).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(57).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(58)
+{
+	qer_editorimage textures/dim_metal/Metal(58).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(58).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(59)
+{
+	qer_editorimage textures/dim_metal/Metal(59).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(59).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(60)
+{
+	qer_editorimage textures/dim_metal/Metal(60).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(60).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(61)
+{
+	qer_editorimage textures/dim_metal/Metal(61).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(61).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(62)
+{
+	qer_editorimage textures/dim_metal/Metal(62).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(62).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(63)
+{
+	qer_editorimage textures/dim_metal/Metal(63).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(63).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(64)
+{
+	qer_editorimage textures/dim_metal/Metal(64).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(64).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(65)
+{
+	qer_editorimage textures/dim_metal/Metal(65).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(65).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(66)
+{
+	qer_editorimage textures/dim_metal/Metal(66).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(66).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(67)
+{
+	qer_editorimage textures/dim_metal/Metal(67).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(67).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(68)
+{
+	qer_editorimage textures/dim_metal/Metal(68).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(68).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(69)
+{
+	qer_editorimage textures/dim_metal/Metal(69).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(69).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(70)
+{
+	qer_editorimage textures/dim_metal/Metal(70).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(70).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(71)
+{
+	qer_editorimage textures/dim_metal/Metal(71).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(71).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(72)
+{
+	qer_editorimage textures/dim_metal/Metal(72).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(72).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(73)
+{
+	qer_editorimage textures/dim_metal/Metal(73).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(73).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(74)
+{
+	qer_editorimage textures/dim_metal/Metal(74).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(74).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(75)
+{
+	qer_editorimage textures/dim_metal/Metal(75).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(75).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(76)
+{
+	qer_editorimage textures/dim_metal/Metal(76).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(76).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(77)
+{
+	qer_editorimage textures/dim_metal/Metal(77).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(77).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(78)
+{
+	qer_editorimage textures/dim_metal/Metal(78).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(78).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(79)
+{
+	qer_editorimage textures/dim_metal/Metal(79).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(79).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(80)
+{
+	qer_editorimage textures/dim_metal/Metal(80).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(80).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(81)
+{
+	qer_editorimage textures/dim_metal/Metal(81).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(81).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(82)
+{
+	qer_editorimage textures/dim_metal/Metal(82).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(82).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(83)
+{
+	qer_editorimage textures/dim_metal/Metal(83).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(83).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(84)
+{
+	qer_editorimage textures/dim_metal/Metal(84).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(84).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(85)
+{
+	qer_editorimage textures/dim_metal/Metal(85).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(85).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(86)
+{
+	qer_editorimage textures/dim_metal/Metal(86).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(86).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(87)
+{
+	qer_editorimage textures/dim_metal/Metal(87).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(87).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(88)
+{
+	qer_editorimage textures/dim_metal/Metal(88).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(88).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(89)
+{
+	qer_editorimage textures/dim_metal/Metal(89).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(89).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(90)
+{
+	qer_editorimage textures/dim_metal/Metal(90).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(90).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+
+textures/dim_metal/Metal(91)
+{
+	qer_editorimage textures/dim_metal/Metal(91).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(91).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(92)
+{
+	qer_editorimage textures/dim_metal/Metal(92).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(92).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(93)
+{
+	qer_editorimage textures/dim_metal/Metal(93).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(93).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(94)
+{
+	qer_editorimage textures/dim_metal/Metal(94).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(94).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(95)
+{
+	qer_editorimage textures/dim_metal/Metal(95).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(95).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(96)
+{
+	qer_editorimage textures/dim_metal/Metal(96).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(96).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(97)
+{
+	qer_editorimage textures/dim_metal/Metal(97).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(97).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(98)
+{
+	qer_editorimage textures/dim_metal/Metal(98).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(98).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(99)
+{
+	qer_editorimage textures/dim_metal/Metal(99).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(99).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(100)
+{
+	qer_editorimage textures/dim_metal/Metal(100).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(100).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(101)
+{
+	qer_editorimage textures/dim_metal/Metal(101).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(101).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(102)
+{
+	qer_editorimage textures/dim_metal/Metal(102).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(102).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(103)
+{
+	qer_editorimage textures/dim_metal/Metal(103).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(103).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(104)
+{
+	qer_editorimage textures/dim_metal/Metal(104).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(4).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(105)
+{
+	qer_editorimage textures/dim_metal/Metal(105).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(105).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(106)
+{
+	qer_editorimage textures/dim_metal/Metal(106).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(106).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(107)
+{
+	qer_editorimage textures/dim_metal/Metal(107).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(107).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(108)
+{
+	qer_editorimage textures/dim_metal/Metal(108).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(108).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(109)
+{
+	qer_editorimage textures/dim_metal/Metal(109).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(109).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(110)
+{
+	qer_editorimage textures/dim_metal/Metal(110).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(110).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(111)
+{
+	qer_editorimage textures/dim_metal/Metal(111).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(111).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(112)
+{
+	qer_editorimage textures/dim_metal/Metal(112).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(112).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(113)
+{
+	qer_editorimage textures/dim_metal/Metal(113).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(113).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(114)
+{
+	qer_editorimage textures/dim_metal/Metal(114).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(114).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(115)
+{
+	qer_editorimage textures/dim_metal/Metal(115).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(115).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(116)
+{
+	qer_editorimage textures/dim_metal/Metal(116).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(116).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(117)
+{
+	qer_editorimage textures/dim_metal/Metal(117).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(117).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(118)
+{
+	qer_editorimage textures/dim_metal/Metal(118).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(118).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(119)
+{
+	qer_editorimage textures/dim_metal/Metal(119).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(119).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(120)
+{
+	qer_editorimage textures/dim_metal/Metal(120).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(120).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+textures/dim_metal/Metal(121)
+{
+	qer_editorimage textures/dim_metal/Metal(121).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(21).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(122)
+{
+	qer_editorimage textures/dim_metal/Metal(122).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(122).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(123)
+{
+	qer_editorimage textures/dim_metal/Metal(123).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(123).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(124)
+{
+	qer_editorimage textures/dim_metal/Metal(124).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(124).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(125)
+{
+	qer_editorimage textures/dim_metal/Metal(125).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(125).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(126)
+{
+	qer_editorimage textures/dim_metal/Metal(126).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(126).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(127)
+{
+	qer_editorimage textures/dim_metal/Metal(127).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(127).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(128)
+{
+	qer_editorimage textures/dim_metal/Metal(128).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(128).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(129)
+{
+	qer_editorimage textures/dim_metal/Metal(129).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(129).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(130)
+{
+	qer_editorimage textures/dim_metal/Metal(130).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(130).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(131)
+{
+	qer_editorimage textures/dim_metal/Metal(131).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(311).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(132)
+{
+	qer_editorimage textures/dim_metal/Metal(132).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(132).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(133)
+{
+	qer_editorimage textures/dim_metal/Metal(133).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(133).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(134)
+{
+	qer_editorimage textures/dim_metal/Metal(134).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(134).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(135)
+{
+	qer_editorimage textures/dim_metal/Metal(135).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(135).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(136)
+{
+	qer_editorimage textures/dim_metal/Metal(136).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(136).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(137)
+{
+	qer_editorimage textures/dim_metal/Metal(137).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(137).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(138)
+{
+	qer_editorimage textures/dim_metal/Metal(138).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(138).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(139)
+{
+	qer_editorimage textures/dim_metal/Metal(139).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(139).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(140)
+{
+	qer_editorimage textures/dim_metal/Metal(140).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(140).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(141)
+{
+	qer_editorimage textures/dim_metal/Metal(141).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(141).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(142)
+{
+	qer_editorimage textures/dim_metal/Metal(142).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(142).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(143)
+{
+	qer_editorimage textures/dim_metal/Metal(143).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(143).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(144)
+{
+	qer_editorimage textures/dim_metal/Metal(144).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(144).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(145)
+{
+	qer_editorimage textures/dim_metal/Metal(145).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(145).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(146)
+{
+	qer_editorimage textures/dim_metal/Metal(146).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(146).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(147)
+{
+	qer_editorimage textures/dim_metal/Metal(147).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(147).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(148)
+{
+	qer_editorimage textures/dim_metal/Metal(148).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(148).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(149)
+{
+	qer_editorimage textures/dim_metal/Metal(149).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(149).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(150)
+{
+	qer_editorimage textures/dim_metal/Metal(150).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(150).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(151)
+{
+	qer_editorimage textures/dim_metal/Metal(151).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(151).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(152)
+{
+	qer_editorimage textures/dim_metal/Metal(152).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(152).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(153)
+{
+	qer_editorimage textures/dim_metal/Metal(153).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(153).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(154)
+{
+	qer_editorimage textures/dim_metal/Metal(154).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(154).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(155)
+{
+	qer_editorimage textures/dim_metal/Metal(155).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(155).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(156)
+{
+	qer_editorimage textures/dim_metal/Metal(156).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(156).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(157)
+{
+	qer_editorimage textures/dim_metal/Metal(157).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(157).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(158)
+{
+	qer_editorimage textures/dim_metal/Metal(158).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(158).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(159)
+{
+	qer_editorimage textures/dim_metal/Metal(159).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(159).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(160)
+{
+	qer_editorimage textures/dim_metal/Metal(160).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(160).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(161)
+{
+	qer_editorimage textures/dim_metal/Metal(161).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(161).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(162)
+{
+	qer_editorimage textures/dim_metal/Metal(162).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(162).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(163)
+{
+	qer_editorimage textures/dim_metal/Metal(163).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(163).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(164)
+{
+	qer_editorimage textures/dim_metal/Metal(164).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(164).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(165)
+{
+	qer_editorimage textures/dim_metal/Metal(165).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(165).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(166)
+{
+	qer_editorimage textures/dim_metal/Metal(166).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(166).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(167)
+{
+	qer_editorimage textures/dim_metal/Metal(167).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(167).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(168)
+{
+	qer_editorimage textures/dim_metal/Metal(168).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(168).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(169)
+{
+	qer_editorimage textures/dim_metal/Metal(169).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(169).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(170)
+{
+	qer_editorimage textures/dim_metal/Metal(170).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(170).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(171)
+{
+	qer_editorimage textures/dim_metal/Metal(171).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(171).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(172)
+{
+	qer_editorimage textures/dim_metal/Metal(172).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(172).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(173)
+{
+	qer_editorimage textures/dim_metal/Metal(173).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(173).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(174)
+{
+	qer_editorimage textures/dim_metal/Metal(174).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(174).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(175)
+{
+	qer_editorimage textures/dim_metal/Metal(175).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(175).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(176)
+{
+	qer_editorimage textures/dim_metal/Metal(176).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(176).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(177)
+{
+	qer_editorimage textures/dim_metal/Metal(177).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(177).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(178)
+{
+	qer_editorimage textures/dim_metal/Metal(178).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(178).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(179)
+{
+	qer_editorimage textures/dim_metal/Metal(179).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(179).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(180)
+{
+	qer_editorimage textures/dim_metal/Metal(180).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(180).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(181)
+{
+	qer_editorimage textures/dim_metal/Metal(181).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(181).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(182)
+{
+	qer_editorimage textures/dim_metal/Metal(182).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(182).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(183)
+{
+	qer_editorimage textures/dim_metal/Metal(183).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(183).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(184)
+{
+	qer_editorimage textures/dim_metal/Metal(184).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(184).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(185)
+{
+	qer_editorimage textures/dim_metal/Metal(185).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(185).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(186)
+{
+	qer_editorimage textures/dim_metal/Metal(186).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(186).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(187)
+{
+	qer_editorimage textures/dim_metal/Metal(187).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(187).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(188)
+{
+	qer_editorimage textures/dim_metal/Metal(188).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(188).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(189)
+{
+	qer_editorimage textures/dim_metal/Metal(189).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(189).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(190)
+{
+	qer_editorimage textures/dim_metal/Metal(190).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(190).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+
+textures/dim_metal/Metal(191)
+{
+	qer_editorimage textures/dim_metal/Metal(191).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(191).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(192)
+{
+	qer_editorimage textures/dim_metal/Metal(192).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(192).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(193)
+{
+	qer_editorimage textures/dim_metal/Metal(193).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(193).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(194)
+{
+	qer_editorimage textures/dim_metal/Metal(194).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(194).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(195)
+{
+	qer_editorimage textures/dim_metal/Metal(195).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(195).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(196)
+{
+	qer_editorimage textures/dim_metal/Metal(196).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(196).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(197)
+{
+	qer_editorimage textures/dim_metal/Metal(197).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(197).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(198)
+{
+	qer_editorimage textures/dim_metal/Metal(198).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(198).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(199)
+{
+	qer_editorimage textures/dim_metal/Metal(199).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(199).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(200)
+{
+	qer_editorimage textures/dim_metal/Metal(200).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(200).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+textures/dim_metal/Metal(201)
+{
+	qer_editorimage textures/dim_metal/Metal(201).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(201).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(202)
+{
+	qer_editorimage textures/dim_metal/Metal(202).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(202).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(203)
+{
+	qer_editorimage textures/dim_metal/Metal(203).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(203).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(204)
+{
+	qer_editorimage textures/dim_metal/Metal(204).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(204).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(205)
+{
+	qer_editorimage textures/dim_metal/Metal(205).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(205).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(206)
+{
+	qer_editorimage textures/dim_metal/Metal(206).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(206).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(207)
+{
+	qer_editorimage textures/dim_metal/Metal(207).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(207).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(208)
+{
+	qer_editorimage textures/dim_metal/Metal(q08).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(208).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(209)
+{
+	qer_editorimage textures/dim_metal/Metal(209).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(209).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(210)
+{
+	qer_editorimage textures/dim_metal/Metal(210).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(210).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(211)
+{
+	qer_editorimage textures/dim_metal/Metal(211).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(211).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(212)
+{
+	qer_editorimage textures/dim_metal/Metal(212).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(212).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(213)
+{
+	qer_editorimage textures/dim_metal/Metal(213).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(213).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(214)
+{
+	qer_editorimage textures/dim_metal/Metal(214).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(214).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(215)
+{
+	qer_editorimage textures/dim_metal/Metal(215).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(215).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(216)
+{
+	qer_editorimage textures/dim_metal/Metal(216).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(216).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_metal/Metal(217)
+{
+	qer_editorimage textures/dim_metal/Metal(217).jpg
+	surfaceparm mat_metal
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_metal/Metal(217).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+/////////////////////////////////////////////////////
+///////dim_nature////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_nature/nature(1)
+{
+	qer_editorimage textures/dim_nature/nature(1).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(1).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+
+textures/dim_nature/nature(2)
+{
+	qer_editorimage textures/dim_nature/nature(2).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(2).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(3)
+{
+	qer_editorimage textures/dim_nature/nature(3).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(3).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(4)
+{
+	qer_editorimage textures/dim_nature/nature(4).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(4).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(5)
+{
+	qer_editorimage textures/dim_nature/nature(5).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(5).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(6)
+{
+	qer_editorimage textures/dim_nature/nature(6).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(6).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(7)
+{
+	qer_editorimage textures/dim_nature/nature(7).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(7).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(8)
+{
+	qer_editorimage textures/dim_nature/nature(8).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(8).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(9)
+{
+	qer_editorimage textures/dim_nature/nature(9).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(9).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(10)
+{
+	qer_editorimage textures/dim_nature/nature(10).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(10).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(11)
+{
+	qer_editorimage textures/dim_nature/nature(11).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(11).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+
+textures/dim_nature/nature(12)
+{
+	qer_editorimage textures/dim_nature/nature(12).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(12).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(13)
+{
+	qer_editorimage textures/dim_nature/nature(13).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(13).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(14)
+{
+	qer_editorimage textures/dim_nature/nature(14).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(14).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(15)
+{
+	qer_editorimage textures/dim_nature/nature(15).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(15).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(16)
+{
+	qer_editorimage textures/dim_nature/nature(16).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(16).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(17)
+{
+	qer_editorimage textures/dim_nature/nature(17).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(17).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(18)
+{
+	qer_editorimage textures/dim_nature/nature(18).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(18).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(19)
+{
+	qer_editorimage textures/dim_nature/nature(19).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(19).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(20)
+{
+	qer_editorimage textures/dim_nature/nature(20).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(20).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(21)
+{
+	qer_editorimage textures/dim_nature/nature(21).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(21).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+
+textures/dim_nature/nature(22)
+{
+	qer_editorimage textures/dim_nature/nature(22).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(22).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(23)
+{
+	qer_editorimage textures/dim_nature/nature(23).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(23).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(24)
+{
+	qer_editorimage textures/dim_nature/nature(24).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(24).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(25)
+{
+	qer_editorimage textures/dim_nature/nature(25).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(25).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(26)
+{
+	qer_editorimage textures/dim_nature/nature(26).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(26).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(27)
+{
+	qer_editorimage textures/dim_nature/nature(27).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(27).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(28)
+{
+	qer_editorimage textures/dim_nature/nature(28).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(28).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(29)
+{
+	qer_editorimage textures/dim_nature/nature(29).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(29).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(30)
+{
+	qer_editorimage textures/dim_nature/nature(30).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(30).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(31)
+{
+	qer_editorimage textures/dim_nature/nature(31).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(31).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+
+textures/dim_nature/nature(32)
+{
+	qer_editorimage textures/dim_nature/nature(32).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(32).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(33)
+{
+	qer_editorimage textures/dim_nature/nature(33).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(33).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(34)
+{
+	qer_editorimage textures/dim_nature/nature(34).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(34).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(35)
+{
+	qer_editorimage textures/dim_nature/nature(35).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(35).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(36)
+{
+	qer_editorimage textures/dim_nature/nature(36).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(36).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(37)
+{
+	qer_editorimage textures/dim_nature/nature(37).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(37).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(38)
+{
+	qer_editorimage textures/dim_nature/nature(38).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(38).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(39)
+{
+	qer_editorimage textures/dim_nature/nature(39).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(39).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/dim_nature/nature(40)
+{
+	qer_editorimage textures/dim_nature/nature(10).jpg
+	surfaceparm mat_mud
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/dim_nature/nature(10).jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+/////////////////////////////////////////////////////
+///////dim_plaster///////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_plaster/plaster(1)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(1).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(2)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(2).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(3)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(3).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(4)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(4).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(5)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(5).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(6)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(6).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(7)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(7).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(8)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(8).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(9)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(9).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(10)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(10).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(11)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(11).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(12)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(12).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(13)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(13).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(14)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(14).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(15)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(15).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(16)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(16).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(17)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(17).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(18)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(18).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(19)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(19).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(20)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(10).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_plaster/plaster(21)
+{
+	surfaceparm mat_plastering
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_plaster/plaster(21).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+/////////////////////////////////////////////////////
+///////dim_stone/////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_stone/Stone(1)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(1).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_stone/Stone(2)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(2).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(3)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(3).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(4)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(4).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(5)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(5).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(6)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(6).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(7)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(7).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(8)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(8).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(9)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(9).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(10)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(10).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(11)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(11).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(12)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(12).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(13)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(13).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(14)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(14).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(15)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(15).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(16)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(16).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+textures/dim_stone/Stone(17)
+{
+	surfaceparm mat_brick
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_stone/Stone(17).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+/////////////////////////////////////////////////////
+///////Tile//////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_tile/Tile(1)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(1).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(2)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(2).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(3)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(3).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(4)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(4).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(5)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(5).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(6)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(6).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(7)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(7).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(8)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(8).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(9)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(9).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(10)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(10).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(11)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(11).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(12)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(12).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(13)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(13).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(14)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(14).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(15)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(15).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(16)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(16).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(17)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(17).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(18)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(18).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(19)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(19).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(20)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(20).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(21)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(21).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(22)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(22).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(23)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(23).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(24)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(24).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(25)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(25).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(26)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(26).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(27)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(27).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(28)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(28).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(29)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(29).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(30)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(30).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(31)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(31).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(32)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(32).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(33)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(33).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(34)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(34).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(35)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(35).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(36)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(36).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(37)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(37).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(38)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(38).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(39)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(39).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_tile/Tile(40)
+{
+	surfaceparm mat_tile
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_tile/Tile(40).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+/////////////////////////////////////////////////////
+///////Wood//////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+textures/dim_wood/Wood(1)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(1).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(2)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(2).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(3)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(3).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(4)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(4).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(5)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(5).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(6)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(6).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(7)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(7).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(8)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(8).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(9)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(9).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(10)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(10).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(11)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(11).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(12)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(12).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(13)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(13).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(14)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(14).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(15)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(15).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(16)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(16).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(17)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(17).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(18)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(18).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(19)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(19).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(20)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(20).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(21)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(21).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(22)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(22).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(23)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(23).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(24)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(24).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(25)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(25).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(26)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(26).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(27)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(27).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(28)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(28).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(29)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(29).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(30)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(30).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(31)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(31).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(32)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(32).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(33)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(33).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(34)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(34).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(35)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(35).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(36)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(36).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(37)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(37).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(38)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/Wood(38).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+textures/dim_wood/Wood(39)
+{
+	surfaceparm mat_wood_hollow
+	
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/dim_wood/Wood(39).jpg
+		blendfunc gl_dst_color gl_zero
+		rgbgen identity
+	}
+}
+
+
+
+
+
+	
