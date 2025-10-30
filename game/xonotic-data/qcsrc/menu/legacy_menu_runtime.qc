@@ -1,4 +1,5 @@
-#pragma target DP
+#pragma target DP(patched)
+#include "../dpdefs/csprogsdefs.qh"
 #include "legacy_menu_data.qh"
 
 float LM_MouseDown;
