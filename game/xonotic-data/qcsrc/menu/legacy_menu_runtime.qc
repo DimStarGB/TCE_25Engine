@@ -7,8 +7,11 @@ float  LM_MouseDown;
 float  LM_Click;
 vector LM_MousePos;
 
+// Screen size (set by m_draw in legacy_menu_entry.qc)
+vector LM_ScreenSize;
+
 // Helpers
-vector LM_V2(float x, float y){vector v; v_x=x; v_y=y; v_z=0; return v;}
+vector LM_V2(float x, float y){ vector v; v_x=x; v_y=y; v_z=0; return v; }
 
 // Minimal draw=label/button/image using DP menu builtins
 void LM_DrawLabel(vector rect, float h, string text, float scale, vector col, float a){
@@ -35,6 +38,14 @@ void LM_LocalCmd(string s){ if(s&&s!="") localcmd(strcat(s,"\n")); }
 
 // TEMP: minimal demo content (until we read real data fields)
 void LM_Frame(){
+    // --- shader-mapped fullscreen background (uses your *.shader scripts) ---
+    {
+        vector size; size_x = LM_ScreenSize_x; size_y = LM_ScreenSize_y; size_z = 0;
+        // ConBack shader name; change if your shader uses a different material
+        drawpic('0 0 0', "gfx/conback", size, '1 1 1', 1, 0);
+    }
+
+    // Demo window & button (you can delete this once real UI is wired)
     vector wpos  = LM_V2(80, 80);
     vector wsize = LM_V2(400, 260);
     drawfill(wpos, wsize, '0.05 0.08 0.10', 0.9, 0);
