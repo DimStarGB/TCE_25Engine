@@ -1,52 +1,51 @@
 #pragma target DP(patched)
-#include "../dpdefs/csprogsdefs.qh"
+#include "../dpdefs/upstream/menudefs.qc"
 #include "legacy_menu_data.qh"
 
-float LM_MouseDown;
+// Global input state (written by entry.qc)
+float  LM_MouseDown;
+float  LM_Click;
 vector LM_MousePos;
 
-float LM_PointInRect(vector p, vector r, float h) {
-    return (p_x >= r_x) && (p_y >= r_y) && (p_x <= r_x + r_z) && (p_y <= r_y + h);
+// Helpers
+vector LM_V2(float x, float y){vector v; v_x=x; v_y=y; v_z=0; return v;}
+
+// Minimal draw=label/button/image using DP menu builtins
+void LM_DrawLabel(vector rect, float h, string text, float scale, vector col, float a){
+    vector pos = LM_V2(rect_x, rect_y);
+    vector sc  = LM_V2(8*scale, 8*scale);
+    drawstring(pos, text?text:"", sc, col, a, 0);
 }
-
-void LM_LocalCmd(string s) { if (s && s != "") localcmd(strcat(s, "\n")); }
-
-void LM_DrawLabel(vector rect, float h, string text, float scale, vector col, float a) {
-    drawstring(rect, text, col, scale, 0);
+void LM_DrawButton(vector rect, float h, string text, float scale, vector col, float a, float hovered){
+    vector pos  = LM_V2(rect_x, rect_y);
+    vector size = LM_V2(rect_z, h);
+    vector rgb; rgb_x = hovered?0.30:0.20; rgb_y = hovered?0.30:0.20; rgb_z = hovered?0.30:0.20;
+    drawfill(pos, size, rgb, a, 0);
+    vector sc  = LM_V2(8*scale, 8*scale);
+    vector tpos= LM_V2(rect_x+4, rect_y+4);
+    drawstring(tpos, text?text:"", sc, col, a, 0);
 }
-
-void LM_DrawButton(vector rect, float h, string text, float scale, vector col, float a, float hovered) {
-    vector bg = hovered ? '0.30 0.30 0.30' : '0.20 0.20 0.20';
-    drawfill(vec3(rect_x, rect_y, 0), vec3(rect_z, h, 0), bg, a, 0);
-    drawstring(vec3(rect_x + 4, rect_y + 4, 0), text, col, scale, 0);
+void LM_DrawImage(vector rect, float h, string path, float a){
+    if(!path||path=="") return;
+    vector pos  = LM_V2(rect_x, rect_y);
+    vector size = LM_V2(rect_z, h);
+    drawpic(pos, path, size, '1 1 1', a, 0);
 }
+void LM_LocalCmd(string s){ if(s&&s!="") localcmd(strcat(s,"\n")); }
 
-void LM_DrawImage(vector rect, float h, string path, float a) {
-    if (!path || path == "") return;
-    drawpic(vec3(rect_x, rect_y, 0), path, vec3(rect_z, h, 0), '1 1 1', a, 0);
-}
+// TEMP: minimal demo content (until we read real data fields)
+void LM_Frame(){
+    vector wpos  = LM_V2(80, 80);
+    vector wsize = LM_V2(400, 260);
+    drawfill(wpos, wsize, '0.05 0.08 0.10', 0.9, 0);
 
-void LM_HandleItem(string typ, vector r, float h, string text, float scale, vector fore, float fore_a, string cvarname, string cmd, string it_bg) {
-    float hovered = LM_PointInRect(LM_MousePos, r, h);
-    if (typ == "label") {
-        LM_DrawLabel(r, h, text, scale, fore, fore_a);
-    } else if (typ == "button") {
-        LM_DrawButton(r, h, text, scale, fore, fore_a, hovered);
-        if (hovered && LM_MouseDown) LM_LocalCmd(cmd);
-    } else if (typ == "image") {
-        LM_DrawImage(r, h, it_bg, fore_a);
-    } else if (typ == "cvar_toggle") {
-        string label = strcat(text ? text : "", " (", cvarname ? cvarname : "", "=", cvarname ? cvar_string(cvarname) : "", ")");
-        LM_DrawButton(r, h, label, scale, fore, fore_a, hovered);
-        if (hovered && LM_MouseDown && cvarname) {
-            float v = stof(cvar_string(cvarname));
-            cvar_set(cvarname, ftos(v == 0));
-        }
-    }
-}
+    LM_DrawLabel(LM_V2(wpos_x+16, wpos_y+16), 18, "Legacy .menu smoke test", 1, '1 1 1', 1);
 
-// Simple draw of first window (expand later)
-void LM_Frame() {
-    LM_MousePos  = mousepos();
-    LM_MouseDown = (button_pressed(BUTTON_ATTACK));
+    vector brect = LM_V2(wpos_x+16, wpos_y+64); brect_z = 180;
+    float  bh    = 28;
+    float hovered = (LM_MousePos_x>=brect_x && LM_MousePos_y>=brect_y && LM_MousePos_x<=brect_x+brect_z && LM_MousePos_y<=brect_y+bh);
+    LM_DrawButton(brect, bh, "Click me (runs \"echo hi\")", 1, '1 1 1', 1, hovered);
+    if(hovered && LM_Click) LM_LocalCmd("echo hi");
+
+    LM_Click = 0;
 }
