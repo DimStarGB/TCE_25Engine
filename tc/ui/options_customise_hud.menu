@@ -48,8 +48,7 @@ menuDef {
 // Hud Display //
 
 	SUBWINDOW( 6, 32, (SUBWINDOW_WIDTH), 88, "HUD Display" )
-	//YESNO( 8, 48, (SUBWINDOW_WIDTH)-4, 10, "Draw FPS:", .2, 8, "cg_drawFPS", "Show frames per second" )
-	MULTI( 8, 48, (SUBWINDOW_WIDTH)-4, 10, "Draw FPS:", .2, 8, "cg_drawFPS", cvarFloatList { "Off" 0 "Average" 1 "Average and Range" 2}, "Show frames per second" )
+	YESNO( 8, 48, (SUBWINDOW_WIDTH)-4, 10, "Draw FPS:", .2, 8, "cg_drawFPS", "Show frames per second" )
 	YESNO( 8, 60, (SUBWINDOW_WIDTH)-4, 10, "Show Lagometer:", .2, 8, "cg_lagometer", "Show lagometer" )
 	YESNO( 8, 72, (SUBWINDOW_WIDTH)-4, 10, "Show Compass:", .2, 8, "cg_drawCompass", "Displays compass (with icons when near select events)" )
 	MULTI( 8, 84, (SUBWINDOW_WIDTH)-4, 10, "Mission Timer:", .2, 8, "cg_drawRoundTimer", cvarFloatList { "Off" 0 "On" 1 }, "Show mission time" )

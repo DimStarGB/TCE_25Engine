@@ -70,8 +70,7 @@ menuDef {
 	SUBWINDOW( 6, 90, (SUBWINDOW_WIDTH), 244, "VIDEO" )
 	MULTIACTION( 8, 106, (SUBWINDOW_WIDTH)-4, 10, "Video Quality:", .2, 8, "ui_glCustom", cvarFloatList { "Fastest" 3 "Fast" 2 "Normal" 1 "High" 0 }, uiScript update "ui_glCustom", "" )
 	
-	MULTI( 8 + (SUBWINDOW_WIDTH)/3, 118, (SUBWINDOW_WIDTH)/3-4, 10, "Aspect Ratio:", .2, 8, "cg_aspectMode", cvarFloatList { "16:9" 0 "16:10" 1 "4:3" 2}, "" )
-	CHECKBOXALIGNX( 12 + (SUBWINDOW_WIDTH)*0.667, 118, (SUBWINDOW_WIDTH)/3-4, 10, "Anamorph mode", .2, 24, 8, "cg_aspectForce", "Distorts image if aspect ratio and screen resolution do not match" )
+	MULTI( 8, 118, (SUBWINDOW_WIDTH)-4, 10, "Aspect Ratio:", .2, 8, "cg_aspectMode", cvarFloatList { "16:9" 0 "16:10" 1 "4:3" 2}, "" )
 	MULTI( 8, 130, (SUBWINDOW_WIDTH)-4, 10, "Field of View:", .2, 8, "cg_aspectFOVMode", cvarFloatList { "Fixed Horizontal" 0 "Fixed Area" 1 "Fixed Vertical" 2}, "" )
 	  
 	MULTIACTION( 8, 142, (SUBWINDOW_WIDTH)-4, 10, "Resolution:", .2, 8, "ui_r_mode", cvarFloatList { "640*480 Standard Screen 4:3" 3 "800*600 Standard Screen 4:3" 4 "960*720 Standard Screen 4:3" 5 "1024*768 Standard Screen 4:3" 6 "1152*864 Standard Screen 4:3" 7 "1280*1024 Standard Screen 5:4" 8 "1600*1200 Standard Screen 4:3" 9 "2048*1536 Standard Screen 4:3" 10 "856*480 Wide Screen 16:9" 11 "1024*576 Wide Screen 16:9" 12 "1280*720 Wide Screen 16:9" 13 "1360*768 Wide Screen 16:9" 14 "1600*900 Wide Screen 16:9" 15 "1920*1080 Wide Screen 16:9" 16 "1024*640 Wide Screen 16:10" 17 "1280*800 Wide Screen 16:10" 18 "1440*900 Wide Screen 16:10" 19 "1600*1000 Wide Screen 16:10" 20 "1680*1050 Wide Screen 16:10" 21 "1920*1200 Wide Screen 16:10" 22}, uiScript glCustom, "" )
@@ -85,8 +84,7 @@ menuDef {
 	MULTIACTION( 8, 238, (SUBWINDOW_WIDTH)-4, 10, "Depth Buffer:", .2, 8, "ui_r_depthbits", cvarFloatList { "Default" 0 "16-bit" 16 "24-bit" 24 }, uiScript glCustom, "" )
 	YESNOACTION( 8, 250, (SUBWINDOW_WIDTH)-4, 10, "Compress Textures:", .2, 8, "ui_r_ext_compressed_textures", uiScript glCustom, "" )
 	YESNOACTION( 8, 262, (SUBWINDOW_WIDTH)-4, 10, "Sync Every Frame:", .2, 8, "ui_r_finish", uiScript glCustom, "" )
-//	MULTIACTION( 8, 274, (SUBWINDOW_WIDTH)-4, 10, "Dynamic Lights:", .2, 8, "ui_r_dynamiclight", cvarFloatList { "Disabled" 0 "Enabled (Single Pass)" 1 "Enabled (Multipass)" 2 }, uiScript glCustom, "" )
-	MULTIACTION( 8, 274, (SUBWINDOW_WIDTH)-4, 10, "Anisotropic Filtering:", .2, 8, "ui_r_ext_texture_filter_anisotropic", cvarFloatList { "Disabled" 0 "2x" 2 "4x" 4 "8x" 8 "16x" 16 }, uiScript glCustom, "" )
+	MULTIACTION( 8, 274, (SUBWINDOW_WIDTH)-4, 10, "Dynamic Lights:", .2, 8, "ui_r_dynamiclight", cvarFloatList { "Disabled" 0 "Enabled (Single Pass)" 1 "Enabled (Multipass)" 2 }, uiScript glCustom, "" )
 	MULTIACTION( 8, 286, (SUBWINDOW_WIDTH)-4, 10, "GL Extensions:", .2, 8, "ui_r_allowExtensions", cvarFloatList { "Enabled" 1 "Disabled" 0 }, uiScript glCustom , "")
 
 	BUTTON( 8+.5*((SUBWINDOW_WIDTH)-196), 276+24, 196, 14, "CALIBRATE BRIGHTNESS", .24, 11, uiScript vidReset ;

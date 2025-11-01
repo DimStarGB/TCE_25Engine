@@ -3408,13 +3408,10 @@ textures/terrain/dem_wood_1
 	//q3map_foliage models/mapobjects/coroner/foliage_plant_low1.md3 0.5 128 0.2 0
 	////q3map_surfaceModel models/mapobjects/coroner/foliage_plant_low1.md3 96 0.2 0.5 0.7 0 360 1 
 	
-//	q3map_foliage models/mapobjects/coroner/foliage_plant_low1.md3 0.5 128 0.2 0
+	q3map_foliage models/mapobjects/coroner/foliage_plant_low1.md3 0.5 128 0.2 0
 	
 	// this was the 048 version
 	//q3map_surfaceModel models/mapobjects/coroner/bush_common.md3 256 0.2 0.5 0.7 0 360 1 
-	
-	//q3map_surfaceModel models/mapobjects/coroner/grass_green.md3 64 0.2 0.9 1.25 0 360 1
-	//q3map_surfaceModel models/mapobjects/coroner/grass_green_big.md3 96 0.2 0.9 1.25 0 360 1
 	
 	//q3map_foliage models/coroner_foliage/grassfoliage1.md3 1.25 48 0.1 2
 	//q3map_foliage models/coroner_foliage/grassfoliage2.md3 1.1 48 0.1 2
@@ -3425,10 +3422,6 @@ textures/terrain/dem_wood_1
 	q3map_foliage models/coroner_foliage/grassfoliage1_b.md3 1.45 48 0.15 2
 	q3map_foliage models/coroner_foliage/grassfoliage2_b.md3 1.3 48 0.15 2
 	q3map_foliage models/coroner_foliage/grassfoliage3_b.md3 1.2 48 0.15 2
-	
-	q3map_xfoliage models/mapobjects/coroner/grass_green.md3 1.0 64 0.15 2 1
-	q3map_xfoliage models/mapobjects/coroner/grass_green_big.md3 1.0 96 0.15 2 1
-	
 	
 	{
 		map textures/coroner/foliage_w1.tga
@@ -3467,22 +3460,6 @@ textures/terrain/dem_wood_0to1
 	q3map_baseshader textures/terrain/dem_wood_base
 	//surfaceparm mat_foliage
 	surfaceparm mat_grass
-	
-	// this was the 048 version
-	//q3map_surfaceModel models/mapobjects/coroner/bush_common.md3 256 0.2 0.5 0.7 0 360 1 
-	
-	//q3map_surfaceModel models/mapobjects/coroner/grass_green.md3 64 0.2 0.9 1.25 0 360 1
-	//q3map_surfaceModel models/mapobjects/coroner/grass_green_big.md3 96 0.2 0.9 1.25 0 360 1
-	
-	
-	// 049 has bush_common in the editor and uses new grassfoliage with half the number of tris
-	// we can have more and the need to be a bit bigger
-	q3map_foliage models/coroner_foliage/grassfoliage1_b.md3 1.45 48 0.15 2
-	q3map_foliage models/coroner_foliage/grassfoliage2_b.md3 1.3 48 0.15 2
-	q3map_foliage models/coroner_foliage/grassfoliage3_b.md3 1.2 48 0.15 2
-	
-	q3map_xfoliage models/mapobjects/coroner/grass_green.md3 1.0 64 0.15 2 1
-	q3map_xfoliage models/mapobjects/coroner/grass_green_big.md3 1.0 96 0.15 2 1
 
 	{
 		map textures/coroner/foliage_w2.tga

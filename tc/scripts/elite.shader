@@ -395,10 +395,8 @@ impactSmokePuff3
 	{
 		map gfx/misc/impactpuff3b.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		//alphaGen entity		
-		//rgbGen entity
-		alphaGen vertex
-		rgbgen vertex
+		alphaGen entity		
+		rgbGen entity
 	}
 }
 
@@ -410,10 +408,8 @@ impactSmokePuff4
 	{
 		map gfx/misc/impactpuff4.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		//alphaGen entity		
-		//rgbGen entity
-		alphaGen vertex
-		rgbgen vertex
+		alphaGen entity		
+		rgbGen entity
 	}
 }
 
@@ -907,77 +903,5 @@ eyeadaptation
 		map $whiteimage
 		blendFunc GL_DST_COLOR GL_ONE
 		rgbGen entity
-	}
-}
-
-eyeadaptationboost
-{
-	{
-		map $whiteimage
-		blendFunc GL_DST_COLOR GL_ONE
-		rgbGen const ( 0.142857143 0.142857143 0.142857143 )
-	}
-	{
-		map $whiteimage
-		blendFunc GL_DST_COLOR GL_ONE
-		rgbGen entity
-	}
-}
-
-eyeadaptationtoon
-{
-	{
-		map $whiteimage
-		blendFunc GL_DST_COLOR GL_ONE
-		rgbGen entity
-	}
-	{
-		map $whiteimage
-		blendFunc GL_DST_COLOR GL_ONE
-		rgbGen entity
-	}
-}
-
-reddot_m68
-{
-	cull none
-	nofog
-	{
-		map gfx/misc/reddot_m68.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen vertex
-	}
-}
-
-reticle_eotech
-{
-	cull none
-	nofog
-	{
-		map gfx/misc/reticle_eotech.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen vertex
-	}
-}
-
-damageview
-{
-	cull none
-	nofog
-	{
-		map gfx/misc/damageview.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen vertex
-	}
-}
-
-damageviewspecular
-{
-	cull none
-	nofog
-	{
-		map gfx/misc/damageviewspecular.tga
-		blendfunc GL_ONE GL_ONE
-		rgbGen vertex
 	}
 }

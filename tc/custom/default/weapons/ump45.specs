@@ -9,7 +9,7 @@ weaponDef
 	// modes of operation (multiple modes possible)
 	semiauto		1	// semi auto
 	fullauto		1	// full auto
-	burst			3	// fires x burst
+	burst			2	// fires x burst
 	pump			0	// pump/actiom
 	bolt			0	// bolt operation
 	

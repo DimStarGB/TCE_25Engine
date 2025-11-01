@@ -10,7 +10,7 @@ weaponDef
 		//handsModel			"models/weapons2/luger/v_luger_hand.mdc"
 		
 		flashDlightColor	1.0 0.6 0.23
-		flashSound			"sound/weapons/mp5/mp5_supressed_f2.wav"	// supports up to 4 flash sounds
+		flashSound			"sound/weapons/mp5sd/mp5sdf1.wav"	// supports up to 4 flash sounds
 		// ELITE SILENCED NO ECHO flashEchoSound		"sound/weapons/luger/luger_far.wav"		// supports up to 4 flash echo sounds
 		//lastShotSound		""										// supports up to 4 last shot sounds
 		
@@ -36,14 +36,14 @@ weaponDef
 		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
 		
 		// ELITE
-		gunViewOffset		1 6 0		
-		gunViewAimOffset	-9 -7.97 -2.77			
-		foreShorten		0.75			 
+		gunViewOffset		-1 6 0			
+		gunViewAimOffset	-7 -8.075 -2.3			
+		foreShorten		0.5				 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
 		deployMenuShortName	"MP5SD"
-		deployMenuDescription	"H&K MP5SD 9x19mm"
-		deployMenuType		"Suppressed Submachine Gun"
+		deployMenuDescription	"H&K Mp5 SD 9x19mm"
+		deployMenuType		"Submachine Gun"
 		
 		//modModel 		1
 		
@@ -60,7 +60,7 @@ weaponDef
 				part 0
 				{
 					tag		"tag_main"
-					model	"models/weapons2/mp5/mp5sd_view_main.mdc"
+					model	"models/weapons2/mp5sd/mp5sd_view_main.mdc"
 				}
 				part 1
 				{
@@ -77,7 +77,7 @@ weaponDef
 		}
 		
 		thirdPerson {
-			model			"models/weapons2/mp5/mp5sd.mdc"
+			model			"models/weapons2/mp5sd/mp5sd.mdc"
 			//flashmodel		"models/weapons2/generic/generic_flash.mdc"
 		}
 	}

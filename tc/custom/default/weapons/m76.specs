@@ -15,7 +15,7 @@ weaponDef
 	
 	// misc
 	singleReload		0	// reloads single shots (like tubular mag pump guns)
-	scoped			4.0	// x times scope
+	scoped			6.0	// x times scope
 	scopeReticleType	2	// 0 = cross type, 1 = springfield armory type, 2 = russian PSO type    
 	useScopeReticleShader	0	// use shader specified in .weap
 	nightVision         	0	// 
@@ -29,5 +29,5 @@ weaponDef
 	// special
 	usesWolfAnim		0	// weap uses wolf akimbo anim
 	usesPistolAnimMod	0	// weap is slightly lowered during reload/no recoil in tac
-	usesRecoilAnimMod	0	// semi-auto recoil for sniper rifles/shotguns
+	usesRecoilAnimMod	1	// semi-auto recoil for sniper rifles/shotguns
 }

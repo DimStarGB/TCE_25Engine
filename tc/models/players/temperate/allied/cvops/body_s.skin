@@ -1,6 +1,6 @@
 //md3_back,		"models/players/temperate/allied/medic/acc/backpack.md3"
 md3_hat,		"models/players/temperate/allied/elite/helm.md3"
-md3_rank,		"models/players/temperate/allied/elite/helm.md3"
+md3_hat,		"models/players/temperate/allied/elite/helm.md3"
 md3_legr,		"models/players/temperate/allied/elite/legr_pocket.md3"
 md3_beltr,		"models/players/temperate/allied/elite/beltr_sidepouch1b.md3" 
 

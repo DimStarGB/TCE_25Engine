@@ -26,7 +26,7 @@ weaponDef
 	noTacMode		0	//      
 	grenadeTimer		4000	// msec (m67 should be 4000, m83 6000, m84 2000)   
 	
-	maxclip			5
+	maxclip			6
 	
 	// special
 	usesWolfAnim		0	// weap uses wolf akimbo anim

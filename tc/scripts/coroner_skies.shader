@@ -94,7 +94,7 @@ textures/coroner_skies/daysky01
 	// filter ambient skylight to avoid stadium lighting effect
 	q3map_lightmapFilterRadius 0 8	
 	//q3map_skylight 1000 6 // 13
-	//q3map_lightrgb 0 0 1.0	
+	q3map_lightrgb 0 0 1.0	
 	q3map_skylight 1000 5
 	
 	q3map_nofog
@@ -211,7 +211,7 @@ textures/coroner_skies/daysky08 // third northport sky
 	
 	// filter ambient skylight to avoid stadium lighting effect
 	q3map_lightmapFilterRadius 0 8	
-	q3map_skylight 600 6//11 //14
+	q3map_skylight 600 11 //14
 	
 	
 	skyparms textures/coroner_skies/sky8m 512 -
@@ -492,11 +492,7 @@ textures/skies/coroner_woodfog
 	// 048
 	//fogparms ( 0.09411 0.09803 0.12549 ) 2048
 	// 1.3 gamma corrected in 049
-	//fogparms ( 0.1624 0.1675 0.2026 ) 2048
-	// again
-	//fogparms ( 0.09411 0.09803 0.12549 ) 2048
-	// hideout 2
-	fogparms ( 0.09411 0.09803 0.12549 ) 10000
+	fogparms ( 0.1624 0.1675 0.2026 ) 2048
 	
 	//fogparms ( 0.09411 0.09803 0.12549 ) 99999999999
 	
@@ -519,7 +515,7 @@ textures/skies/coroner_woodfogsky
 	//q3map_skylight 55 4
 	
 	// settings for pc good setting 40
-	q3map_skylight 25 6 //11
+	q3map_skylight 25 8 //16
 	
 	q3map_nofog
 	nofog
@@ -562,9 +558,7 @@ textures/skies/coroner_woodfogsky
 		// 048
 		//rgbGen const ( 0.09411 0.09803 0.12549 )
 		// 1.3 gamma corrected in 049
-		//rgbGen const ( 0.1624 0.1675 0.2026 )
-		// again
-		rgbGen const ( 0.09411 0.09803 0.12549 )
+		rgbGen const ( 0.1624 0.1675 0.2026 )
 	}
 }
 

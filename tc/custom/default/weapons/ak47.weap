@@ -12,9 +12,6 @@ weaponDef
 		flashDlightColor	1.0 0.6 0.23
 		flashSound		"sound/weapons/ak47/ak47f1.wav"	// supports up to 4 flash sounds
 		flashEchoSound		"sound/weapons/ak47/ak47_far.wav"		// supports up to 4 flash echo sounds
-		
-		suppressedSound		"sound/weapons/ak47/ak47_suppressed.wav"	// supports up to 4 suppressed sounds
-		
 		//lastShotSound		""										// supports up to 4 last shot sounds
 		
 		//readySound		""
@@ -39,9 +36,9 @@ weaponDef
 		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
 		
 		// ELITE
-		gunViewOffset		1 6.5 1.5			// x=forward, y=left, z=up
-		gunViewAimOffset	-11 -7.9 -2.5			// x=forward, y=left, z=up	
-		gunViewAngles		0 0 0				// PITCH YAW ROLL
+		gunViewOffset		-2 6 0.5			// forward, up, left
+		gunViewAimOffset	-10 -7.6 -2			// forward, up, left
+		gunViewAngles		0.2 0 0				// PITCH YAW ROLL
 		foreShorten		0.5				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
@@ -78,20 +75,14 @@ weaponDef
 					axisskin		"models/weapons2/ak47/ak47_view_slide.skin"
 					alliedskin		"models/weapons2/ak47/ak47_view_slide.skin"
 				}
-				part 3
-				{
-					tag		"tag_main"
-					model	"models/weapons2/ak47/silencer_view.mdc"
-					modFlags 	1
-				}
+				
+				
 			}
 		}
 		
 		thirdPerson {
 			model			"models/weapons2/ak47/ak47.mdc"
-			flashModel		"models/weapons2/ak47/ak47_flash.mdc"
-			
-			suppressedModel		"models/weapons2/ak47/ak47_sd.mdc"
+			flashmodel		"models/weapons2/ak47/ak47_flash.mdc"
 		}
 	}
 }

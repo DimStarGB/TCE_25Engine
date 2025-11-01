@@ -11,10 +11,6 @@ weaponDef
 		
 		flashDlightColor	1.0 0.6 0.23
 		flashSound			"sound/weapons/beretta/berettaf1.wav"		// supports up to 4 flash sounds
-		flashSound			"sound/weapons/beretta/berettaf2.wav"		// supports up to 4 flash sounds
-		flashSound			"sound/weapons/beretta/berettaf3.wav"		// supports up to 4 flash sounds
-		flashSound			"sound/weapons/beretta/berettaf4.wav"		// supports up to 4 flash sounds
-		
 		flashEchoSound		"sound/weapons/beretta/beretta_far.wav"		// supports up to 4 flash echo sounds
 		//lastShotSound		""										// supports up to 4 last shot sounds
 		
@@ -41,16 +37,13 @@ weaponDef
 		//modModel 1		""
 		
 		// ELITE
-		gunViewOffset		11.5 0 5		
+		gunViewOffset		2.5 0 5		
 		gunViewAimOffset	-4 0 -4.3	
-		foreShorten		0.75				 
+		foreShorten		0.5				 
 		//tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
-		//deployMenuShortName	"AKIMBO 93R"
-		//deployMenuDescription	"Dual Beretta 93 Raffica 9x19mm"
-		
-		deployMenuShortName	"AKIMBO 92FS"
-		deployMenuDescription	"Dual Beretta 92FS 9x19mm"
+		deployMenuShortName	"AKIMBO"
+		deployMenuDescription	"2x Beretta 92 9x19mm"
 		deployMenuType		"Dual Automatic Pistol"
 		
 		firstPerson {

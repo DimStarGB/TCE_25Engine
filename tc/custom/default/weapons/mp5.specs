@@ -4,7 +4,7 @@ weaponDef
 {
 	// class
 	weapClass		"SMG"	// P, AP, SMG, CAR, MBR, SG, SR
-	caliberClass		"40SW"// 9x19, 40SW, 45ACP, 50AE, 556x45, 545x39, 762x39, 762x51, 792x57, 338LAPUA, 50BMG, 70, 73, 76
+	caliberClass		"40SW"  // 9x19, 40SW, 45ACP, 50AE, 556x45, 545x39, 762x39, 762x51, 792x57, 338LAPUA, 50BMG, 70, 73, 76
 	
 	// modes of operation (multiple modes possible)
 	semiauto		1	// semi auto

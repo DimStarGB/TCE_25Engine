@@ -38,8 +38,8 @@ weaponDef
 		
 		// ELITE
 		gunViewOffset		-5.5 6 1.5		
-		gunViewAimOffset	-6.5 -7.97 -1.75		 // x=forward, y=left, z=up	
-		foreShorten		0.75				 
+		gunViewAimOffset	-3.5 -8 -1		
+		foreShorten		0.5				 
 		//tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
 		deployMenuShortName	"M3S90"
@@ -65,7 +65,7 @@ weaponDef
 				part 1
 				{
 					tag		"tag_slide"
-					model	"models/weapons2/m3s90/m3s90_view_pump.md3"
+					model	"models/weapons2/m3s90/m3s90_view_slide.md3"
 				}
 				part 2
 				{

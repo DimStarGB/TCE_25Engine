@@ -46,7 +46,7 @@ menuDef {
 	
 // Move //
 
-	SUBWINDOW( 6, 32, (SUBWINDOW_WIDTH), 160+28, "Movement" )
+	SUBWINDOW( 6, 32, (SUBWINDOW_WIDTH), 160+16, "Movement" )
 	BIND( 8, 48, (SUBWINDOW_WIDTH)-4, 10, "Forward:", .2, 8, "+forward", "" )
 	BIND( 8, 60, (SUBWINDOW_WIDTH)-4, 10, "Back:", .2, 8, "+back", "" )
 	BIND( 8, 72, (SUBWINDOW_WIDTH)-4, 10, "Move Left:", .2, 8, "+moveleft", "" )
@@ -59,36 +59,35 @@ menuDef {
 	BIND( 8, 156, (SUBWINDOW_WIDTH)-4, 10, "Walk:", .2, 8, "+speed", "" )
 	BIND( 8, 168, (SUBWINDOW_WIDTH)-4, 10, "Sprint:", .2, 8, "+sprint", "" )
 	BIND( 8, 180, (SUBWINDOW_WIDTH)-4, 10, "Use (Activate):", .2, 8, "+activate", "" )
-	BIND( 8, 192, (SUBWINDOW_WIDTH)-4, 10, "Freelook:", .2, 8, "+useitem", "" )
 	
-	CHECKBOXALIGNX( 8, 208, (SUBWINDOW_WIDTH)-4, 10, "Crouch is toggle:", .2, 24, 8, "cg_togglecrouch", "Crouch is toggle button if selected" )
+	CHECKBOXALIGNX( 8, 196, (SUBWINDOW_WIDTH)-4, 10, "Crouch is toggle:", .2, 24, 8, "cg_togglecrouch", "Crouch is toggle button if selected" )
 	
 	
 // Input //
 
-	SUBWINDOW( 6, 198+26, (SUBWINDOW_WIDTH), 40, "Mouse Input" )
+	SUBWINDOW( 6, 198+16-2, (SUBWINDOW_WIDTH), 40, "Mouse Input" )
 //	YESNOACTION( 8, 214-2, (SUBWINDOW_WIDTH)-4, 10, "Invert Mouse:", .2, 8, "ui_mousePitch", uiScript update ui_mousePitch )
 //	YESNO( 8, 226-2, (SUBWINDOW_WIDTH)-4, 10, "Smooth Mouse:", .2, 8, "m_filter" )
-	CHECKBOXALIGNXACTION( 8, 214+28-2, .5*((SUBWINDOW_WIDTH)-6), 10, "Invert Mouse:", .2, 24, 8, "ui_mousePitch", uiScript update ui_mousePitch, "Inverts mouse pitch" )
-	CHECKBOXALIGNX( 8+(.5*((SUBWINDOW_WIDTH)-6))+2, 214+28-2, .5*((SUBWINDOW_WIDTH)-6), 10, "Smooth Mouse:", .2, 24, 8, "m_filter", "Smooths out the mouse using interpolation" )
-	SLIDER( 8, 226+28-2, (SUBWINDOW_WIDTH)-4, 10, "Mouse Sensitivity:", .2, 8, "sensitivity" 5 1 30, "Use the slider to increase or decrease mouse sensitivity" )
-	CVARFLOATLABEL( 8, 226+28-2, (SUBWINDOW_WIDTH)-4, 10, "sensitivity", .2, ITEM_ALIGN_RIGHT, $evalfloat((SUBWINDOW_WIDTH)-10), 8 )
+	CHECKBOXALIGNXACTION( 8, 214+16-2, .5*((SUBWINDOW_WIDTH)-6), 10, "Invert Mouse:", .2, 24, 8, "ui_mousePitch", uiScript update ui_mousePitch, "Inverts mouse pitch" )
+	CHECKBOXALIGNX( 8+(.5*((SUBWINDOW_WIDTH)-6))+2, 214+16-2, .5*((SUBWINDOW_WIDTH)-6), 10, "Smooth Mouse:", .2, 24, 8, "m_filter", "Smooths out the mouse using interpolation" )
+	SLIDER( 8, 226+16-2, (SUBWINDOW_WIDTH)-4, 10, "Mouse Sensitivity:", .2, 8, "sensitivity" 5 1 30, "Use the slider to increase or decrease mouse sensitivity" )
+	CVARFLOATLABEL( 8, 226+16-2, (SUBWINDOW_WIDTH)-4, 10, "sensitivity", .2, ITEM_ALIGN_RIGHT, $evalfloat((SUBWINDOW_WIDTH)-4), 8 )
 	
 // Chat //
 
-	SUBWINDOW( 6, 244+24, (SUBWINDOW_WIDTH), 64, "Chat" )
-	BIND( 8, 260+28-4, .5*((SUBWINDOW_WIDTH)-6), 10, "Chat:", .2, 8, "messagemode", "" )
-	BIND( 8+(.5*((SUBWINDOW_WIDTH)-6))+2, 260+28-4, .5*((SUBWINDOW_WIDTH)-6), 10, "Team Chat:", .2, 8, "messagemode2", "" )
-	BIND( 8, 272+28-4, (SUBWINDOW_WIDTH)-4, 10, "Fire-Team Chat:", .2, 8, "messagemode3", "" )
-	BIND( 8, 284+28-4, (SUBWINDOW_WIDTH)-4, 10, "Quick Chat:", .2, 8, "mp_QuickMessage", "" )
-	BIND( 8, 296+28-4, (SUBWINDOW_WIDTH)-4, 10, "Fire-Team Quick Chat:", .2, 8, "mp_fireteammsg", "" )
+	SUBWINDOW( 6, 244+16-4, (SUBWINDOW_WIDTH), 64, "Chat" )
+	BIND( 8, 260+16-4, .5*((SUBWINDOW_WIDTH)-6), 10, "Chat:", .2, 8, "messagemode", "" )
+	BIND( 8+(.5*((SUBWINDOW_WIDTH)-6))+2, 260+16-4, .5*((SUBWINDOW_WIDTH)-6), 10, "Team Chat:", .2, 8, "messagemode2", "" )
+	BIND( 8, 272+16-4, (SUBWINDOW_WIDTH)-4, 10, "Fire-Team Chat:", .2, 8, "messagemode3", "" )
+	BIND( 8, 284+16-4, (SUBWINDOW_WIDTH)-4, 10, "Quick Chat:", .2, 8, "mp_QuickMessage", "" )
+	BIND( 8, 296+16-4, (SUBWINDOW_WIDTH)-4, 10, "Fire-Team Quick Chat:", .2, 8, "mp_fireteammsg", "" )
 
 // Pop-Ups //
 
-	SUBWINDOW( 6, 314+22, (SUBWINDOW_WIDTH), 100-12-12, "Pop-Ups" )
-	BIND( 8, 330+28-6, (SUBWINDOW_WIDTH)-4, 10, "Show Scores:", .2, 8, "+scores", "" )
-	BIND( 8, 342+28-6, (SUBWINDOW_WIDTH)-4, 10, "Show Deploy Menu:", .2, 8, "OpenLimboMenu", "" )
-	BIND( 8, 354+28-6, (SUBWINDOW_WIDTH)-4, 10, "Objective Description:", .2, 8, "toggleobjectivedesc", "" )
+	SUBWINDOW( 6, 314+16-6, (SUBWINDOW_WIDTH), 100-12-10, "Pop-Ups" )
+	BIND( 8, 330+16-6, (SUBWINDOW_WIDTH)-4, 10, "Show Scores:", .2, 8, "+scores", "" )
+	BIND( 8, 342+16-6, (SUBWINDOW_WIDTH)-4, 10, "Show Deploy Menu:", .2, 8, "OpenLimboMenu", "" )
+	BIND( 8, 354+16-6, (SUBWINDOW_WIDTH)-4, 10, "Objective Description:", .2, 8, "toggleobjectivedesc", "" )
 //	BIND( 8, 354-6, (SUBWINDOW_WIDTH)-4, 10, "Show Command Map:", .2, 8, "+mapexpand", "" )
 //	BIND( 8, 366-6, (SUBWINDOW_WIDTH)-4, 10, "Compass Map Zoom In:", .2, 8, "MapZoomIn", "" )
 //	BIND( 8, 378-6, (SUBWINDOW_WIDTH)-4, 10, "Compass Map Zoom Out:", .2, 8, "MapZoomOut", "" )

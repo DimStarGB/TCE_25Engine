@@ -10,10 +10,9 @@ weaponDef
 		//handsModel			"models/weapons2/luger/v_luger_hand.mdc"
 		
 		flashDlightColor	1.0 0.6 0.23
-		flashSound		"sound/weapons/miniuzi/miniuzi_fire.wav"	// supports up to 4 flash sounds
+		flashSound		"sound/weapons/miniuzi/miniuzif1.wav"	// supports up to 4 flash sounds
 		flashEchoSound		"sound/weapons/mac10/mac10_far.wav"		// supports up to 4 flash echo sounds
 		//lastShotSound		""										// supports up to 4 last shot sounds
-		suppressedSound		"sound/weapons/miniuzi/miniuzi_suppressed.wav"	// supports up to 4 flash sounds
 		
 		//readySound		""
 		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
@@ -37,9 +36,9 @@ weaponDef
 		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
 		
 		// ELITE
-		gunViewOffset		12 4 0			// forward, left, up
-		gunViewAimOffset	-5 -6.18 -2.5			// forward, left, up
-		foreShorten		0.75				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
+		gunViewOffset		6 4 0			// forward, up, left
+		gunViewAimOffset	-4 -6.25 -1.95			// forward, up, left
+		foreShorten		0.5				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
 		deployMenuShortName	"MINI UZI"
@@ -68,24 +67,18 @@ weaponDef
 					tag		"tag_clip"
 					model	"models/weapons2/miniuzi/miniuzi_view_clip.mdc"
 				}
-				//part 2
-				//{
-				//	tag		"tag_slide"
-				//	model	"models/weapons2/miniuzi/miniuzi_view_slide.mdc"
-				//}
 				part 2
 				{
-					tag		"tag_main"
-					model	"models/weapons2/miniuzi/miniuzi_view_silencer.mdc"
-					modFlags 1
+					tag		"tag_slide"
+					model	"models/weapons2/miniuzi/miniuzi_view_slide.mdc"
 				}
+				
 			}
 		}
 		
 		thirdPerson {
 			model			"models/weapons2/miniuzi/miniuzi.mdc"
 			flashmodel		"models/weapons2/generic/generic_flash.mdc"
-			suppressedModel			"models/weapons2/miniuzi/miniuzi_sd.mdc"
 		}
 	}
 }

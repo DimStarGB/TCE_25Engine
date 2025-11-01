@@ -5,9 +5,6 @@ md3_legr,		"models/players/temperate/allied/elite/legr_pocket.md3"
 md3_beltr,		"models/players/temperate/allied/elite/belt_pouch1.md3"
 md3_beltl,		"models/players/temperate/allied/elite/belt_pouch2.md3"
 
-//md3_kneer,		"models/players/temperate/allied/elite/knee_protector_right.md3"
-//md3_kneel,		"models/players/temperate/allied/elite/knee_protector_right.md3"
-
 l_legs,			"models/players/temperate/allied/elite/legs_commando.tga"
 u_body,			"models/players/temperate/allied/elite/body_commando.tga"
 u_rthand,		"models/players/temperate/allied/elite/body_commando.tga"

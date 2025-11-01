@@ -1,6 +1,7 @@
 r_hand,models/weapons2/common/glove.jpg
-l_hand,textures/common/invisible.jpg
+l_hand,models/weapons2/common/glove.jpg
 r_sleeve,models/weapons2/common/sleeve_woodland.jpg
-l_sleeve,textures/common/invisible.jpg
+l_sleeve,models/weapons2/common/sleeve_woodland.jpg
 knife,models/weapons2/knife/knife_main.jpg
 blade,models/weapons2/knife/knife_main.jpg
+

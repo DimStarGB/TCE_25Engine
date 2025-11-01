@@ -6,14 +6,13 @@ weaponDef
 		//pickupModel		""
 		//pickupSound		"sound/misc/w_pkup.wav"
 		
-		weaponConfig		"models/weapons2/m110/weapon.cfg"
+		weaponConfig		"models/weapons2/m76/weapon.cfg"
 		//handsModel			"models/weapons2/luger/v_luger_hand.mdc"
 		
 		flashDlightColor	1.0 0.6 0.23
-		flashSound		"sound/weapons/m76/m76_fire.wav"	// supports up to 4 flash sounds
+		flashSound		"sound/weapons/m76/m76f1.wav"	// supports up to 4 flash sounds
 		flashEchoSound		"sound/weapons/m76/m76_far.wav"		// supports up to 4 flash echo sounds
 		//lastShotSound		""										// supports up to 4 last shot sounds
-		suppressedSound		"sound/weapons/m76/m76_suppressed.wav"	// supports up to 4 flash sounds  
 		
 		//readySound		""
 		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
@@ -37,32 +36,9 @@ weaponDef
 		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
 		
 		// ELITE
-		gunViewOffset		4.5 6 0			// x=forward, y=left, z=up
-		gunViewAngles		0 0 -1.5
-		
-		// old style
-		//gunViewAimOffset	-12.45 -7.4 -3.05			// x=forward, y=left, z=up
-		//portalScopeWidth	210
-		//portalScopeOverlayWidth	245
-		//portalScopeOffset	-17.2 -0.26 3.86	 // x=forward, y=left, z=up
-
-		// big
-		//gunViewAimOffset	-11.95 -7.4 -3.05			// x=forward, y=left, z=up
-		//portalScopeWidth	210
-		//portalScopeOverlayWidth	250
-		//portalScopeDistance 5.386
-		//portalScopeOffset	-17.05 -0.26 3.86	 // x=forward, y=left, z=up
-		
-		// truevision
-		gunViewAimOffset	-9.45 -7.4 -3.05			// x=forward, y=left, z=up
-		portalScopeWidth	150
-		
-		portalScopeOverlayWidth	245
-		portalScopeOffset	-17.2 -0.26 3.86	 // x=forward, y=left, z=up
-		portalScopeDistance 7.774
-		
-		
-		foreShorten		0.75				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
+		gunViewOffset		-2.5 6 0.5			// forward, up, left
+		gunViewAimOffset	-8.5 -7.4 -3.5			// forward, up, left
+		foreShorten		0.5				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
 		deployMenuShortName	"M76"
@@ -100,24 +76,13 @@ weaponDef
 					//axisskin		"models/weapons2/ak47/ak47_view_slide.skin"
 					//alliedskin		"models/weapons2/ak47/ak47_view_slide.skin"
 				}
-				part 3
-				{
-					tag		"tag_main"
-					model	"models/weapons2/m76/m76_view_scope.mdc"
-				}
-				part 4
-				{
-					tag		"tag_main"
-					model	"models/weapons2/m76/m76_view_silencer.mdc"
-					modFlags 1
-				}
+				
 			}
 		}
 		
 		thirdPerson {
 			model			"models/weapons2/m76/m76.mdc"
 			flashmodel		"models/weapons2/m76/m76_flash.mdc"
-			suppressedModel			"models/weapons2/m76/m76_sd.mdc"
 		}
 	}
 }

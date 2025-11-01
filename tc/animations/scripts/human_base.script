@@ -19,18 +19,18 @@
 DEFINES
 
 // weapons
-set weapons pistols = MICRO UZI AND MAC 10 AND Glock AND Deagle AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND GENERIC_SH9 AND GENERIC_SH10 AND GENERIC_SH11 AND GENERIC_SH12 AND GENERIC_SH13 AND GENERIC_SH14 AND GENERIC_SH15
-set weapons akimbo_pistols = Akimbo Luger AND Akimbo Colt
-set weapons machineguns = K43 Rifle AND Garand AND m1 garand AND K43 AND GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND GENERIC_TH8 AND GENERIC_TH9 AND GENERIC_TH10 AND GENERIC_TH11 AND GENERIC_TH12 AND GENERIC_TH13 AND GENERIC_TH14 AND GENERIC_TH15 AND GENERIC_TH16 AND GENERIC_TH17 AND GENERIC_TH18 AND GENERIC_TH19 AND GENERIC_TH20 AND G3 AND M590C AND M4 AND AKSU-74 AND AK-47 AND AKSU-74 SD AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND MP5 AND Silenced Akimbo Luger AND Silenced Akimbo Colt
+set weapons pistols = MICRO UZI AND MAC 10 AND Glock AND Deagle AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND GENERIC_SH9 AND GENERIC_SH10
+set weapons akimbo_pistols = Akimbo Luger AND Silenced Akimbo Luger AND Akimbo Colt AND Silenced Akimbo Colt
+set weapons machineguns = K43 Rifle AND Garand AND m1 garand AND K43 AND GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND G3 AND M590C AND M4 AND AKSU-74 AND AK-47 AND AKSU-74 SD AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND MP5 AND Mobile MG42
 set weapons rifles =  gpg40
-set weapons throwables = dynamite weapon AND pineapple AND grenade AND Smoke Bomb
+set weapons throwables = dynamite weapon AND pineapple AND grenade AND Smoke Bomb AND Tripmine
 
-set weapons one_handed_weapons = MICRO UZI AND MAC 10 AND Glock AND Deagle AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND GENERIC_SH9 AND GENERIC_SH10 AND GENERIC_SH11 AND GENERIC_SH12 AND GENERIC_SH13 AND GENERIC_SH14 AND GENERIC_SH15
-set weapons two_handed_weapons = Garand AND m1 garand AND K43 AND GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND GENERIC_TH8 AND GENERIC_TH9 AND GENERIC_TH10 AND GENERIC_TH11 AND GENERIC_TH12 AND GENERIC_TH13 AND GENERIC_TH14 AND GENERIC_TH15 AND GENERIC_TH16 AND GENERIC_TH17 AND GENERIC_TH18 AND GENERIC_TH19 AND GENERIC_TH20 AND Silenced Akimbo Luger AND Silenced Akimbo Colt AND G3 AND M590C AND M4 AND AKSU-74 AND AK-47 AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND MP5 AND K43 AND gpg40 AND m1 garand AND AKSU-74 SD AND Garand AND K43 Rifle
+set weapons one_handed_weapons = MICRO UZI AND MAC 10 AND Glock AND Deagle AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND GENERIC_SH9 AND GENERIC_SH10
+set weapons two_handed_weapons = Garand AND m1 garand AND K43 AND GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND G3 AND M590C AND M4 AND AKSU-74 AND AK-47 AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND MP5 AND K43 AND gpg40 AND m1 garand AND AKSU-74 SD AND Garand AND Mobile MG42 AND K43 Rifle
 
-set weapons all = GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND GENERIC_TH8 AND GENERIC_TH9 AND GENERIC_TH10 AND GENERIC_TH11 AND GENERIC_TH12 AND GENERIC_TH13 AND GENERIC_TH14 AND GENERIC_TH15 AND GENERIC_TH16 AND GENERIC_TH17 AND GENERIC_TH18 AND GENERIC_TH19 AND GENERIC_TH20 AND Silenced Akimbo Luger AND Silenced Akimbo Colt AND GENERIC_SH9 AND GENERIC_SH10 AND GENERIC_SH11 AND GENERIC_SH12 AND GENERIC_SH13 AND GENERIC_SH14 AND GENERIC_SH15 AND G3 AND M590C AND MICRO UZI AND M4 AND AKSU-74 AND AK-47 AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND Glock AND Deagle AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND special AND knife AND dynamite weapon AND pineapple AND grenade AND Smoke Bomb AND MP5 AND MAC 10 AND gpg40 AND m1 garand AND AKSU-74 SD AND Garand AND K43 Rifle
-set weapons all_one_handed_weapons = MICRO UZI AND MAC 10 AND GENERIC_SH9 AND GENERIC_SH10 AND GENERIC_SH11 AND GENERIC_SH13 AND GENERIC_SH14 AND GENERIC_SH15 AND GENERIC_SH12 AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND special AND knife AND dynamite weapon AND pineapple AND grenade AND Smoke Bomb
-set weapons all_two_handed_weapons = Garand AND m1 garand AND K43 AND GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND GENERIC_TH8 AND GENERIC_TH9 AND GENERIC_TH10 AND GENERIC_TH11 AND GENERIC_TH12 AND GENERIC_TH13 AND GENERIC_TH14 AND GENERIC_TH15 AND GENERIC_TH16 AND GENERIC_TH17 AND GENERIC_TH18 AND GENERIC_TH19 AND GENERIC_TH20 AND Silenced Akimbo Luger AND Silenced Akimbo Colt AND G3 AND M590C AND M4 AND AKSU-74 AND AK-47 AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND MP5 AND gpg40 AND m1 garand AND AKSU-74 SD AND Garand AND K43 Rifle 
+set weapons all = GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND GENERIC_SH9 AND GENERIC_SH10 AND G3 AND M590C AND MICRO UZI AND M4 AND AKSU-74 AND AK-47 AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND Glock AND Deagle AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND Binoculars AND special AND Ammo Pack AND knife AND dynamite weapon AND pineapple AND grenade AND smokeGrenade AND Smoke Bomb AND Landmine AND Tripmine AND MP5 AND MAC 10 AND Ammo Pack AND Medicheal AND gpg40 AND m1 garand AND AKSU-74 SD AND Garand AND Landmine AND Mobile MG42 AND K43 Rifle AND Mortar AND Mounted Mortar
+set weapons all_one_handed_weapons = MICRO UZI AND MAC 10 AND GENERIC_SH9 AND GENERIC_SH10 AND Luger AND Colt AND sp5 pistol AND Silenced Colt AND Binoculars AND special AND Ammo Pack AND knife AND dynamite weapon AND pineapple AND grenade AND smokeGrenade AND Smoke Bomb AND Landmine AND Tripmine
+set weapons all_two_handed_weapons = Garand AND m1 garand AND K43 AND GENERIC_TH1 AND GENERIC_TH2 AND GENERIC_TH3 AND GENERIC_TH4 AND GENERIC_TH5 AND GENERIC_TH6 AND GENERIC_TH7 AND G3 AND M590C AND M4 AND AKSU-74 AND AK-47 AND MP5SD AND UMP45 AND PSG-1 AND R93 AND M76 AND M3S90 AND MP5 AND Ammo Pack AND Medicheal AND gpg40 AND m1 garand AND AKSU-74 SD AND Garand AND Landmine AND Mobile MG42 AND K43 Rifle AND Mortar AND Mounted Mortar 
 // movetypes
 set movetype moving = walk AND walkcr AND walkcrbk AND walkbk AND run AND runbk AND straferight AND strafeleft
 set movetype crouching = idlecr AND walkcr AND walkcrbk
@@ -94,6 +94,14 @@ STATE COMBAT
 {
 	idle
 	{
+		weapons mortar
+		{
+			legs stand_panzer torso e_mortar_stand
+		}
+		weapons mounted mortar
+		{
+			both mortar_deployed
+		}
 		mounted mg42, firing
 		{
 			both firing_mg42
@@ -106,10 +114,34 @@ STATE COMBAT
 		{
 			both stand_grenade
 		}
-//		weapons medicheal
-//		{
-//			both stand_medpack
-//		}
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs stand_grenade
+		}
+		weapons Binoculars
+		{
+			both stand_grenade
+		}
+		weapons smokeGrenade
+		{
+			both stand_grenade
+		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			both stand_knife
+		}
+		weapons Ammo Pack AND Landmine
+		{
+			both stand_medpack
+		}
+		//weapons Landmine
+		//{
+		//	both stand_grenade
+		//}
+		weapons medicheal
+		{
+			both stand_medpack
+		}
 		weapons special
 		{
 			both stand_knife
@@ -141,48 +173,15 @@ STATE COMBAT
 			legs stand_pistolB torso stand_akimbo
 		}
 		// ELITE /////////////// catch aimed weapons
-		// CQB aimed shotgun, firing
-		weapons machineguns, enemy_position infront, enemy_weapon M590C, firing
-		{
-			legs stand_machinegun torso firing_rifle
-		}
-		// CQB aimed shotgun
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs stand_machinegun torso stand_shotgun_aimed
-		}
-		// QCB aimed mbr/smg, firing
 		weapons machineguns, enemy_position infront, firing
 		{
-			legs stand_machinegun torso firing_twohanded_aimed
+			legs firing_rifle torso stand_rifle
 		}
-		// QCB aimed mbr/smg
 		weapons machineguns, enemy_position infront
 		{
 			legs stand_machinegun torso stand_rifle
 		}
-		// CQB unaimed shotgun, firing
-		weapons machineguns, enemy_weapon M590C, firing
-		{
-			legs stand_machinegun torso firing_shotgun
-		}
-		// CQB unaimed shotgun
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs stand_machinegun torso stand_shotgun
-		}
 		// -ELITE
-		// QCB unaimed mbr/smg, firing
-		weapons machineguns, firing
-		{	
-			legs stand_machinegun torso firing_twohanded
-			//legs firing_machinegun torso stand_twohanded
-		}
-		// QCB unaimed mbr/smg
-		weapons machineguns 
-		{
-			legs stand_machinegun torso stand_twohanded
-		}
 //		weapons rifles, firing
 //		{
 //			legs firing_rifle torso stand_rifle
@@ -207,17 +206,61 @@ STATE COMBAT
 		{
 			both stand_srifle
 		}
+		weapons Mobile MG42, firing
+		{
+			legs firing_machinegun torso firing_mobilemg42
+		}
+		weapons Mobile MG42
+		{
+			legs stand_machinegun torso stand_mobilemg42
+		}
+		weapons machineguns, firing
+		{
+			legs firing_machinegun torso stand_machinegun
+		}
+		weapons machineguns
+		{
+			both stand_machinegun
+		}
 	}
 	idlecr
 	{
+		weapons mortar
+		{
+			legs alert_crchidle_2h torso e_mortar_stand
+		}
+		weapons mounted mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			legs alert_crchidle_1h torso relaxed_idle_no
 		}
-//		weapons medicheal
-//		{
-//			legs alert_crchidle_1h torso stand_medpack
-//		}
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs alert_crchidle_1h
+		}
+		weapons smokeGrenade AND binoculars
+		{
+			legs alert_crchidle_1h torso stand_grenade
+		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			legs alert_crchidle_1h torso stand_knife
+		}
+		weapons Ammo Pack
+		{
+			legs alert_crchidle_1h torso stand_medpack
+		}
+		weapons Landmine
+		{
+			legs alert_crchidle_1h torso stand_grenade
+		}
+		weapons medicheal
+		{
+			legs alert_crchidle_1h torso stand_medpack
+		}
 		weapons special
 		{
 			both alert_crchidle_1h
@@ -227,20 +270,10 @@ STATE COMBAT
 			legs alert_crchidle_1h torso stand_knife
 		}
 		// ELITE /////////////// catch aimed weapons
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs alert_crchidle_2h torso stand_shotgun_aimed
-		}
 		weapons machineguns, enemy_position infront
 		{
 			legs alert_crchidle_2h torso stand_rifle
 		}
-		// CCQB unaimed shotgun
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs alert_crchidle_2h torso stand_shotgun
-		}
-		// -CQB
 		weapons one_handed_weapons
 		{
 			legs alert_crchidle_1h torso stand_pistolB
@@ -267,7 +300,7 @@ STATE COMBAT
 		}
 		weapons two_handed_weapons
 		{
-			legs alert_crchidle_2h torso stand_twohanded
+			legs alert_crchidle_2h torso stand_machinegun
 		}
 		weapons throwables
 		{
@@ -284,14 +317,42 @@ STATE COMBAT
 	}
 	walk
 	{
+		weapons mortar
+		{
+			legs relaxed_walk_1h_1 torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both relaxed_walk_1h_1
 		}
-//		weapons medicheal
-//		{
-//			legs relaxed_walk_1h_1 torso stand_medpack
-//		}
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs relaxed_walk_1h_1
+		}
+		weapons smokeGrenade AND binoculars
+		{
+			both relaxed_walk_1h_1
+		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			both relaxed_walk_1h_1
+		}
+		weapons Ammo Pack
+		{
+			legs relaxed_walk_1h_1 torso stand_medpack
+		}
+		weapons Landmine
+		{
+			both relaxed_walk_1h_1
+		}
+		weapons medicheal
+		{
+			legs relaxed_walk_1h_1 torso stand_medpack
+		}
 		weapons special
 		{
 			both relaxed_walk_1h_1
@@ -301,23 +362,10 @@ STATE COMBAT
 			both relaxed_walk_1h_1
 		}
 		// ELITE /////////////// catch aimed weapons
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs relaxed_walk_1h_1 torso stand_shotgun_aimed
-		}
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs relaxed_walk_1h_1 torso stand_shotgun
-		}
 		weapons machineguns, enemy_position infront
 		{
 			legs relaxed_walk_1h_1 torso stand_rifle
 		}
-		weapons machineguns
-		{
-			legs relaxed_walk_1h_1 torso stand_twohanded
-		}
-		///////////////////////////////////////////
 		weapons one_handed_weapons
 		{
 			legs relaxed_walk_1h_1 torso stand_pistolB
@@ -344,7 +392,7 @@ STATE COMBAT
 		}
 		weapons two_handed_weapons
 		{
-			legs relaxed_walk_1h_1 torso stand_twohanded
+			legs relaxed_walk_1h_1 torso stand_machinegun
 		}
 		weapons akimbo_pistols
 		{
@@ -357,36 +405,51 @@ STATE COMBAT
 	}
 	walkbk
 	{
+		weapons mortar
+		{
+			legs alert_bk_2h torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both alert_bk_1h
 		}
 		// ELITE /////////////// catch aimed weapons
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs alert_bk_2h torso stand_shotgun_aimed
-		}
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs alert_bk_2h torso stand_shotgun
-		}
 		weapons machineguns, enemy_position infront
 		{
 			legs alert_bk_2h torso stand_rifle
 		}
-		weapons machineguns
-		{
-			legs alert_bk_2h torso stand_twohanded
-		}
-		////////////////////////////////////////////////////
 		weapons one_handed_weapons
 		{
 			legs alert_bk_1h torso stand_pistolb
 		}
-//		weapons medicheal
-//		{
-//			legs alert_bk_1h torso stand_medpack
-//		}
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs alert_bk_1h
+		}
+		weapons smokeGrenade AND binoculars
+		{
+			both alert_bk_1h
+		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			both alert_bk_1h
+		}
+		weapons Ammo Pack
+		{
+			legs alert_bk_1h torso stand_medpack
+		}
+		weapons Landmine
+		{
+			both alert_bk_1h
+		}
+		weapons medicheal
+		{
+			legs alert_bk_1h torso stand_medpack
+		}
 		weapons special
 		{
 			both alert_bk_1h
@@ -430,6 +493,14 @@ STATE COMBAT
 	}
 	walkcr
 	{
+		weapons mortar
+		{
+			legs alert_crch_2h torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both alert_crch_1h
@@ -450,10 +521,30 @@ STATE COMBAT
 		{
 			both alert_crch_1h
 		}
-//		weapons medicheal
-//		{
-//			legs alert_crch_2h torso stand_medpack
-//		}
+			weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs alert_crch_1h
+		}
+		weapons smokeGrenade AND binoculars
+		{
+			both alert_crch_1h
+		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			both alert_crch_1h
+		}
+		weapons Ammo Pack
+		{
+			legs alert_crch_2h torso stand_medpack
+		}
+		weapons Landmine
+		{
+			both alert_crch_1h
+		}
+		weapons medicheal
+		{
+			legs alert_crch_2h torso stand_medpack
+		}
 		weapons special
 		{
 			both alert_crch_1h
@@ -499,6 +590,14 @@ STATE COMBAT
 
 	walkcrbk
 	{
+		weapons mortar
+		{
+			legs alert_crbk_2h torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both alert_crbk_1h
@@ -519,10 +618,30 @@ STATE COMBAT
 		{
 			both alert_crbk_1h
 		}
-//		weapons medicheal
-//		{
-//			legs alert_crbk_2h torso stand_medpack
-//		}
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs alert_crbk_1h
+		}
+		weapons smokeGrenade AND binoculars
+		{
+			both alert_crbk_1h
+		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			both alert_crbk_1h
+		}
+		weapons Ammo Pack
+		{
+			legs alert_crbk_2h torso stand_medpack
+		}
+		weapons Landmine
+		{
+			both alert_crbk_1h
+		}
+		weapons medicheal
+		{
+			legs alert_crbk_2h torso stand_medpack
+		}
 		weapons special
 		{
 			both alert_crbk_1h
@@ -568,14 +687,42 @@ STATE COMBAT
 	}
 	run
 	{
+		weapons mortar
+		{
+			legs alert_run_1h torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both alert_run_no
 		}
-//		weapons medicheal
-//	{
-//			both run_medpack
-//		}
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs alert_run_no
+		}
+		weapons smokeGrenade AND binoculars
+		{
+			both alert_run_no
+		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			both alert_run_1h
+		}
+		weapons Ammo Pack
+		{
+			both run_medpack
+		}
+		weapons Landmine
+		{
+			both alert_run_no
+		}
+		weapons medicheal
+		{
+			both run_medpack
+		}
 		weapons special
 		{
 			both alert_run_1h
@@ -585,48 +732,14 @@ STATE COMBAT
 			both alert_run_no
 		}
 		// ELITE /////////////// catch aimed weapons
-		// CQB sprinting
-		weapons machineguns, enemy_position behind
-		{
-			both alert_run_2h
-		}
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs alert_run_2h torso stand_shotgun_aimed
-		}
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs alert_run_2h torso stand_shotgun
-		}
 		weapons machineguns, enemy_position infront
 		{
 			legs alert_run_2h torso stand_rifle
-		}
-		weapons machineguns
-		{
-			legs alert_run_2h torso stand_twohanded
-		}
-		//////////////////////////////
-		// CQB one handed
-		weapons one_handed_weapons, enemy_position behind
-		{
-			both alert_run_no
 		}
 		weapons one_handed_weapons
 		{
 			legs alert_run_1h torso stand_pistolb
 		}
-		//////////////////////////////
-		// CQB akimbo
-		weapons akimbo_pistols, enemy_position behind
-		{
-			both alert_run_no
-		}
-		weapons akimbo_pistols
-		{
-			legs alert_run_2h torso stand_akimbo
-		}
-		//////////////////////////////
 		weapons Garand
 		{
 			both alert_run_srifle
@@ -651,6 +764,10 @@ STATE COMBAT
 		{
 			both alert_run_2h
 		}
+		weapons akimbo_pistols
+		{
+			legs alert_run_2h torso stand_akimbo
+		}
 		default
 		{
 			both alert_run_1h
@@ -658,56 +775,51 @@ STATE COMBAT
 	}
 	runbk
 	{
+		weapons mortar
+		{
+			legs alert_bk_2h torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both alert_bk_1h
 		}
 		// ELITE /////////////// catch aimed weapons
-		weapons machineguns, enemy_position behind
-		{
-			both alert_bk_2h
-		}
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs alert_bk_2h torso stand_shotgun_aimed
-		}
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs alert_bk_2h torso stand_shotgun
-		}
 		weapons machineguns, enemy_position infront
 		{
 			legs alert_bk_2h torso stand_rifle
-		}
-		weapons machineguns
-		{
-			legs alert_bk_2h torso stand_twohanded
-		}
-		//////////////////////////////
-		// CQB one handed
-		weapons one_handed_weapons, enemy_position behind
-		{
-			both alert_bk_1h
 		}
 		weapons one_handed_weapons
 		{
 			legs alert_bk_1h torso stand_pistolb
 		}
-		//////////////////////////////
-		// CQB akimbo
-		weapons akimbo_pistols, enemy_position behind
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs alert_bk_1h
+		}
+		weapons smokeGrenade AND binoculars
 		{
 			both alert_bk_1h
 		}
-		weapons akimbo_pistols
+		weapons syringe AND Adrenaline Syringe
 		{
-			legs alert_bk_2h torso stand_akimbo
+			legs alert_bk_1h
 		}
-		//////////////////////////////
-//		weapons medicheal
-//	{
-//			legs alert_bk_2h torso stand_medpack
-//		}
+		weapons Ammo Pack
+		{
+			legs alert_bk_2h torso stand_medpack
+		}
+		weapons Landmine
+		{
+			both alert_bk_1h
+		}
+		weapons medicheal
+		{
+			legs alert_bk_2h torso stand_medpack
+		}
 		weapons special
 		{
 			both alert_bk_1h
@@ -744,6 +856,10 @@ STATE COMBAT
 		{
 			both alert_bk_2h
 		}
+		weapons akimbo_pistols
+		{
+			legs alert_bk_2h torso stand_akimbo
+		}
 		default
 		{
 			both alert_bk_2h
@@ -751,56 +867,51 @@ STATE COMBAT
 	}
 	straferight
 	{
+		weapons mortar
+		{
+			legs alert_run_2h torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both alert_run_no
 		}
 		// ELITE /////////////// catch aimed weapons
-		weapons machineguns, enemy_position behind
-		{
-			both alert_run_2h
-		}
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs alert_run_2h torso stand_shotgun_aimed
-		}
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs alert_run_2h torso stand_shotgun
-		}
 		weapons machineguns, enemy_position infront
 		{
 			legs alert_run_2h torso stand_rifle
-		}
-		weapons machineguns
-		{
-			legs alert_run_2h torso stand_twohanded
-		}
-		//////////////////////////////
-		// CQB one handed
-		weapons one_handed_weapons, enemy_position behind
-		{
-			both alert_run_no
 		}
 		weapons one_handed_weapons
 		{
 			legs alert_run_1h torso stand_pistolb
 		}
-		//////////////////////////////
-		// CQB akimbo
-		weapons akimbo_pistols, enemy_position behind
+		weapons Binoculars, gen_bitflag zooming
+		{
+			torso stand_binoculars legs alert_run_1h
+		}
+		weapons smokeGrenade and binoculars
 		{
 			both alert_run_no
 		}
-		weapons akimbo_pistols
+		weapons syringe AND Adrenaline Syringe
 		{
-			legs alert_run_2h torso stand_akimbo
+			both alert_run_1h
 		}
-		//////////////////////////////
-//		weapons medicheal
-//		{
-//			both run_medpack
-//		}
+		weapons Ammo Pack
+		{
+			both run_medpack
+		}
+		weapons Landmine
+		{
+			both alert_run_no
+		}
+		weapons medicheal
+		{
+			both run_medpack
+		}
 		weapons special
 		{
 			both alert_run_1h
@@ -832,6 +943,10 @@ STATE COMBAT
 		weapons two_handed_weapons
 		{
 			both alert_run_2h
+		}
+		weapons akimbo_pistols
+		{
+			legs alert_run_2h torso stand_akimbo
 		}
 		default
 		{
@@ -840,56 +955,51 @@ STATE COMBAT
 	}
 	strafeleft
 	{
+		weapons mortar
+		{
+			legs alert_run_2h torso e_mortar_run
+		}
+		weapons Mounted Mortar
+		{
+			both mortar_deployed
+		}
 		weapons none
 		{
 			both alert_run_no
 		}
 		// ELITE /////////////// catch aimed weapons
-		weapons machineguns, enemy_position behind
-		{
-			both alert_run_2h
-		}
-		weapons machineguns, enemy_position infront, enemy_weapon M590C
-		{
-			legs alert_run_2h torso stand_shotgun_aimed
-		}
-		weapons machineguns, enemy_weapon M590C
-		{
-			legs alert_run_2h torso stand_shotgun
-		}
 		weapons machineguns, enemy_position infront
 		{
 			legs alert_run_2h torso stand_rifle
-		}
-		weapons machineguns
-		{
-			legs alert_run_2h torso stand_twohanded
-		}
-		//////////////////////////////
-		// CQB one handed
-		weapons one_handed_weapons, enemy_position behind
-		{
-			both alert_run_no
 		}
 		weapons one_handed_weapons
 		{
 			legs alert_run_1h torso stand_pistolb
 		}
-		//////////////////////////////
-		// CQB akimbo
-		weapons akimbo_pistols, enemy_position behind
+		weapons smokeGrenade AND binoculars
 		{
 			both alert_run_no
 		}
-		weapons akimbo_pistols
+		weapons Binoculars, gen_bitflag zooming
 		{
-			legs alert_run_2h torso stand_akimbo
+			torso stand_binoculars legs alert_run_1h
 		}
-		//////////////////////////////
-//		weapons medicheal
-//		{
-//			both run_medpack
-//		}
+		weapons syringe AND Adrenaline Syringe
+		{
+			both alert_run_1h
+		}
+		weapons Ammo Pack
+		{
+			both run_medpack
+		}
+		weapons Landmine
+		{
+			both alert_run_no
+		}
+		weapons medicheal
+		{
+			both run_medpack
+		}
 		weapons special
 		{
 			both alert_run_1h
@@ -921,6 +1031,10 @@ STATE COMBAT
 		weapons two_handed_weapons
 		{
 			both alert_run_2h
+		}
+		weapons akimbo_pistols
+		{
+			legs alert_run_2h torso stand_akimbo
 		}
 		default
 		{
@@ -981,10 +1095,26 @@ STATE COMBAT
 	}
 	idleprone
 		{
-//			weapons medicheal
-//			{
-//				legs prone_legs torso prone_poke_idle
-//			}
+			weapons Mounted Mortar
+			{
+				legs prone_legs torso mortar_deployed
+			}
+			weapons Mortar
+			{
+				legs prone_legs torso e_prone_mortar_stand
+			}
+			weapons medicheal
+			{
+				legs prone_legs torso prone_poke_idle
+			}
+			weapons Mobile MG42 Bipod
+			{
+				legs prone_legs torso prone_mg42_idle
+			}
+			weapons Mobile MG42
+			{
+				legs prone_legs torso prone_mg42_idle
+			}
 			weapons machineguns, enemy_position infront
 			{
 				legs prone_legs torso e_prone_rifle_snipeidle
@@ -993,11 +1123,35 @@ STATE COMBAT
 			{
 				legs prone_legs torso prone_mg_idle
 			}
-//			weapons medicheal
-//			{
-//				legs prone_legs torso prone_poke_idle
-//		}
+			weapons binoculars
+			{
+				legs prone_legs torso e_prone_binocs_idle
+			}
+			weapons binoculars, gen_bitflag zooming
+			{
+				legs prone_legs torso e_prone_binocs_lie
+			}
+			weapons smokeGrenade
+			{
+				legs prone_legs torso prone_grenade_idle
+			}
+			weapons Ammo Pack
+			{
+				legs prone_legs torso prone_grenade_idle
+			}
+			weapons Landmine
+			{
+				legs prone_legs torso prone_grenade_idle
+			}
+			weapons medicheal
+			{
+				legs prone_legs torso prone_poke_idle
+			}
 			weapons special
+			{
+				legs prone_legs torso prone_poke_idle
+			}
+			weapons syringe AND Adrenaline Syringe
 			{
 				legs prone_legs torso prone_poke_idle
 			}
@@ -1174,10 +1328,15 @@ EVENTS
 fireweapon
 {
 // ADRENALINE SYRINGE
-//	weapons Adrenaline Syringe, movetype walk AND turnleft AND turnright AND idlecr AND idle AND crouching AND run AND swim AND backstep AND swimbk
-//	{
-//		torso self_inject
-//	}
+	weapons Adrenaline Syringe, movetype walk AND turnleft AND turnright AND idlecr AND idle AND crouching AND run AND swim AND backstep AND swimbk
+	{
+		torso self_inject
+	}
+// Mortar
+	weapons Mounted Mortar
+	{
+		torso mortar_fire
+	}
 // SATCHEL CHARGE
 // SATCHEL CHARGE DETONATOR
 // MG42
@@ -1185,23 +1344,63 @@ fireweapon
 	{
 		both firing_mg42
 	}
+// smokeGrenade
+	weapons smokeGrenade, underhand
+	{
+		torso firing_grenadeB
+	}
+	weapons smokeGrenade, enemy_position infront
+	{
+		torso firing_grenadeB
+	}
+	weapons smokeGrenade
+	{
+		torso firing_grenadeA
+	}
 // SATCHEL CHARGES
 // AMMOPACK
+	weapons Ammo Pack AND Landmine
+	{
+		torso firing_grenadeA
+	}
 // LANDMINE
 //	weapons Landmine
 //	{
 //		torso firing_grenadeA
 //	}
 // MEDICHEAL
-//	weapons medicheal
-//	{
-//		torso firing_grenadeA
-//	}
+	weapons medicheal
+	{
+		torso firing_grenadeA
+	}
 // SPECIAL
 	weapons special
 	{
 		torso firing_pliers
 	}
+
+// SYRINGE
+	weapons syringe, movetype walk AND turnleft AND turnright AND idlecr AND idle
+	{
+		torso firing_syringe
+	}
+	weapons syringe, movetype crouching
+	{
+		torso firing_syringe
+	}
+	weapons syringe, movetype run AND swim
+	{
+		torso firing_syringe
+	}
+	weapons syringe, movetype backstep AND swimbk
+	{
+		torso firing_syringe
+	}
+	weapons syringe
+	{
+		torso firing_syringe
+	}
+
 
 // GRENADES
 	weapons throwables, underhand
@@ -1289,6 +1488,43 @@ fireweapon
 	{
 		torso firing_akimbo
 	}
+// MOBILE MG42
+	weapons Mobile MG42
+	{
+		torso firing_mobilemg42
+	}
+	weapons Mobile MG42, movetype straferight
+	{
+		torso alert_run_2h duration 50
+	}
+	weapons Mobile MG42, movetype strafeleft
+	{
+		torso alert_run_2h duration 50
+	}
+	weapons Mobile MG42, movetype walk AND turnleft AND turnright AND idlecr
+	{
+		torso firing_mobilemg42 duration 50
+	}
+	weapons Mobile MG42, movetype walkcrbk
+	{
+		torso firing_crbk_2h duration 50
+	}
+	weapons Mobile MG42, movetype crouching
+	{
+		torso firing_crch_2h duration 50
+	}
+	weapons Mobile MG42, movetype run AND swim
+	{
+		torso alert_run_2h duration 50
+	}
+	weapons Mobile MG42, movetype backstep AND swimbk
+	{
+		torso alert_bk_2h duration 50
+	}
+	weapons Mobile MG42
+	{
+		torso firing_mobilemg42 duration 50
+	}
 
 // MACHINEGUNS
 	// ELITE //////////// catch aimed weapons
@@ -1307,31 +1543,12 @@ fireweapon
 	// ELITE moved higher 28-05-2005 09:51, walkcr/crbk makes no difference between aim/unaim
 	weapons machineguns, movetype walkcrbk AND walkcr
 	{
-		//torso firing_crbk_2h duration 50
-		torso alert_crbk_2h duration 50
-	}
-	//CQB
-	weapons machineguns, enemy_position infront, enemy_weapon M590C
-	{	
-		torso firing_rifle
+		torso firing_crbk_2h duration 50
 	}
 	weapons machineguns, enemy_position infront
 	{	
-		//CQB torso firing_rifle
-		torso firing_twohanded_aimed duration 50
+		torso firing_rifle
 	}
-	// CQB
-	weapons machineguns, enemy_weapon M590C
-	{
-		torso firing_shotgun
-	}
-	weapons machineguns
-	{
-		// CQB torso firing_machinegun duration 50
-		//torso stand_twohanded duration 50
-		torso firing_twohanded duration 50
-	}
-	// -CQB we have caught the machineguns already so all other modifiers become irrelevant
 	weapons machineguns, movetype straferight
 	{
 		torso alert_run_2h duration 50
@@ -1340,22 +1557,20 @@ fireweapon
 	{
 		torso alert_run_2h duration 50
 	}
-// CQB	
-//	weapons machineguns, movetype walk AND turnleft AND turnright AND idlecr
-//	{
-//		torso firing_machinegun duration 50
-//	}
+	weapons machineguns, movetype walk AND turnleft AND turnright AND idlecr
+	{
+		torso firing_machinegun duration 50
+	}
 	// ELITE moved higher
 //	weapons machineguns, movetype walkcrbk
 //	{
 //		torso firing_crbk_2h duration 50
 //	}
 // ELITE only idlecr should reach this 28-05-2005 10:11
-// CQB
-//	weapons machineguns, movetype crouching
-//	{
-//		torso firing_crch_2h duration 50
-//	}
+	weapons machineguns, movetype crouching
+	{
+		torso firing_crch_2h duration 50
+	}
 	weapons machineguns, movetype run AND swim
 	{
 		torso alert_run_2h duration 50
@@ -1363,6 +1578,10 @@ fireweapon
 	weapons machineguns, movetype backstep AND swimbk
 	{
 		torso alert_bk_2h duration 50
+	}
+	weapons machineguns
+	{
+		torso firing_machinegun duration 50
 	}
 // RIFLES
 	weapons Garand, movetype walk AND turnleft AND turnright AND idlecr AND idle
@@ -1514,11 +1733,27 @@ fireweapon2
 
 fireweaponprone
 {
-//	weapons medicheal
-//	{
-//		torso prone_poke_fire
-//	}
+	weapons smokeGrenade
+	{
+		torso prone_grenade_fire
+	}
+	weapons Ammo Pack
+	{
+		torso prone_grenade_fire
+	}
+	weapons Landmine
+	{
+		torso prone_grenade_fire
+	}
+	weapons medicheal
+	{
+		torso prone_poke_fire
+	}
 	weapons special
+	{
+		torso prone_poke_fire
+	}
+	weapons syringe AND Adrenaline Syringe
 	{
 		torso prone_poke_fire
 	}
@@ -1537,6 +1772,14 @@ fireweaponprone
 	weapons akimbo_pistols	// FIXedME
 	{
 		torso e_prone_pistols_fire
+	}
+	weapons Mobile MG42
+	{
+		torso prone_mg42_fire
+	}
+	weapons Mobile MG42 Bipod
+	{
+		torso prone_mg42_fire
 	}
 	weapons machineguns, enemy_position infront
 	{
@@ -1578,11 +1821,35 @@ fireweapon2prone
 
 raiseweaponprone
 {
-//	weapons medicheal
-//	{
-//		torso prone_poke_switch
-//	}
+	weapons mortar
+	{
+		torso e_prone_mortar_raise
+	}
+	weapons binoculars
+	{
+		torso e_prone_binocs_rase
+	}
+	weapons smokeGrenade
+	{
+		torso prone_grenade_switch
+	}
+	weapons Ammo Pack
+	{
+		torso prone_grenade_switch
+	}
+	weapons Landmine
+	{
+		torso prone_grenade_switch
+	}
+	weapons medicheal
+	{
+		torso prone_poke_switch
+	}
 	weapons special
+	{
+		torso prone_poke_switch
+	}
+	weapons syringe AND Adrenaline Syringe
 	{
 		torso prone_poke_switch
 	}
@@ -1601,6 +1868,10 @@ raiseweaponprone
 	weapons akimbo_pistols	// FIXedME
 	{
 		torso e_prone_pistols_switch
+	}
+	weapons Mobile MG42
+	{
+		torso prone_mg42_switch
 	}
 	weapons machineguns
 	{
@@ -1630,11 +1901,27 @@ raiseweaponprone
 
 reloadprone
 {
-//	weapons medicheal
-//	{
-//		torso prone_poke_switch
-//	}
+	weapons smokeGrenade
+	{
+		torso prone_grenade_switch
+	}
+	weapons Ammo Pack
+	{
+		torso prone_grenade_switch
+	}
+	weapons Landmine
+	{
+		torso prone_grenade_switch
+	}
+	weapons medicheal
+	{
+		torso prone_poke_switch
+	}
 	weapons special
+	{
+		torso prone_poke_switch
+	}
+	weapons syringe AND Adrenaline Syringe
 	{
 		torso prone_poke_switch
 	}
@@ -1653,6 +1940,14 @@ reloadprone
 	weapons akimbo_pistols
 	{
 		torso e_prone_pistols_reload
+	}
+	weapons Mobile MG42
+	{
+		torso prone_mg42_reload
+	}
+	weapons Mobile MG42 Bipod
+	{
+		torso prone_mg42_reload
 	}
 	weapons machineguns
 	{
@@ -1682,10 +1977,30 @@ reloadprone
 
 raiseweapon
 {
-//	weapons medicheal
-//	{
-//		torso raise_medpack
-//	}
+	weapons mortar
+	{
+		torso e_mortar_raise
+	}
+	weapons smokeGrenade AND binoculars
+	{
+		torso raise_grenade
+	}
+	weapons syringe AND Adrenaline Syringe
+	{
+		torso raise_knife
+	}
+	weapons Ammo Pack
+	{
+		torso raise_medpack
+	}
+	weapons Landmine
+	{
+		torso raise_grenade
+	}
+	weapons medicheal
+	{
+		torso raise_medpack
+	}
 	weapons special
 	{
 		torso raise_knife
@@ -1706,6 +2021,10 @@ raiseweapon
 	weapons akimbo_pistols
 	{
 		torso raise_akimbo
+	}
+	weapons Mobile MG42
+	{
+		torso raise_mobilemg42
 	}
 	weapons machineguns
 	{
@@ -1739,10 +2058,30 @@ raiseweapon
 
 reload
 {
-//	weapons medicheal
-//	{
-//		torso raise_medpack
-//	}
+	/*weapons mortar
+	{
+		torso mortar_reload
+	}*/
+	weapons smokeGrenade
+	{
+		torso raise_grenade
+	}
+	weapons syringe AND Adrenaline Syringe
+	{
+		torso raise_knife
+	}
+	weapons Ammo Pack
+	{
+		torso raise_medpack
+	}
+	weapons Landmine
+	{
+		torso raise_grenade
+	}
+	weapons medicheal
+	{
+		torso raise_medpack
+	}
 	weapons special
 	{
 		torso raise_knife
@@ -1767,6 +2106,10 @@ reload
 	weapons akimbo_pistols
 	{
 		torso reload_akimbo
+	}
+	weapons Mobile MG42
+	{
+		torso reload_mobilemg42
 	}
 	weapons machineguns, movetype idlecr
 	{

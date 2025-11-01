@@ -15,7 +15,6 @@ weaponDef
 		flashSound		"sound/weapons/ump45/ump45f1.wav"	// supports up to 4 flash sounds
 		flashEchoSound		"sound/weapons/ump45/ump45_far.wav"		// supports up to 4 flash echo sounds
 		//lastShotSound		""										// supports up to 4 last shot sounds
-		suppressedSound		"sound/weapons/ump45/ump45_suppressed.wav"	// supports up to 4 flash sounds  
 		
 		//readySound		""
 		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
@@ -39,11 +38,10 @@ weaponDef
 		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
 		
 		// ELITE
-		gunViewOffset		1 6.5 -0.7		
-		gunViewAimOffset	-7 -8.47 -2.525			
-		foreShorten		0.75				 
+		gunViewOffset		-1 6.5 -0.7		
+		gunViewAimOffset	-5 -8.47 -2.15			
+		foreShorten		0.5				 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
-		//flashReverbVolume	85				// 1-255, if 0 or nor specified it is 255
 		
 		deployMenuShortName	"UMP45"
 		deployMenuDescription	"H&K UMP-45 .45"
@@ -76,19 +74,13 @@ weaponDef
 					tag		"tag_slide"
 					model	"models/weapons2/ump45/ump45_view_slide.mdc"
 				}
-				part 3
-				{
-					tag		"tag_main"
-					model	"models/weapons2/ump45/ump45_view_silencer.mdc"
-					modFlags 1
-				}
+				
 			}
 		}
 		
 		thirdPerson {
 			model			"models/weapons2/ump45/ump45.mdc"
-			flashModel		"models/weapons2/generic/generic_flash.mdc"
-			suppressedModel			"models/weapons2/ump45/ump45_sd.mdc"
+			flashmodel		"models/weapons2/generic/generic_flash.mdc"
 		}
 	}
 }

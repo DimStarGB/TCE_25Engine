@@ -25,7 +25,6 @@ models/weapons2/common_glove
 		map $whiteimage
 	}
 }
-
 /////////////////////////////////////////////////////////////////////////////////////////
 
 models/weapons2/m4/m4_tac_top
@@ -71,16 +70,14 @@ models/weapons2/m4/m4_aperture
 }
 
 // M4SOPMOD
-// 0491 invisible
 models/weapons2/m4sopmod/m4sopmod_reticle
 {
 	nopicmip
         {
-               map models/weapons2/m4sopmod/m4sopmod_reticle.tga
-                //blendFunc blend
-                blendFunc GL_ZERO GL_ONE
-                //depthWrite
-								//rgbGen identity
+                map models/weapons2/m4sopmod/m4sopmod_reticle.tga
+                blendFunc blend
+                depthWrite
+		rgbGen identity
         }
 }
 
@@ -100,10 +97,10 @@ models/weapons2/ak74m/m68_aimpoint
 {
     
         {
-            map models/weapons2/ak74m/m68_aimpoint.tga
-            alphaFunc GE128
-						depthWrite
-						rgbGen lightingdiffuse
+                map models/weapons2/ak74m/m68_aimpoint.tga
+                alphaFunc GE128
+		depthWrite
+		rgbGen lightingdiffuse
         }
 }
 
@@ -115,17 +112,6 @@ models/weapons2/m4sopmod/m68_aimpoint_w
                 alphaFunc GE128
 		depthWrite
 		rgbGen lightingdiffuse
-        }
-}
-
-models/weapons2/common/m68_filter
-{
-	//sort underwater
-	nopicmip
-        {
-                map models/weapons2/common/m68_filter.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
         }
 }
 
@@ -153,23 +139,13 @@ gfx/misc/m76_reticle
 	}
 }
 
-gfx/misc/cornerblackscope
-{
-	nopicmip
-	{
-		map gfx/misc/cornerblackscope.tga
-		rgbGen vertex
-		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-	}
-}
-
 gfx/misc/portalscope
 {
 	nopicmip
 	{
 	//	map gfx/misc/portalscopeframe.tga
-		clampmap gfx/misc/scopeframealpha.tga
-		rgbGen vertex
+		map gfx/misc/scopeframealpha.tga
+		rgbGen identity
 		blendFunc blend
 	}
 
@@ -272,26 +248,6 @@ models/weapons2/m590c/m590c_main
 	}
 }
 
-models/weapons2/m590c/m590c_liq
-{
-	nomipmap
-	{
-		map textures/effects/envmap_elite_90.tga
-		rgbGen lightingdiffuse
-		tcGen environment
-	}
-	{
-		map models/weapons2/m590c/m590c_liqtrans.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map models/weapons2/m590c/m590c_liq.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen lightingdiffuse
-	}
-}
-
 models/weapons2/m3s90/m3s90_main
 {
 	{
@@ -307,104 +263,6 @@ models/weapons2/m3s90/m3s90_main
 	}
 	{
 		map models/weapons2/m3s90/m3s90_main.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen lightingdiffuse
-	}
-}
-
-//////////// g3 ////////////////////
-
-models/weapons2/g3/g3_1
-{
-	{
-		map textures/effects/envmap_elite_90.tga
-		rgbGen lightingdiffuse
-		tcGen environment
-	}
-	{
-		map models/weapons2/g3/g3_1_spec.tga
-		//blendFunc GL_ONE GL_ZERO
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map models/weapons2/g3/g3_1.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen lightingdiffuse
-	}
-}
-models/weapons2/g3/g3_2
-{
-	{
-		map textures/effects/envmap_elite_90.tga
-		rgbGen lightingdiffuse
-		tcGen environment
-	}
-	{
-		map models/weapons2/g3/g3_2_spec.tga
-		//blendFunc GL_ONE GL_ZERO
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map models/weapons2/g3/g3_2.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen lightingdiffuse
-	}
-}
-models/weapons2/g3/g3_3
-{
-	{
-		map textures/effects/envmap_elite_90.tga
-		rgbGen lightingdiffuse
-		tcGen environment
-	}
-	{
-		map models/weapons2/g3/g3_3_spec.tga
-		//blendFunc GL_ONE GL_ZERO
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map models/weapons2/g3/g3_3.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen lightingdiffuse
-	}
-}
-models/weapons2/g3/g3_4
-{
-	{
-		map textures/effects/envmap_elite_90.tga
-		rgbGen lightingdiffuse
-		tcGen environment
-	}
-	{
-		map models/weapons2/g3/g3_4_spec.tga
-		//blendFunc GL_ONE GL_ZERO
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map models/weapons2/g3/g3_4.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen lightingdiffuse
-	}
-}
-models/weapons2/g3/g3_4_lod
-{
-	{
-		map textures/effects/envmap_elite_90.tga
-		rgbGen lightingdiffuse
-		tcGen environment
-	}
-	{
-		map models/weapons2/g3/g3_4_lod_spec.tga
-		//blendFunc GL_ONE GL_ZERO
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map models/weapons2/g3/g3_4_lod.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen lightingdiffuse
 	}
@@ -698,26 +556,6 @@ models/weapons2/mac10sd/mac10sd
 	}
 	{
 		map models/weapons2/mac10sd/mac10sd.tga
-		blendFunc GL_ONE GL_ONE
-		rgbGen lightingdiffuse
-	}
-}
-
-models/weapons2/mac10/mac10_liq
-{
-	{
-		map textures/effects/envmap_elite_90.tga
-		rgbGen lightingdiffuse
-		tcGen environment
-	}
-	{
-		map models/weapons2/mac10/mac10_liqtrans.tga
-		//blendFunc GL_ONE GL_ZERO
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map models/weapons2/mac10/mac10_liq.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen lightingdiffuse
 	}
@@ -1102,7 +940,7 @@ models/weapons2/sr8/sr8_flash2
 models/weapons2/m4/m4_body
 {
 	{
-		map textures/effects/envmap_cqb_point.tga
+		map textures/effects/envmap_elite_90.tga
 		rgbGen lightingdiffuse
 		tcGen environment
 	}

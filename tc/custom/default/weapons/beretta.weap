@@ -11,10 +11,6 @@ weaponDef
 		
 		flashDlightColor	1.0 0.6 0.23
 		flashSound		"sound/weapons/beretta/berettaf1.wav"	// supports up to 4 flash sounds
-		flashSound			"sound/weapons/beretta/berettaf2.wav"		// supports up to 4 flash sounds
-		flashSound			"sound/weapons/beretta/berettaf3.wav"		// supports up to 4 flash sounds
-		flashSound			"sound/weapons/beretta/berettaf4.wav"		// supports up to 4 flash sounds
-		
 		flashEchoSound		"sound/weapons/beretta/beretta_far.wav"		// supports up to 4 flash echo sounds
 		//lastShotSound		""										// supports up to 4 last shot sounds
 		
@@ -42,16 +38,12 @@ weaponDef
 		// ELITE
 		gunViewOffset		-14 5.52 -4.4			// forward, up, left
 		gunViewAimOffset	-2 -7 -1.2			// forward, up, left
-		foreShorten		0.75				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
+		foreShorten		0.5				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		flashReverbVolume	190				// 1-255, if 0 or nor specified it is 255
 		
-		//deployMenuShortName	"Beretta 93R"
-		//deployMenuDescription	"Beretta 93 Raffica 9x19mm"
-		//deployMenuType		"Select Fire Automatic Pistol"
-		
-		deployMenuShortName	"Beretta 92FS"
-		deployMenuDescription	"Beretta 92FS 9x19mm"
+		deployMenuShortName	"BERETTA"
+		deployMenuDescription	"Beretta 92 9x19mm"
 		deployMenuType		"Automatic Pistol"
 		
 		//modModel 		1

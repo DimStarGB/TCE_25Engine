@@ -36,13 +36,13 @@ weaponDef
 		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
 		
 		// ELITE
-		gunViewOffset		12 5 0			// forward, up, left
-		gunViewAimOffset	-5 -7.14 -1.77			// forward, up, left
-		foreShorten		0.75				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
+		gunViewOffset		6 4 0			// forward, up, left
+		gunViewAimOffset	-4 -6.25 -1.95			// forward, up, left
+		foreShorten		0.5				// sof2 like forward axis shorten factor to compensate for fisheye effect (hl2 has separate viewangle for view weapon rendering) 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
-		deployMenuShortName	"MAC M10 SD"
-		deployMenuDescription	"Ingram Mac M10 9x19mm SD"
+		deployMenuShortName	"MAC 10 SD"
+		deployMenuDescription	"Ingrim Mac 10 .45 SD"
 		deployMenuType		"Suppressed Machine Pistol"
 		
 		//modModel 		1

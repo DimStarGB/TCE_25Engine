@@ -10,10 +10,9 @@ weaponDef
 		//handsModel			"models/weapons2/luger/v_luger_hand.mdc"
 		
 		flashDlightColor	1.0 0.6 0.23
-		flashSound			"sound/weapons/mp5/mp5_fire.wav"	// supports up to 4 flash sounds
+		flashSound			"sound/weapons/mp5/mp5f1.wav"	// supports up to 4 flash sounds
 		flashEchoSound		"sound/weapons/mp5/mp5_far.wav"		// supports up to 4 flash echo sounds
 		//lastShotSound		""										// supports up to 4 last shot sounds
-		suppressedSound			"sound/weapons/mp5/mp5_supressed_f2.wav"	// supports up to 4 flash sounds
 		
 		//readySound		""
 		//firingSound		""									// no weapons seem to use this, basically it's a replacement hum for readysound, but then when firing
@@ -37,13 +36,13 @@ weaponDef
 		ejectBrassFunc		"MachineGunEjectBrass"				// supports "MachineGunEjectBrass" and "PanzerFaustEjectBrass"
 		
 		// ELITE
-		gunViewOffset		2 6 0			
-		gunViewAimOffset	-9 -7.97 -2.77			
-		foreShorten		0.75			 
+		gunViewOffset		-1 6 0			
+		gunViewAimOffset	-7 -8.05 -2.5			
+		foreShorten		0.5				 
 		tagsInMain		1				// tag_brass and tag_flash in weaponLink Part 0 (usually main)
 		
 		deployMenuShortName	"MP5/40"
-		deployMenuDescription	"H&K MP5/40 .40 S&W"
+		deployMenuDescription	"H&K Mp5/40 .40 S&W"
 		deployMenuType		"Submachine Gun"
 		
 		//modModel 		1
@@ -62,20 +61,13 @@ weaponDef
 				{
 					tag		"tag_main"
 					model	"models/weapons2/mp5/mp5_view_main.mdc"
-					modFlags 2
 				}
 				part 1
-				{
-					tag		"tag_main"
-					model	"models/weapons2/mp5/mp5sd_view_main.mdc"
-					modFlags 1
-				}
-				part 2
 				{
 					tag		"tag_clip"
 					model	"models/weapons2/mp5/mp5_view_clip.mdc"
 				}
-				part 3
+				part 2
 				{
 					tag		"tag_slide"
 					model	"models/weapons2/mp5/mp5_view_slide.mdc"
@@ -87,7 +79,6 @@ weaponDef
 		thirdPerson {
 			model			"models/weapons2/mp5/mp5.mdc"
 			flashmodel		"models/weapons2/generic/generic_flash.mdc"
-			suppressedModel			"models/weapons2/mp5/mp5sd.mdc"
 		}
 	}
 }
